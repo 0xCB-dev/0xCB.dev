@@ -13,7 +13,7 @@ export default function SideBar({ fullMenu }) {
         <nav>
           <a
             href="#menu"
-            onClick={e => {
+            onClick={(e) => {
               e.preventDefault();
               toggleHeader(!headerOpen);
             }}

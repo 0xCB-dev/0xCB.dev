@@ -9,7 +9,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
         <ul className="links">
           <li>
             <Link
-              onClick={e => {
+              onClick={(e) => {
                 onMenuToggle();
               }}
               to="https://blog.0xcb.dev"
@@ -19,7 +19,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
           </li>
           <li>
             <Link
-              onClick={e => {
+              onClick={(e) => {
                 onMenuToggle();
               }}
               to="#footer"
@@ -29,7 +29,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
           </li>
           <li>
             <Link
-              onClick={e => {
+              onClick={(e) => {
                 onMenuToggle();
               }}
               to="/privacy"
@@ -39,7 +39,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
           </li>
           <li>
             <Link
-              onClick={e => {
+              onClick={(e) => {
                 onMenuToggle();
               }}
               to="/legal"
@@ -50,7 +50,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
         </ul>
         <a
           className="close"
-          onClick={e => {
+          onClick={(e) => {
             e.preventDefault();
             onMenuToggle();
           }}
