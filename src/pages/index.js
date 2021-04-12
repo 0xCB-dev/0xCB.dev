@@ -32,7 +32,7 @@ const IndexPage = () => (
         <div className="inner">
           <img className="image" src={pic1} alt="" />
           <div className="content">
-            <h2 className="major">Yeettest</h2>
+            <h2 className="major">molestiae</h2>
             <p>
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
               nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
