@@ -54,10 +54,7 @@ export default function Footer() {
           </li>
           <li className="icon">
             <FontAwesomeIcon icon={['fab', 'instagram']} size="1x" />
-            <a href="https://www.instagram.com/kriener.photography/">
-              {' '}
-              @kriener.photography
-            </a>
+            <a href="https://www.instagram.com/0xcb.dev/"> 0xCB.dev</a>
           </li>
         </ul>
         <ul className="copyright">
