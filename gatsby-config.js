@@ -1,9 +1,6 @@
-const config = require('./config');
-
 module.exports = {
-  pathPrefix: config.pathPrefix,
   siteMetadata: {
-    title: config.siteTitle,
+    title: '0xCB - Tech, Keyboards and more',
     siteUrl: `https://0xcb.dev`,
   },
   plugins: [

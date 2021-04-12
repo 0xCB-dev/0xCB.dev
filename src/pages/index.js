@@ -11,7 +11,6 @@ import pic5 from '../assets/images/montage.jpg';
 import pic6 from '../assets/images/trockenbau.jpg';
 import pic7 from '../assets/images/bodenbelagsarbeiten.jpg';
 
-import config from '../../config';
 const IndexPage = () => (
   <Layout>
     <section id="banner">
@@ -19,8 +18,12 @@ const IndexPage = () => (
         <div className="logo">
           <img className="icons" src={icon} alt="" />
         </div>
-        <h2>{config.heading}</h2>
-        <p>{config.subHeading}</p>
+        <h2>Tech, Keyboards and more</h2>
+        <p>
+          0xCB makes custom-made Keyboards, that are fully customizable.
+          Handmade, precisely engineered keyboards made with the help of
+          3D-Printing and assembled in Germany.
+        </p>
       </div>
     </section>
 
@@ -29,7 +32,7 @@ const IndexPage = () => (
         <div className="inner">
           <img className="image" src={pic1} alt="" />
           <div className="content">
-            <h2 className="major">molestiae</h2>
+            <h2 className="major">Yeet</h2>
             <p>
               Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
               nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
