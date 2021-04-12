@@ -1,9 +1,12 @@
-export const onRouteUpdate = () => {
-  navigator.serviceWorker.register('/sw.js').then(reg => {
-    reg.update();
-  });
-};
+import { ServiceWorkerArgs } from 'gatsby';
 
-export const onServiceWorkerUpdateReady = () => {
+export const onServiceWorkerUpdateReady = async (args: ServiceWorkerArgs) => {
+  const permissionResponse = await Notification.requestPermission();
+  if (permissionResponse === 'granted') {
+    await args.serviceWorker.showNotification('Website update', {
+      body:
+        'Our website just got a little bit better. We reloaded the site with the update to ensure a smooth experience for you.',
+    });
+  }
   window.location.reload(true);
 };
