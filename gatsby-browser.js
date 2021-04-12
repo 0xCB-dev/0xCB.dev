@@ -1,12 +1,12 @@
-import { ServiceWorkerArgs } from 'gatsby';
+export const onRouteUpdate = () => {
+  navigator.serviceWorker.register('/sw.js').then(reg => {
+    reg.update();
+  });
+};
 
-export const onServiceWorkerUpdateReady = async (args: ServiceWorkerArgs) => {
-  const permissionResponse = await Notification.requestPermission();
-  if (permissionResponse === 'granted') {
-    await args.serviceWorker.showNotification('Website update', {
-      body:
-        'Our website just got a little bit better. We reloaded the site with the update to ensure a smooth experience for you.',
-    });
-  }
-  window.location.reload(true);
+export const onServiceWorkerUpdateReady = () => {
+  document
+    .getElementById('___gatsby')
+    .setAttribute('data-update-available', 'true');
+  console.info('PWA update available.');
 };
