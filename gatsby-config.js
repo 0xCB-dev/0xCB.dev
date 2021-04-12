@@ -34,7 +34,7 @@ module.exports = {
       resolve: 'gatsby-plugin-offline',
       options: {
         workboxConfig: {
-          globPatterns: ['/', '/404', '/legal', '/privacy', '**/website-icon*'],
+          globPatterns: ['**/', '**/404', '**/legal', '**/privacy', '**/icon*'],
         },
       },
     },
