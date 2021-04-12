@@ -37,14 +37,14 @@ class Layout extends Component {
           <meta name="title" content="0xCB - Tech, Keyboards and more" />
           <meta
             name="description"
-            content="0xCB makes custom-made Keyboards, that are fully customizable. Handmade, precisely engineered keyboards made with the help of 3D-Printing and assembled in Germany."
+            content="0xCB makes custom-made Keyboards, that are fully customizable. Handmade and precisely engineered keyboards made with the help of 3D-Printing and assembled in Germany."
           />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://0xcb.dev/" />
           <meta property="og:title" content="0xCB - Tech, Keyboards and more" />
           <meta
             property="og:description"
-            content="0xCB makes custom-made Keyboards, that are fully customizable. Handmade, precisely engineered keyboards made with the help of 3D-Printing and assembled in Germany."
+            content="0xCB makes custom-made Keyboards, that are fully customizable. Handmade and precisely engineered keyboards made with the help of 3D-Printing and assembled in Germany."
           />
           <meta property="og:image" content="https://0xcb.dev/og.jpg" />
           <meta property="twitter:card" content="summary_large_image" />
