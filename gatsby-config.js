@@ -17,7 +17,6 @@ module.exports = {
         display: 'standalone',
         icon: 'src/assets/images/website-icon.svg',
         crossOrigin: 'use-credentials',
-        cache_busting_mode: 'none',
       },
     },
     {
@@ -30,14 +29,7 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-sitemap',
-    {
-      resolve: 'gatsby-plugin-offline',
-      options: {
-        workboxConfig: {
-          globPatterns: ['**/', '**/404', '**/legal', '**/privacy', '**/icon*'],
-        },
-      },
-    },
+    'gatsby-plugin-offline',
     {
       resolve: 'gatsby-plugin-brotli',
       options: {
