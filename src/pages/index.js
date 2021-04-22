@@ -90,8 +90,17 @@ const IndexPage = () => (
       */}
       <section id="four" className="wrapper alt style1">
         <div className="inner">
-          <h2 className="major">WIP...</h2>
+          <h2 className="major">About Us</h2>
         </div>
+        <p>
+          We are Conor and Jakob from Aachen, Germany and we like to design and
+          manufacture products in the electronics sector. We both are 20 years
+          young and are currently making our first experience in the designing,
+          sourcing, and manufacturing of our 1337 Macro Keyboard. In the future,
+          we want to make more products that we already have ideas for. If you
+          have any ideas for us don´t hesitate to contact us! We currently do
+          not have our own online store as we use Tindie for our products.
+        </p>
       </section>
     </section>
   </Layout>
