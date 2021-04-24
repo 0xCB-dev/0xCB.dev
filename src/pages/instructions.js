@@ -24,7 +24,14 @@ const IndexPage = () => (
       <header>
         <div className="inner">
           <h2>Assembly Instructions</h2>
-          <p>WIP...</p>
+          <p>
+            Here are the instructions for our 1337 Keyboard. If you didn´t buy
+            the 3D-printed pieces from us you can print them before our package
+            arrived at your door with the STL Files we´ve sent you so you can
+            begin right away with the assembly! Please be also careful with the
+            SMD components when soldering. The components are very small and
+            fragile.
+          </p>
         </div>
       </header>
       <div className="wrapper">

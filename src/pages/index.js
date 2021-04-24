@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 
 import icon from '../assets/images/header.svg';
 import pic1337 from '../assets/images/1337.jpg';
+import piccloseup from '../assets/images/pcb-closeup.jpg';
 
 const IndexPage = () => (
   <Layout>
@@ -24,7 +25,7 @@ const IndexPage = () => (
     <section id="wrapper">
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
-          <a href="/instructions">
+          <a href="/1337">
             <img className="image" src={pic1337} alt="" />
           </a>
           <div className="content">
@@ -41,30 +42,21 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      {/* 
-      <section id="two" className="wrapper alt spotlight style2">
+      <section id="two" className="wrapper spotlight alt style2">
         <div className="inner">
-          <a href="https://github.com/0xCB-dev/">
-            <img className="image" src={pic2} alt="" />
+          <a href="/instructions">
+            <img className="image" src={piccloseup} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">numquam</h2>
+            <h2 className="major">Instructions</h2>
             <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua. At vero eos et accusam et justo duo
-              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-              sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-              amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-              invidunt ut labore et dolore magna aliquyam erat, sed diam
-              voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
-              dolor sit amet.
+              Here you can find the instructions for our 1337 Macro Keyboard
+              that you can use if you bought one of our DIY Options.
             </p>
           </div>
         </div>
       </section>
-
+      {/* 
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
           <a href="https://github.com/0xCB-dev/">
@@ -88,7 +80,7 @@ const IndexPage = () => (
         </div>
       </section>
       */}
-      <section id="four" className="wrapper alt style1">
+      <section id="four" className="wrapper style1">
         <div className="inner">
           <h2 className="major">About Us</h2>
           <p>
