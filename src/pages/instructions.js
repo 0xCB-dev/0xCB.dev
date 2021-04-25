@@ -17,6 +17,7 @@ import pic12 from '../assets/images/12-mcu.jpg';
 import pic13 from '../assets/images/13-oledwire.jpg';
 import pic14 from '../assets/images/14-oledwiresolderpcb.jpg';
 import pic15 from '../assets/images/15-oledwiresolderoled.jpg';
+import pic16 from '../assets/images/16-finished.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -41,13 +42,16 @@ const IndexPage = () => (
               <img className="image" src={pic1} alt="" />
               <h3 className="major">1. The PCB</h3>
               <p>
+                1x{' '}
                 <span style={{ color: '#ff00f6' }}>
                   n-CH MOSFET for Backlight
                 </span>
-                ,&nbsp;
+                ,&nbsp; 10x{' '}
                 <span style={{ color: '#003cff' }}>330Ohm Resistor</span>,&nbsp;
-                <span style={{ color: '#fffc00' }}>10kOhm Resistor</span>,&nbsp;
+                1x <span style={{ color: '#fffc00' }}>10kOhm Resistor</span>
+                ,&nbsp; 4x{' '}
                 <span style={{ color: '#1eff00' }}>100nF Capacitor</span>,&nbsp;
+                4x{' '}
                 <span style={{ color: '#ff0000' }}>
                   WS2812B adressable RGB LED
                 </span>
@@ -72,8 +76,11 @@ const IndexPage = () => (
             </article>
             <article>
               <img className="image" src={pic2} alt="" />
-              <h3 className="major">2. Standoffs</h3>
-              <p>Place the standoffs square to the PCB.</p>
+              <h3 className="major">2. SMD and Standoffs</h3>
+              <p>
+                Solder in all the SMD components (Be careful they are tiny) and
+                place in the standoffs flush to the PCB.
+              </p>
             </article>
             <article>
               <img className="image" src={pic3} alt="" />
@@ -163,7 +170,18 @@ const IndexPage = () => (
               <img className="image" src={pic15} alt="" />
               <h3 className="major">15. Solder to OLED</h3>
               <p>
-                And solder them to the OLED according to the marking on the OLED
+                Clip the top two corners of the OLED PCB round to make it fit
+                nicely into the corners of the 3d print and solder the wires the
+                OLED according to the marking on the OLED.
+              </p>
+            </article>
+            <article>
+              <img className="image" src={pic16} alt="" />
+              <h3 className="major">16. Screw in the Covers</h3>
+              <p>
+                Screw in the two covers for the OLED and the bottom piece with
+                the 8 M2 screws. Please be careful when screwing them in and
+                don´t tighten them too much (otherwise they will strip out).
               </p>
             </article>
           </section>
