@@ -56,30 +56,6 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      {/* 
-      <section id="three" className="wrapper spotlight style3">
-        <div className="inner">
-          <a href="https://github.com/0xCB-dev/">
-            <img className="image" src={pic3} alt="" />
-          </a>
-          <div className="content">
-            <h2 className="major">quia</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-              erat, sed diam voluptua. At vero eos et accusam et justo duo
-              dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-              sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-              amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-              invidunt ut labore et dolore magna aliquyam erat, sed diam
-              voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
-              dolor sit amet.
-            </p>
-          </div>
-        </div>
-      </section>
-      */}
       <section id="four" className="wrapper style1">
         <div className="inner">
           <h2 className="major">About Us</h2>

@@ -13,12 +13,10 @@ import picwhite from '../assets/images/white.jpg';
 import piccolors from '../assets/images/color.jpg';
 import picmcu from '../assets/images/mcu.jpg';
 import pickk from '../assets/images/mcu.jpg';
-
 import picsw1 from '../assets/images/mcu.jpg';
 import picsw2 from '../assets/images/mcu.jpg';
 import picsw3 from '../assets/images/mcu.jpg';
 import picsw4 from '../assets/images/mcu.jpg';
-
 import picscreen from '../assets/images/screen.jpg';
 import picenck from '../assets/images/mcu.jpg';
 import picrgb from '../assets/images/mcu.jpg';
@@ -54,7 +52,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section className="wrapper style3 alt">
+      <section className="wrapper style4 alt">
         <div className="inner">
           <h3 className="major">
             Here you can see renders of our different variants. They are of
@@ -198,6 +196,15 @@ const IndexPage = () => (
     </section>
     <section className="wrapper spotlight style3">
       <div className="inner">
+        <img className="image" src={picenck} alt="" />
+        <div className="content">
+          <h2 className="major">Rotary Knob</h2>
+          <p>enc</p>
+        </div>
+      </div>
+    </section>
+    <section className="wrapper spotlight style2 alt">
+      <div className="inner">
         <img className="image" src={picrgb} alt="" />
         <div className="content">
           <h2 className="major">RGB Underglow</h2>
@@ -205,13 +212,19 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-    <section className="wrapper spotlight style2 alt">
+    <section className="wrapper spotlight style1">
       <div className="inner">
         <img className="image" src={picbl} alt="" />
         <div className="content">
           <h2 className="major">Keycap Lights</h2>
           <p>backlight</p>
         </div>
+      </div>
+    </section>
+    <section id="four" className="wrapper style4 alt">
+      <div className="inner">
+        <h2 className="major">Links</h2>
+        <p>Tindie, github and stuff</p>
       </div>
     </section>
   </Layout>
