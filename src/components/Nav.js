@@ -24,7 +24,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               }}
               to="https://blog.0xcb.dev"
             >
-              Blog
+              Conor's Blog
             </Link>
           </li>
           <li>
