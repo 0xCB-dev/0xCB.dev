@@ -56,7 +56,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="four" className="wrapper style1">
+      <section id="four" className="wrapper style3">
         <div className="inner">
           <h2 className="major">About Us</h2>
           <p>
@@ -69,6 +69,41 @@ const IndexPage = () => (
             us! We currently do not have our own online store as we use Tindie
             for our products.
           </p>
+        </div>
+      </section>
+      <section id="four" className="wrapper style2 alt">
+        <div className="inner">
+          <h2 className="major">Customer Quotes</h2>
+          <h3>&#11088;&#11088;&#11088;&#11088;&#11088; | Phillip </h3>
+          <a
+            href="https://www.tindie.com/products/0xcb/0xcb-1337-a-customizable-macro-keyboard-with-qmk/#product-reviews"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <blockquote>
+              Great product! Great creators!
+              <br />
+              I have been interested in getting a macropad for quite some time
+              now, but passed on all the ones that I saw until I came across
+              this one. I'm glad I didn't pass it by. The device itself feels
+              very solid. The print job for the case is high quality. The
+              aluminum encoder feels great and the click is very responsive. The
+              diffuser on the bottom looks very nice and the default color
+              shifting theme is a nice greeting when you plug the pad in. The
+              screen is very crisp and I already love being able to see what
+              layer I'm on at a glance. I can't wait to create a custom keymap,
+              so that I can integrate it with my daily workflow!
+              <br />
+              <br />
+              In addition to the device being great, shipping to the US was much
+              quicker than I anticipated and the creators have been very
+              responsive and a pleasure to chat with. They honestly care how
+              their customers feel about their product and about the product
+              itself. I would definitely purchase another of their products in
+              the future!
+            </blockquote>
+            <p>April 26, 2021</p>
+          </a>
         </div>
       </section>
     </section>

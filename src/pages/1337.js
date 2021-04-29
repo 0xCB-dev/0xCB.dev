@@ -13,12 +13,8 @@ import picwhite from '../assets/images/white.jpg';
 import piccolors from '../assets/images/color.jpg';
 import picmcu from '../assets/images/mcu.jpg';
 import pickk from '../assets/images/mcu.jpg';
-import picsw1 from '../assets/images/mcu.jpg';
-import picsw2 from '../assets/images/mcu.jpg';
-import picsw3 from '../assets/images/mcu.jpg';
-import picsw4 from '../assets/images/mcu.jpg';
 import picscreen from '../assets/images/screen.jpg';
-import picenck from '../assets/images/mcu.jpg';
+import picenck from '../assets/images/enck.jpg';
 import picrgb from '../assets/images/mcu.jpg';
 import picbl from '../assets/images/bl.jpg';
 
@@ -121,7 +117,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section className="wrapper style1 alt">
+      <section className="wrapper style2 alt">
         <div className="inner">
           <h2 className="major">Colors</h2>
           <p>
@@ -135,7 +131,7 @@ const IndexPage = () => (
         </div>
       </section>
     </section>
-    <section className="wrapper spotlight style6 ">
+    <section className="wrapper spotlight style5 ">
       <div className="inner">
         <img className="image" src={picmcu} alt="" />
         <div className="content">
@@ -153,36 +149,26 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-    <section className="wrapper spotlight style5 alt">
+    <section className="wrapper spotlight style6 alt">
       <div className="inner">
         <img className="image" src={pickk} alt="" />
         <div className="content">
           <h2 className="major">Keycaps</h2>
-          <p>kk</p>
+          <p>
+            We offer simple MX Keycaps in Black, White, Yellow and Blue. They
+            are nothing special, but they get the job done and they feel really
+            nice.
+          </p>
         </div>
       </div>
     </section>
-    <section className="wrapper style1">
+    <section className="wrapper spotlight style5">
       <div className="inner">
-        <h3 className="major">Switches</h3>
-        <section className="features">
-          <article>
-            <img className="image" src={picsw1} alt="" />
-            <p>WIP</p>
-          </article>
-          <article>
-            <img className="image" src={picsw2} alt="" />
-            <p>WIP</p>
-          </article>
-          <article>
-            <img className="image" src={picsw3} alt="" />
-            <p>WIP</p>
-          </article>
-          <article>
-            <img className="image" src={picsw4} alt="" />
-            <p>WIP</p>
-          </article>
-        </section>
+        <img className="image" src={picmcu} alt="" />
+        <div className="content">
+          <h2 className="major">Switches</h2>
+          <p>OLED</p>
+        </div>
       </div>
     </section>
     <section className="wrapper spotlight style4 alt">
@@ -190,7 +176,13 @@ const IndexPage = () => (
         <img className="image" src={picscreen} alt="" />
         <div className="content">
           <h2 className="major">OLED Screen</h2>
-          <p>oled</p>
+          <p>
+            When you get the version of the keyboard with an OLED screen it will
+            show you things like CAPS-lock, NUM-lock, Scroll-lock, and the layer
+            you are currently on. The OLED Screen sleeps after a few minutes to
+            prevent Screen burn-in. When you are on the RGB Layer it will also
+            show you the RGB Settings you are currently using.
+          </p>
         </div>
       </div>
     </section>
@@ -199,7 +191,13 @@ const IndexPage = () => (
         <img className="image" src={picenck} alt="" />
         <div className="content">
           <h2 className="major">Rotary Knob</h2>
-          <p>enc</p>
+          <p>
+            With our rotary encoder, you can control things like the music
+            volume or just map it yourself in the QMK keymap to whatever you
+            like! We also offer a version with a more premium black aluminium
+            knob on the rotary encoder which is a bit bigger and feels more
+            sturdy.
+          </p>
         </div>
       </div>
     </section>
@@ -208,7 +206,11 @@ const IndexPage = () => (
         <img className="image" src={picrgb} alt="" />
         <div className="content">
           <h2 className="major">RGB Underglow</h2>
-          <p>rgb</p>
+          <p>
+            We of course had to offer a version with RGB Lights. You will have a
+            nice RGB ring around the bottom of the keyboard because we have a
+            transparent piece of plastic as our bottom piece.
+          </p>
         </div>
       </div>
     </section>
@@ -217,14 +219,39 @@ const IndexPage = () => (
         <img className="image" src={picbl} alt="" />
         <div className="content">
           <h2 className="major">Keycap Lights</h2>
-          <p>backlight</p>
+          <p>
+            You can also light up your keycaps from the back. These lights are
+            just white though but they are dimmable through the rotary encoder
+            and you can give them a breathing effect!
+          </p>
         </div>
       </div>
     </section>
-    <section id="four" className="wrapper style4 alt">
+    <section id="four" className="wrapper style1 alt">
       <div className="inner">
-        <h2 className="major">Links</h2>
-        <p>Tindie, github and stuff</p>
+        <h2 className="major">More :)</h2>
+        <ul className="actions">
+          <li>
+            <a
+              href="https://www.tindie.com/products/0xcb/0xcb-1337-a-customizable-macro-keyboard-with-qmk"
+              rel="noreferrer"
+              target="_blank"
+              className="button primary fit"
+            >
+              Buy it on Tindie
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/0xcb-dev/0xcb-1337"
+              rel="noreferrer"
+              target="_blank"
+              className="button primary fit"
+            >
+              Star it on Github
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
   </Layout>
