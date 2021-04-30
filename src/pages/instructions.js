@@ -27,9 +27,9 @@ const IndexPage = () => (
           <h2>Assembly Instructions</h2>
           <p>
             Here are the instructions for our 1337 Keyboard. If you didn´t buy
-            the 3D-printed pieces from us you can print them before our package
-            arrived at your door with the STL Files we´ve sent you so you can
-            begin right away with the assembly! Please be also careful with the
+            the 3D-printed pieces from us you, can print them before our package
+            arrives at your door with the STL Files we´ve sent you so you can
+            begin right away with the assembly! Also, please be careful with the
             SMD components when soldering. The components are very small and
             fragile.
           </p>
