@@ -12,7 +12,7 @@ import picpcb from '../assets/images/pcb-closeup.jpg';
 import picwhite from '../assets/images/white.jpg';
 import piccolors from '../assets/images/color.jpg';
 import picmcu from '../assets/images/mcu.jpg';
-import pickk from '../assets/images/mcu.jpg';
+import pickk from '../assets/images/kk.jpg';
 import picsws from '../assets/images/sws.jpg';
 import picscreen from '../assets/images/screen.jpg';
 import picenck from '../assets/images/enck.jpg';
