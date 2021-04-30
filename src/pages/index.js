@@ -74,7 +74,12 @@ const IndexPage = () => (
       <section id="four" className="wrapper style2 alt">
         <div className="inner">
           <h2 className="major">Customer Quotes</h2>
-          <h3>&#11088;&#11088;&#11088;&#11088;&#11088; | Phillip </h3>
+          <h3>
+            <span role="img" aria-label="Stars">
+              &#11088;&#11088;&#11088;&#11088;&#11088;
+            </span>{' '}
+            | Phillip{' '}
+          </h3>
           <a
             href="https://www.tindie.com/products/0xcb/0xcb-1337-a-customizable-macro-keyboard-with-qmk/#product-reviews"
             rel="noreferrer"

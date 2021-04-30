@@ -13,9 +13,10 @@ import picwhite from '../assets/images/white.jpg';
 import piccolors from '../assets/images/color.jpg';
 import picmcu from '../assets/images/mcu.jpg';
 import pickk from '../assets/images/mcu.jpg';
+import picsws from '../assets/images/sws.jpg';
 import picscreen from '../assets/images/screen.jpg';
 import picenck from '../assets/images/enck.jpg';
-import picrgb from '../assets/images/mcu.jpg';
+import picrgb from '../assets/images/rgb.jpg';
 import picbl from '../assets/images/bl.jpg';
 
 const IndexPage = () => (
@@ -24,7 +25,6 @@ const IndexPage = () => (
       <header>
         <div className="inner">
           <h2>0xCB 1337</h2>
-          <p>WIP...</p>
         </div>
       </header>
       <section className="wrapper spotlight style1">
@@ -164,10 +164,20 @@ const IndexPage = () => (
     </section>
     <section className="wrapper spotlight style5">
       <div className="inner">
-        <img className="image" src={picmcu} alt="" />
+        <img className="image" src={picsws} alt="" />
         <div className="content">
           <h2 className="major">Switches</h2>
-          <p>OLED</p>
+          <p>
+            The switches are always an important part of any keyboard. We will
+            add and remove different varieties of switches in the future. When
+            you want to get a special switch with your keyboard just let us know
+            and we´ll see, what we can do! The PCB is not hot-swappable [at the
+            moment ;)] so when you don't buy the switches from us, you will need
+            to solder them to the PCB yourself!
+            <br />
+            To see all the switches we offer at the moment please go to our
+            Tindie page.
+          </p>
         </div>
       </div>
     </section>
