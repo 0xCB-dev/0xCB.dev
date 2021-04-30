@@ -13,7 +13,7 @@ const IndexPage = () => (
         <div className="logo">
           <img className="icons" src={icon} alt="" />
         </div>
-        <h2>0xCB - TECH, KEYBOARS AND MORE</h2>
+        <h2>0xCB - TECH, KEYBOARDS AND MORE</h2>
         <p>
           0xCB makes custom-made Keyboards, that are fully customizable.
           Handmade and precisely engineered keyboards made with the help of
