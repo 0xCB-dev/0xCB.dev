@@ -35,7 +35,7 @@ const IndexPage = () => (
             <p>
               0xCB 1337 is our programmable Macro Keyboard! The Keyboard has 9
               programmable buttons that you can program through VIA to whatever
-              you want. The two buttons on the right cycle through the 4
+              you desire. The two buttons on the right cycle through the 4
               different layers by default. The HOME and MISC Layer are for your
               general Macros. The BACKLIGHT layer is there to customize your
               white keycap lights. And the RGB layer is there to programm the
@@ -79,11 +79,10 @@ const IndexPage = () => (
         <div className="inner">
           <img className="image" src={piconly} alt="" />
           <div className="content">
-            <h2 className="major">Only PCB</h2>
+            <h2 className="major">DIY</h2>
             <p>
-              With our PCB Option you will only get our PCB from us. This is
-              great, if you want to design and tinker with the PCB yourself! You
-              can do whatever you want with it!
+              You do all the tinkering with this option - feel free to use the
+              instructions available <a href="/instructions">here</a> though :D
             </p>
           </div>
         </div>
@@ -92,12 +91,12 @@ const IndexPage = () => (
         <div className="inner">
           <img className="image" src={picpcb} alt="" />
           <div className="content">
-            <h2 className="major">DIY</h2>
+            <h2 className="major">Presoldered DIY</h2>
             <p>
-              With our DIY Options you will get all the parts you need to build
-              one of our keyboards! You can get the 3D-Printed parts from us or
-              you can just get the STL files from us if you have a 3D- Printer
-              at home! You can find the instructions for the assembly{' '}
+              Same as above, but we will solder the SMD components for you
+              (depending on the options you choose) because we know soldering
+              surface mount components is a bit fiddley ;) <br /> Further
+              assembly instructions are available{' '}
               <a href="/instructions">here</a>.
             </p>
           </div>

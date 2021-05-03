@@ -1,10 +1,14 @@
 import React from 'react';
-
 import Layout from '../components/Layout';
 
 import icon from '../assets/images/header.svg';
 import pic1337 from '../assets/images/1337.jpg';
 import piccloseup from '../assets/images/pcb-closeup.jpg';
+import Carousel, {
+  autoplayPlugin,
+  arrowsPlugin,
+} from '@brainhubeu/react-carousel';
+import '@brainhubeu/react-carousel/lib/style.css';
 
 const IndexPage = () => (
   <Layout>
@@ -74,41 +78,118 @@ const IndexPage = () => (
       <section id="four" className="wrapper style2 alt">
         <div className="inner">
           <h2 className="major">Customer Quotes</h2>
-          <h3>
-            <span role="img" aria-label="Stars">
-              &#11088;&#11088;&#11088;&#11088;&#11088;
-            </span>{' '}
-            | Phillip{' '}
-          </h3>
-          <a
-            href="https://www.tindie.com/products/0xcb/0xcb-1337-a-customizable-macro-keyboard-with-qmk/#product-reviews"
-            rel="noreferrer"
-            target="_blank"
+
+          <Carousel
+            plugins={[
+              'infinite',
+              {
+                resolve: autoplayPlugin,
+                options: {
+                  interval: 5000,
+                },
+              },
+              {
+                resolve: arrowsPlugin,
+                options: {
+                  arrowLeft: <span className="button small">Prev</span>,
+                  arrowLeftDisabled: (
+                    <span className="button small disabled">Prev</span>
+                  ),
+                  arrowRight: <span className="button small">Next</span>,
+                  arrowRightDisabled: (
+                    <span className="button small disabled">Next</span>
+                  ),
+                  addArrowClickHandler: true,
+                },
+              },
+            ]}
+            animationSpeed={1000}
           >
-            <blockquote>
-              Great product! Great creators!
-              <br />
-              I have been interested in getting a macropad for quite some time
-              now, but passed on all the ones that I saw until I came across
-              this one. I'm glad I didn't pass it by. The device itself feels
-              very solid. The print job for the case is high quality. The
-              aluminum encoder feels great and the click is very responsive. The
-              diffuser on the bottom looks very nice and the default color
-              shifting theme is a nice greeting when you plug the pad in. The
-              screen is very crisp and I already love being able to see what
-              layer I'm on at a glance. I can't wait to create a custom keymap,
-              so that I can integrate it with my daily workflow!
-              <br />
-              <br />
-              In addition to the device being great, shipping to the US was much
-              quicker than I anticipated and the creators have been very
-              responsive and a pleasure to chat with. They honestly care how
-              their customers feel about their product and about the product
-              itself. I would definitely purchase another of their products in
-              the future!
-            </blockquote>
-            <p>April 26, 2021</p>
-          </a>
+            <div className="content">
+              <h3>
+                <span role="img" aria-label="5 Stars">
+                  <i class="star on"></i>
+                  <i class="star on"></i>
+                  <i class="star on"></i>
+                  <i class="star on"></i>
+                  <i class="star on"></i>
+                </span>{' '}
+                | Phillip
+              </h3>
+              <a
+                href="https://www.tindie.com/products/0xcb/0xcb-1337-a-customizable-macro-keyboard-with-qmk/#product-reviews"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <blockquote>
+                  <b>Great product! Great creators!</b>
+                  <br />
+                  I have been interested in getting a macropad for quite some
+                  time now, but passed on all the ones that I saw until I came
+                  across this one. I'm glad I didn't pass it by. The device
+                  itself feels very solid. The print job for the case is high
+                  quality. The aluminum encoder feels great and the click is
+                  very responsive. The diffuser on the bottom looks very nice
+                  and the default color shifting theme is a nice greeting when
+                  you plug the pad in. The screen is very crisp and I already
+                  love being able to see what layer I'm on at a glance. I can't
+                  wait to create a custom keymap, so that I can integrate it
+                  with my daily workflow!
+                  <br />
+                  <br />
+                  In addition to the device being great, shipping to the US was
+                  much quicker than I anticipated and the creators have been
+                  very responsive and a pleasure to chat with. They honestly
+                  care how their customers feel about their product and about
+                  the product itself. I would definitely purchase another of
+                  their products in the future!
+                </blockquote>
+                <p>April 26, 2021</p>
+              </a>
+            </div>
+            <div className="content">
+              <h3>
+                <span role="img" aria-label="5 Stars">
+                  <i class="star on"></i>
+                  <i class="star on"></i>
+                  <i class="star on"></i>
+                  <i class="star on"></i>
+                  <i class="star half"></i>
+                </span>{' '}
+                | Todd
+              </h3>
+              <a
+                href="https://www.tindie.com/products/0xcb/0xcb-1337-a-customizable-macro-keyboard-with-qmk/#product-reviews"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <blockquote>
+                  <b>Well Architected, Solid Piece of Technology</b>
+                  <br />
+                  Out of the box, this unit impressed us very much. Understated
+                  on our busy manufacturing operations console, the macropad
+                  screen provides the right amount of context to the tasks at
+                  hand, and the case is well built and capable of the stresses
+                  of a lot of use and 24 x7 shift operations. While it is our
+                  belief that QMK was put on this Earth as a torture device,
+                  fortunately this unit supports QMK's nicer little sister, VIA,
+                  and makes programming and reconfiguration a snap. We are in
+                  the market to replace a large number of macropad type devices
+                  in our global manufacturing environment and were on the verge
+                  of building our own, this unit is making us rethink that
+                  strategy. Kudos to the two innovators who are behind this
+                  project.
+                  <br />
+                  <br />
+                  Of note, we don't hold the innovators at fault for the speed
+                  of the slowest level of global shipping; we would encourage
+                  them to offer faster options at the buyer's expense; from
+                  Germany to the US, it was a little more than three weeks.
+                </blockquote>
+                <p>May 2, 2021</p>
+              </a>
+            </div>
+          </Carousel>
         </div>
       </section>
     </section>
