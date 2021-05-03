@@ -89,7 +89,11 @@ const IndexPage = () => (
           <Slider {...settings}>
             <div className="content">
               <h3>
-                <span style={{ color: '#FDCC0D' }}>
+                <span
+                  role="img"
+                  aria-label="5 Stars"
+                  style={{ color: '#FDCC0D' }}
+                >
                   <FontAwesomeIcon icon="star" size="1x" />
                   <FontAwesomeIcon icon="star" size="1x" />
                   <FontAwesomeIcon icon="star" size="1x" />
@@ -131,7 +135,11 @@ const IndexPage = () => (
             </div>
             <div className="content">
               <h3>
-                <span style={{ color: '#FDCC0D' }}>
+                <span
+                  role="img"
+                  aria-label="4.5 Stars"
+                  style={{ color: '#FDCC0D' }}
+                >
                   <FontAwesomeIcon icon="star" size="1x" />
                   <FontAwesomeIcon icon="star" size="1x" />
                   <FontAwesomeIcon icon="star" size="1x" />
