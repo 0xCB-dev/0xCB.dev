@@ -1,9 +1,6 @@
 import React from 'react';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faStore, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-library.add(fab, faStore, faEnvelope);
+
 export default function Footer() {
   return (
     <section id="footer">
@@ -41,7 +38,7 @@ export default function Footer() {
         </form>
         <ul className="contact">
           <li className="icon">
-            <FontAwesomeIcon icon={faStore} size="1x" />
+            <FontAwesomeIcon icon="store" size="1x" />
             <a href="https://www.tindie.com/stores/0xcb/"> Tindie Store</a>
           </li>
           <li className="icon">
@@ -49,7 +46,7 @@ export default function Footer() {
             <a href="https://github.com/0xCB-dev/"> 0xCB</a>
           </li>
           <li className="icon">
-            <FontAwesomeIcon icon={faEnvelope} size="1x" />
+            <FontAwesomeIcon icon="envelope" size="1x" />
             <a href="mailto:mail@0xcb.dev"> mail@0xcb.dev</a>
           </li>
           <li className="icon">
