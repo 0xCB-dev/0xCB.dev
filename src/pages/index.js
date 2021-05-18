@@ -3,6 +3,7 @@ import Layout from '../components/Layout';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import icon from '../assets/images/header.svg';
 import pic1337 from '../assets/images/1337.jpg';
+import picstatic from '../assets/images/static-r-cover.jpg';
 import piccloseup from '../assets/images/pcb-closeup.jpg';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -56,6 +57,22 @@ const IndexPage = () => (
       </section>
       <section id="two" className="wrapper spotlight alt style2">
         <div className="inner">
+          <a href="/static">
+            <img className="image" src={picstatic} alt="" />
+          </a>
+          <div className="content">
+            <h2 className="major">Static</h2>
+            <p>
+              Meet the 0xCB Static. After the launch of our macro pad, we wanted
+              to do something bigger. So we made a 40% keyboard with an
+              industrial design. This is an interest check to see, what you guys
+              think of it.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="three" className="wrapper spotlight style3">
+        <div className="inner">
           <a href="/instructions">
             <img className="image" src={piccloseup} alt="" />
           </a>
@@ -68,7 +85,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="four" className="wrapper style3">
+      <section id="four" className="wrapper alt style4">
         <div className="inner">
           <h2 className="major">About Us</h2>
           <p>

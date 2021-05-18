@@ -42,16 +42,23 @@ export default function Footer() {
             <a href="https://www.tindie.com/stores/0xcb/"> Tindie Store</a>
           </li>
           <li className="icon">
-            <FontAwesomeIcon icon={['fab', 'github']} size="1x" />
-            <a href="https://github.com/0xCB-dev/"> 0xCB</a>
-          </li>
-          <li className="icon">
             <FontAwesomeIcon icon="envelope" size="1x" />
             <a href="mailto:mail@0xcb.dev"> mail@0xcb.dev</a>
           </li>
           <li className="icon">
+            <FontAwesomeIcon icon={['fab', 'github']} size="1x" />
+            <a href="https://github.com/0xCB-dev/"> 0xCB GitHub</a>
+          </li>
+          <li className="icon">
+            <FontAwesomeIcon icon={['fab', 'discord']} size="1x" />
+            <a href="https://discord.gg/WpmFC2NRWV"> Our Discord Community</a>
+          </li>
+          <li className="icon">
             <FontAwesomeIcon icon={['fab', 'instagram']} size="1x" />
-            <a href="https://www.instagram.com/0xcb.dev/"> 0xCB.dev</a>
+            <a href="https://www.instagram.com/0xcb.dev/">
+              {' '}
+              0xCB.dev Instagram
+            </a>
           </li>
         </ul>
         <ul className="copyright">
