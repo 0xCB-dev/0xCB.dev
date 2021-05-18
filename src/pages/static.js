@@ -27,6 +27,16 @@ const IndexPage = () => (
               think of it.
               <br />
               <br />
+              <span>
+                <a
+                  href="https://forms.gle/eV5sr4wGcRR86Vcq9"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="button primary fit"
+                >
+                  Feel free to vote here
+                </a>
+              </span>
             </p>
           </div>
         </div>
