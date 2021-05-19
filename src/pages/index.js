@@ -100,7 +100,7 @@ const IndexPage = () => (
           </p>
         </div>
       </section>
-      <section id="four" className="wrapper style2 alt">
+      <section id="four" className="wrapper style2">
         <div className="inner">
           <h2 className="major">Customer Quotes</h2>
           <Slider {...settings}>
