@@ -66,6 +66,10 @@ export default function Footer() {
             <a href="https://conor-burns.com">Conor Burns</a>
           </li>
           <li>&copy; 2021</li>
+          <img
+            src="https://stats.conor-burns.com/ingress/b8d4be52-076c-4066-a608-a0ecdc725502/pixel.gif"
+            alt=""
+          />
         </ul>
       </div>
     </section>
