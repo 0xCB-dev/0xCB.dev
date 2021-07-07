@@ -15,11 +15,11 @@ const IndexPage = () => (
         <div className="inner">
           <b>Legal Notice (§ 5 TMG)</b>
           <p>
-            Conor Burns
+            Jakob Kriener
             <br />
-            Oberforstbacher Str. 54
+            Am Bollet 40
             <br />
-            52076 Aachen
+            52078 Aachen
             <br />
             NRW, Germany
           </p>

@@ -2,10 +2,10 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import pichead from '../assets/images/static-r-full.jpg';
-import pictop from '../assets/images/static-r-top.jpg';
-import picplate from '../assets/images/static-plate.png';
-import picside from '../assets/images/static-r-side.jpg';
+import pichead from '../assets/images/static-full.jpg';
+import pictop from '../assets/images/static-top.jpg';
+import picplate from '../assets/images/static-plate.jpg';
+import picside from '../assets/images/static-side.jpg';
 import piclayout from '../assets/images/static-layout.png';
 
 const IndexPage = () => (
@@ -29,12 +29,24 @@ const IndexPage = () => (
               <br />
               <span>
                 <a
-                  href="https://forms.gle/eV5sr4wGcRR86Vcq9"
+                  href="https://forms.gle/jWJwK8SiRSpQJb8X8"
                   rel="noreferrer"
                   target="_blank"
                   className="button primary fit"
                 >
                   Feel free to vote here
+                </a>
+              </span>
+              <br />
+              <br />
+              <span>
+                <a
+                  href="https://discord.gg/WpmFC2NRWV"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="button primary fit"
+                >
+                  Join us on Discord ;)
                 </a>
               </span>
             </p>
@@ -48,13 +60,15 @@ const IndexPage = () => (
               <span className="image fit">
                 <img src={pictop} alt="" />
               </span>
-              The keyboard will be available as a prebuilt and as a DIY kit. The
-              kit will come with the plate for the switches, the bottom plate,
-              an acrylic sheet to cover the electronics, the PCB, and all its
-              electronic components including one OLED screen and a rotary
-              encoder. Also included will be the 3D-printed feet and all the
-              brass standoffs, screws, and rubber feet. You will need to supply
-              your own switches, screw-in stabilizers, and keycaps.
+              The keyboard will be available as a DIY kit. The kit will come
+              with the plate for the switches, the bottom plate, an acrylic
+              sheet to cover the electronics, the PCB, and all its electronic
+              components including one OLED screen and a rotary encoder. Also
+              included will be the 3D-printed feet and all the brass standoffs,
+              screws, and rubber feet. As an added bonus you will get a
+              3D-Printed diode bender so you can bend your diodes easy and
+              exact. You will need to supply your own switches, screw-in
+              stabilizers, and keycaps.
               <br />
               <br />
             </p>
@@ -72,7 +86,8 @@ const IndexPage = () => (
               prefer it that way. It has a USB-C port on the back for you to
               connect it to your computer. With the rotary controller, you can
               control your volume and on the OLED screen, there will be info
-              about what layer you are on.
+              about what layer you are on. It will also display when your Caps
+              or Num Lock is on.
               <br />
               <br />
               <br />
@@ -84,15 +99,22 @@ const IndexPage = () => (
         <div className="inner">
           <div className="content">
             <p>
-              <span className="image left">
+              <span className="image fit">
                 <img src={picplate} alt="" />
               </span>
-              The plate will be available in aluminum for sure but we will see
-              what other materials you want. We were thinking of V2A (stainless
-              steel) for the bottom plate, as it is rust-resistant but has a
-              nice weight to it at a decent price.
+              The plate will be available in aluminum or in FR4. The bottom
+              plate will be available in Stainless Steel or FR4. The PCB and FR4
+              Plates will be available in black or white. The 3D-Printed feet
+              will also come in black or white depending what color you choose
+              from. So there will be 4 keyboards for you to choose from:
               <br />
               <br />
+              - FR4 completely black <br />
+              - FR4 completely white <br />
+              - aluminum plate and stainless steel bottom piece with black PCB
+              and black feets <br />
+              - aluminum plate and stainless steel bottom piece with white PCB
+              and white feets <br />
             </p>
           </div>
         </div>
@@ -101,20 +123,20 @@ const IndexPage = () => (
         <div className="inner">
           <div className="content">
             <p>
-              <span className="image right">
-                <img src={piclayout} alt="" />
-              </span>
               The keyboard fully supports VIA and QMK so you can configure the
               whole keyboard to have multiple Layers, what macros you want and
               what the Rotary Encoder and OLED Screen should do, and many more
               QMK quirks.
               <br />
               You have these five options for the bottom row:
+              <span className="image fit">
+                <img src={piclayout} alt="" />
+              </span>
             </p>
             <ul className="actions">
               <li>
                 <a
-                  href="https://forms.gle/eV5sr4wGcRR86Vcq9"
+                  href="https://forms.gle/jWJwK8SiRSpQJb8X8"
                   rel="noreferrer"
                   target="_blank"
                   className="button primary fit"

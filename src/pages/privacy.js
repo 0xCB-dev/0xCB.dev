@@ -197,8 +197,8 @@ const IndexPage = () => (
           </p>
 
           <p>0xCB</p>
-          <p>Oberforstbacher Str. 54</p>
-          <p>52076 Aachen</p>
+          <p>Am Bollet 40</p>
+          <p>52078 Aachen</p>
           <p>Deutschland</p>
           <p>Email: mail@0xcb.dev</p>
           <p>Website: https://0xcb.dev</p>
