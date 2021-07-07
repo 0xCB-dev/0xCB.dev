@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="inner">
         <h2 className="major">Contact</h2>
         <form
-          action="mailto:mail@0xcb.dev"
+          action="https://mailto:mail@0xcb.dev"
           method="POST"
           encType="multipart/form-data"
         >
