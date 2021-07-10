@@ -63,7 +63,10 @@ class Layout extends Component {
             property="twitter:title"
             content="0xCB - Tech, Keyboards and more"
           />
-          <meta property="twitter:description" content="TBD" />
+          <meta
+            property="twitter:description"
+            content="0xCB makes custom-made Keyboards, that are fully customizable. Handmade and precisely engineered keyboards made with the help of 3D-Printing and assembled in Germany."
+          />
           <meta property="twitter:image" content="https://0xcb.dev/og.jpg" />
 
           <html lang="en" />
