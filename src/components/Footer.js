@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Footer() {
@@ -63,9 +64,20 @@ export default function Footer() {
         </ul>
         <ul className="copyright">
           <li>
-            <a href="https://conor-burns.com">Conor Burns</a>
+            <a href="https://conor-burns.com">Conor Burns</a> &copy; 2021
           </li>
-          <li>&copy; 2021</li>
+          <li>
+            <Link to="/legal">Legal Notice</Link>
+          </li>
+          <li>
+            <Link to="/privacy">Privacy Policy</Link>
+          </li>
+          <li>
+            <Link to="/tos">ToS</Link>
+          </li>
+          <li>
+            <Link to="/aup">AUP</Link>
+          </li>
           <img
             src="https://stats.conor-burns.com/ingress/b8d4be52-076c-4066-a608-a0ecdc725502/pixel.gif"
             alt=""

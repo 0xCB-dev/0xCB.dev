@@ -14,90 +14,156 @@ const IndexPage = () => (
       <div className="wrapper">
         <div className="inner">
           <b>Legal Notice (§ 5 TMG)</b>
+          <p>Last updated: July 21, 2021</p>
+          <h1>Interpretation and Definitions</h1>
+          <h2>Interpretation</h2>
           <p>
-            Jakob Kriener
-            <br />
-            Am Bollet 40
-            <br />
-            52078 Aachen
-            <br />
-            NRW, Germany
+            The words of which the initial letter is capitalized have meanings
+            defined under the following conditions. The following definitions
+            shall have the same meaning regardless of whether they appear in
+            singular or in plural.
           </p>
-          <b>Contact</b>
-          <p>E-Mail: mail@0xcb.dev</p>
-
-          <b>Responsible for content (§ 55 Abs. 2 RStV)</b>
+          <h2>Definitions</h2>
+          <p>For the purposes of this Disclaimer:</p>
+          <ul>
+            <li>
+              <strong>Company</strong> (referred to as either &quot;the
+              Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot;
+              in this Disclaimer) refers to Burns &amp; Kriener Keyboards GbR,
+              Am Bollet 40, 52078 Aachen.
+            </li>
+            <li>
+              <strong>Service</strong> refers to the Website.
+            </li>
+            <li>
+              <strong>You</strong> means the individual accessing the Service,
+              or the company, or other legal entity on behalf of which such
+              individual is accessing or using the Service, as applicable.
+            </li>
+            <li>
+              <strong>Website</strong> refers to 0xCB, accessible from{' '}
+              <a
+                href="https://0xcb.dev"
+                rel="external nofollow noopener"
+                target="_blank"
+              >
+                https://0xcb.dev
+              </a>
+            </li>
+          </ul>
+          <h1>Disclaimer</h1>
           <p>
-            Conor Burns
-            <br />
-            Oberforstbacher Str. 54
-            <br />
-            52076 Aachen
-            <br />
-            NRW, Germany
+            The information contained on the Service is for general information
+            purposes only.
           </p>
-          <b>Disclaimer</b>
           <p>
-            The content of this site has been created with the greatest of care.
-            I cannot, however, guarantee that the information in it is accurate,
-            complete or up-to-date. As a service provider I am responsible under
-            Section 6(1) of the German Media Services Inter-State Agreement and
-            Section 8(1) of the German Teleservices Act for my own content on
-            this site. Service providers are not however obliged to monitor
-            third party information transmitted or stored on their site by them
-            or to look for circumstances which may suggest a violation of the
-            law. This does not affect my statutory obligations to remove or
-            block the use of information. My liability in such cases shall
-            however commence from the time I become aware of an actual
-            violation. On becoming aware of such violations I shall remove this
-            content immediately.
+            The Company assumes no responsibility for errors or omissions in the
+            contents of the Service.
           </p>
-          <b>Liability for links</b>
           <p>
-            This website contains links to external third-party websites, over
-            the content of which I have no control. I cannot, therefore, make
-            any guarantees regarding this third-party content. Responsibility
-            for the content of linked sites lies solely with the provider or
-            operator of the site concerned. All linked sites were checked for
-            possible violations of the law when they were linked to mine. At
-            that time I was not aware of any content which may violate the law.
-            However, I cannot be expected to monitor the content of linked sites
-            on an ongoing basis unless I have reason to suspect a violation of
-            the law. On becoming aware of such a violation I shall remove the
-            respective link immediately.
+            In no event shall the Company be liable for any special, direct,
+            indirect, consequential, or incidental damages or any damages
+            whatsoever, whether in an action of contract, negligence or other
+            tort, arising out of or in connection with the use of the Service or
+            the contents of the Service. The Company reserves the right to make
+            additions, deletions, or modifications to the contents on the
+            Service at any time without prior notice.
           </p>
-          <b>Copyright</b>
           <p>
-            The operator of this site makes every effort to respect the
-            copyrights of outside parties and to employ his own material and
-            material in the public domain. All content and material on this site
-            created by the site operator is governed by German copyright law.
-            Downloads and copies of this site may be made for private,
-            non-commercial use only. Reproduction, processing, distribution and
-            any form of exploitation beyond that permitted by copyright law
-            requires the written consent of the author or creator concerned.
-            Contributions by third parties are identified as such. Should anyone
-            become aware of a possible copyright infringement, I kindly request
-            that you inform me of such. Upon becoming aware of such a violation
-            I shall remove the respective content immediately.
+            The Company does not warrant that the Service is free of viruses or
+            other harmful components.
           </p>
-          <b>Data protection</b>
+          <h1>External Links Disclaimer</h1>
           <p>
-            As a rule the use of this website is possible without providing any
-            personally relevant data. Any provision of personal data (e.g. name,
-            address or email addresses) occurs entirely on a voluntary basis.
-            These data will not be provided to any third parties without the
-            user's express approval. Be aware that the transmission of data via
-            the internet (e.g. communication by email) is subject to security
-            gaps. Complete protection of data from unauthorized access by third
-            parties is not possible. The use of contact details published under
-            the statutory requirement to provide acknowledgements by third
-            parties for the purpose of the transmission of unsolicited
-            advertising and informational material is expressly opposed. The
-            site operator expressly reserves the right to take legal action
-            against the unsolicited mailing of advertising information by way of
-            spamming or similar.
+            The Service may contain links to external websites that are not
+            provided or maintained by or in any way affiliated with the Company.
           </p>
+          <p>
+            Please note that the Company does not guarantee the accuracy,
+            relevance, timeliness, or completeness of any information on these
+            external websites.
+          </p>
+          <h1>Errors and Omissions Disclaimer</h1>
+          <p>
+            The information given by the Service is for general guidance on
+            matters of interest only. Even if the Company takes every precaution
+            to insure that the content of the Service is both current and
+            accurate, errors can occur. Plus, given the changing nature of laws,
+            rules and regulations, there may be delays, omissions or
+            inaccuracies in the information contained on the Service.
+          </p>
+          <p>
+            The Company is not responsible for any errors or omissions, or for
+            the results obtained from the use of this information.
+          </p>
+          <h1>Fair Use Disclaimer</h1>
+          <p>
+            The Company may use copyrighted material which has not always been
+            specifically authorized by the copyright owner. The Company is
+            making such material available for criticism, comment, news
+            reporting, teaching, scholarship, or research.
+          </p>
+          <p>
+            The Company believes this constitutes a &quot;fair use&quot; of any
+            such copyrighted material as provided for in section 107 of the
+            United States Copyright law.
+          </p>
+          <p>
+            If You wish to use copyrighted material from the Service for your
+            own purposes that go beyond fair use, You must obtain permission
+            from the copyright owner.
+          </p>
+          <h1>Views Expressed Disclaimer</h1>
+          <p>
+            The Service may contain views and opinions which are those of the
+            authors and do not necessarily reflect the official policy or
+            position of any other author, agency, organization, employer or
+            company, including the Company.
+          </p>
+          <p>
+            Comments published by users are their sole responsibility and the
+            users will take full responsibility, liability and blame for any
+            libel or litigation that results from something written in or as a
+            direct result of something written in a comment. The Company is not
+            liable for any comment published by users and reserve the right to
+            delete any comment for any reason whatsoever.
+          </p>
+          <h1>No Responsibility Disclaimer</h1>
+          <p>
+            The information on the Service is provided with the understanding
+            that the Company is not herein engaged in rendering legal,
+            accounting, tax, or other professional advice and services. As such,
+            it should not be used as a substitute for consultation with
+            professional accounting, tax, legal or other competent advisers.
+          </p>
+          <p>
+            In no event shall the Company or its suppliers be liable for any
+            special, incidental, indirect, or consequential damages whatsoever
+            arising out of or in connection with your access or use or inability
+            to access or use the Service.
+          </p>
+          <h1>&quot;Use at Your Own Risk&quot; Disclaimer</h1>
+          <p>
+            All information in the Service is provided &quot;as is&quot;, with
+            no guarantee of completeness, accuracy, timeliness or of the results
+            obtained from the use of this information, and without warranty of
+            any kind, express or implied, including, but not limited to
+            warranties of performance, merchantability and fitness for a
+            particular purpose.
+          </p>
+          <p>
+            The Company will not be liable to You or anyone else for any
+            decision made or action taken in reliance on the information given
+            by the Service or for any consequential, special or similar damages,
+            even if advised of the possibility of such damages.
+          </p>
+          <h1>Contact Us</h1>
+          <p>
+            If you have any questions about this Disclaimer, You can contact Us:
+          </p>
+          <ul>
+            <li>By email: mail@0xcb.dev</li>
+          </ul>
         </div>
       </div>
     </section>

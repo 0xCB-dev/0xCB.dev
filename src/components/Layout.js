@@ -69,6 +69,7 @@ class Layout extends Component {
           />
           <meta property="twitter:image" content="https://0xcb.dev/og.jpg" />
 
+          <meta name="robots" content="noodp,noydir" />
           <html lang="en" />
         </Helmet>
         <div className={isPreloaded ? ' main-body  is-preload' : ' main-body'}>

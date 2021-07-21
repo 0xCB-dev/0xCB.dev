@@ -47,26 +47,6 @@ export default function Nav({ onMenuToggle = () => {} }) {
               Contact
             </Link>
           </li>
-          <li>
-            <Link
-              onClick={(e) => {
-                onMenuToggle();
-              }}
-              to="/privacy"
-            >
-              Privacy Policy
-            </Link>
-          </li>
-          <li>
-            <Link
-              onClick={(e) => {
-                onMenuToggle();
-              }}
-              to="/legal"
-            >
-              Legal Notice
-            </Link>
-          </li>
         </ul>
         <a
           className="close"
