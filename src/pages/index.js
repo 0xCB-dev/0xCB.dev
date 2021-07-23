@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import icon from '../assets/images/header.svg';
 import pic1337 from '../assets/images/1337.jpg';
-import picstatic from '../assets/images/static-r-cover.jpg';
+import picstatic from '../assets/images/static-cover.jpg';
 import piccloseup from '../assets/images/pcb-closeup.jpg';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
