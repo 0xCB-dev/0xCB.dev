@@ -1,12 +1,12 @@
 import React from 'react';
 
-import Layout from '../components/Layout';
+import Layout from '../../components/Layout';
 
-import pichead from '../assets/images/static-full.jpg';
-import pictop from '../assets/images/static-top.jpg';
-import picplate from '../assets/images/static-plate.jpg';
-import picside from '../assets/images/static-side.jpg';
-import piclayout from '../assets/images/static-layout.png';
+import pichead from '../../assets/images/static-full.jpg';
+import pictop from '../../assets/images/static-top.jpg';
+import picplate from '../../assets/images/static-plate.jpg';
+import picside from '../../assets/images/static-side.jpg';
+import piclayout from '../../assets/images/static-layout.png';
 
 const IndexPage = () => (
   <Layout fullMenu>

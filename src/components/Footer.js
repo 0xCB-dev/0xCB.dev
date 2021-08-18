@@ -67,16 +67,16 @@ export default function Footer() {
             <a href="https://conor-burns.com">Conor Burns</a> &copy; 2021
           </li>
           <li>
-            <Link to="/legal">Legal Notice</Link>
+            <Link to="/legal/legal">Legal Notice</Link>
           </li>
           <li>
-            <Link to="/privacy">Privacy Policy</Link>
+            <Link to="/legal/privacy">Privacy Policy</Link>
           </li>
           <li>
-            <Link to="/tos">ToS</Link>
+            <Link to="/legal/tos">ToS</Link>
           </li>
           <li>
-            <Link to="/aup">AUP</Link>
+            <Link to="/legal/aup">AUP</Link>
           </li>
           <img
             src="https://stats.conor-burns.com/ingress/b8d4be52-076c-4066-a608-a0ecdc725502/pixel.gif"

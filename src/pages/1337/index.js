@@ -1,23 +1,23 @@
 import React from 'react';
 
-import Layout from '../components/Layout';
+import Layout from '../../components/Layout';
 
-import pichead from '../assets/images/head.jpg';
-import picencoled from '../assets/images/encoled.jpg';
-import picenc from '../assets/images/enc.jpg';
-import picsw from '../assets/images/sw.jpg';
-import picswoled from '../assets/images/swoled.jpg';
-import piconly from '../assets/images/only.jpg';
-import picpcb from '../assets/images/pcb-closeup.jpg';
-import picwhite from '../assets/images/white.jpg';
-import piccolors from '../assets/images/color.jpg';
-import picmcu from '../assets/images/mcu.jpg';
-import pickk from '../assets/images/kk.jpg';
-import picsws from '../assets/images/sws.jpg';
-import picscreen from '../assets/images/screen.jpg';
-import picenck from '../assets/images/enck.jpg';
-import picrgb from '../assets/images/rgb.jpg';
-import picbl from '../assets/images/bl.jpg';
+import pichead from '../../assets/images/head.jpg';
+import picencoled from '../../assets/images/encoled.jpg';
+import picenc from '../../assets/images/enc.jpg';
+import picsw from ../'../assets/images/sw.jpg';
+import picswoled from '../../assets/images/swoled.jpg';
+import piconly from '../../assets/images/only.jpg';
+import picpcb from '../../assets/images/pcb-closeup.jpg';
+import picwhite from '../../assets/images/white.jpg';
+import piccolors from '../../assets/images/color.jpg';
+import picmcu from '../../assets/images/mcu.jpg';
+import pickk from '../../assets/images/kk.jpg';
+import picsws from '../../assets/images/sws.jpg';
+import picscreen from '../../assets/images/screen.jpg';
+import picenck from '../../assets/images/enck.jpg';
+import picrgb from '../../assets/images/rgb.jpg';
+import picbl from '../../assets/images/bl.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>

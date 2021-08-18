@@ -79,8 +79,7 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">Instructions</h2>
             <p>
-              Here you can find the instructions for our 1337 Macro Keyboard
-              that you can use if you bought one of our DIY Options.
+              Here you can find the instructions for Keyboards.
             </p>
           </div>
         </div>

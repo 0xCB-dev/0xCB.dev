@@ -1,23 +1,23 @@
 import React from 'react';
 
-import Layout from '../components/Layout';
+import Layout from '../../components/Layout';
 
-import pic1 from '../assets/images/1-pcb.jpg';
-import pic2 from '../assets/images/2-standoff.jpg';
-import pic3 from '../assets/images/3-standoff.jpg';
-import pic4 from '../assets/images/4-encoder-switches.jpg';
-import pic5 from '../assets/images/5-direction.jpg';
-import pic6 from '../assets/images/6-bend.jpg';
-import pic7 from '../assets/images/7-setpcb.jpg';
-import pic8 from '../assets/images/8-solder.jpg';
-import pic9 from '../assets/images/9-led.jpg';
-import pic10 from '../assets/images/10-solderled.jpg';
-import pic11 from '../assets/images/11-shortprotec.jpg';
-import pic12 from '../assets/images/12-mcu.jpg';
-import pic13 from '../assets/images/13-oledwire.jpg';
-import pic14 from '../assets/images/14-oledwiresolderpcb.jpg';
-import pic15 from '../assets/images/15-oledwiresolderoled.jpg';
-import pic16 from '../assets/images/16-finished.jpg';
+import pic1 from '../../assets/images/1-pcb.jpg';
+import pic2 from '../../assets/images/2-standoff.jpg';
+import pic3 from '../../assets/images/3-standoff.jpg';
+import pic4 from '../../assets/images/4-encoder-switches.jpg';
+import pic5 from '../../assets/images/5-direction.jpg';
+import pic6 from '../../assets/images/6-bend.jpg';
+import pic7 from '../../assets/images/7-setpcb.jpg';
+import pic8 from '../../assets/images/8-solder.jpg';
+import pic9 from '../../assets/images/9-led.jpg';
+import pic10 from '../../assets/images/10-solderled.jpg';
+import pic11 from '../../assets/images/11-shortprotec.jpg';
+import pic12 from '../../assets/images/12-mcu.jpg';
+import pic13 from '../../assets/images/13-oledwire.jpg';
+import pic14 from '../../assets/images/14-oledwiresolderpcb.jpg';
+import pic15 from '../../assets/images/15-oledwiresolderoled.jpg';
+import pic16 from '../../assets/images/16-finished.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
