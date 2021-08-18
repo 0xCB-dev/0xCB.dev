@@ -5,7 +5,7 @@ import Layout from '../../components/Layout';
 import pichead from '../../assets/images/head.jpg';
 import picencoled from '../../assets/images/encoled.jpg';
 import picenc from '../../assets/images/enc.jpg';
-import picsw from ../'../assets/images/sw.jpg';
+import picsw from '../../assets/images/sw.jpg';
 import picswoled from '../../assets/images/swoled.jpg';
 import piconly from '../../assets/images/only.jpg';
 import picpcb from '../../assets/images/pcb-closeup.jpg';
