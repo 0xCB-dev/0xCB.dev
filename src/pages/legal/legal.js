@@ -44,7 +44,7 @@ const IndexPage = () => (
               <strong>Website</strong> refers to 0xCB, accessible from{' '}
               <a
                 href="https://0xcb.dev"
-                rel="external nofollow noopener"
+                rel="external nofollow noopener noreferrer"
                 target="_blank"
               >
                 https://0xcb.dev

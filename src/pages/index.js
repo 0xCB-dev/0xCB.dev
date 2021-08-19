@@ -78,9 +78,7 @@ const IndexPage = () => (
           </a>
           <div className="content">
             <h2 className="major">Instructions</h2>
-            <p>
-              Here you can find the instructions for our keyboards.
-            </p>
+            <p>Here you can find the instructions for our keyboards.</p>
           </div>
         </div>
       </section>

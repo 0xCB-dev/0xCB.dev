@@ -24,8 +24,11 @@ const IndexPage = () => (
     <section id="wrapper">
       <header>
         <div className="inner">
-          <h2>Assembly Instructions</h2>
+          <h2>1337 assembly instructions</h2>
           <p>
+            These instructions are outdated! They work for Rev 1.0 till Rev 1.3.
+            <br />
+            <br />
             Here are the instructions for our 1337 Keyboard. If you didn´t buy
             the 3D-printed pieces from us you, can print them before our package
             arrives at your door with the STL Files we´ve sent you so you can

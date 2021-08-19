@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link } from "gatsby"
+import { Link } from 'gatsby';
 
 import Layout from '../../components/Layout';
 
 import pic1337 from '../../assets/images/1337.jpg';
-import picstatic from '../../assets/images/static-full.jpg';
+import picstatic from '../../assets/images/si-cover.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -12,9 +12,7 @@ const IndexPage = () => (
       <header>
         <div className="inner">
           <h2>Instructions</h2>
-          <p>
-            Here you will find instructions for our keebs.
-          </p>
+          <p>Here you will find instructions for our keebs.</p>
         </div>
       </header>
       <div className="wrapper">
