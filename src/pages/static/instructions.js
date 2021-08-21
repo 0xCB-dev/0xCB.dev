@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import ScrollUp from 'react-scroll-up';
 
 import Layout from 'components/Layout';
 
@@ -38,6 +39,8 @@ import picsolder from 'assets/images/static/instructions/si-solder.jpg';
 import picsolderingiron from 'assets/images/static/instructions/si-soldering-iron.jpg';
 import picbenderender from 'assets/images/static/instructions/si-diode-bender.jpg';
 import picflushcutters from 'assets/images/static/instructions/si-flush-cutters.jpg';
+import picplaceholder from 'assets/images/placeholder.jpg';
+import picscroller from 'assets/images/up.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -61,7 +64,21 @@ const IndexPage = () => (
                     <Link to="#tools">Required Supplies</Link>
                   </li>
                   <li>
-                    <Link to="#pnp">Pick and Place</Link>
+                    <Link to="#solder">Soldering</Link>
+                    <ul>
+                      <li>
+                        <Link to="#pnp">Component Placement</Link>
+                      </li>
+                      <li>
+                        <Link to="#parts">Through Hole Components</Link>
+                      </li>
+                      <li>
+                        <Link to="#tools">USB-C Port</Link>
+                      </li>
+                      <li>
+                        <Link to="#solder">OLED and EC11</Link>
+                      </li>
+                    </ul>
                   </li>
                 </ol>
               </div>
@@ -70,12 +87,17 @@ const IndexPage = () => (
                   Here you can find the instructions for the 0xCB Static!
                   <br />
                   <br />
-                  Please use the Table of Content on the right for easy
+                  You can use the Table of Content on the right for easy
                   navigation.
                   <br />
                   <br />
+                  Also please read the whole assembly instruction onces before
+                  building and onces during the build to make sure you do
+                  everything right!
+                  <br />
+                  <br />
                   If you have any problems during assembly don't hesitate to
-                  shoot us a e-mail at or just ask over at our discord.
+                  shoot us a e-mail or just ask over at our discord.
                 </p>
 
                 <div className="row">
@@ -119,6 +141,7 @@ const IndexPage = () => (
                         <th>Pic</th>
                         <th>Description</th>
                         <th>Quantity</th>
+                        <th>Reference</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -128,6 +151,7 @@ const IndexPage = () => (
                         </td>
                         <td>PCB</td>
                         <td>1</td>
+                        <td></td>
                       </tr>
                       <tr>
                         <td>
@@ -139,6 +163,7 @@ const IndexPage = () => (
                         </td>
                         <td>Switch Plate</td>
                         <td>1</td>
+                        <td></td>
                       </tr>
                       <tr>
                         <td>
@@ -150,12 +175,13 @@ const IndexPage = () => (
                         </td>
                         <td>Bottom PLate</td>
                         <td>1</td>
+                        <td></td>
                       </tr>
                       <tr>
                         <td>
                           <img
                             className="image table"
-                            src={picbottomplate}
+                            src={picplaceholder}
                             alt=""
                           />
                         </td>
@@ -165,6 +191,7 @@ const IndexPage = () => (
                           PLACEHOLDER PIC
                         </td>
                         <td>1</td>
+                        <td></td>
                       </tr>
                       <tr>
                         <td>
@@ -174,6 +201,7 @@ const IndexPage = () => (
                         <td>
                           1 Left <br /> 1 Right
                         </td>
+                        <td></td>
                       </tr>
                       <tr>
                         <td>
@@ -185,6 +213,7 @@ const IndexPage = () => (
                         </td>
                         <td>Rubber Feet</td>
                         <td>6</td>
+                        <td></td>
                       </tr>
                       <tr>
                         <td>
@@ -196,6 +225,7 @@ const IndexPage = () => (
                         </td>
                         <td>Small Standoffs (M2x8mm)</td>
                         <td>4</td>
+                        <td></td>
                       </tr>
                       <tr>
                         <td>
@@ -207,6 +237,7 @@ const IndexPage = () => (
                         </td>
                         <td>Big Standoffs (M2x14mm)</td>
                         <td>4</td>
+                        <td></td>
                       </tr>
                       <tr>
                         <td>
@@ -214,6 +245,7 @@ const IndexPage = () => (
                         </td>
                         <td>Screws (M2x5mm)</td>
                         <td>16</td>
+                        <td></td>
                       </tr>
                       <tr>
                         <td>
@@ -228,6 +260,7 @@ const IndexPage = () => (
                           when you get them!{' '}
                         </td>
                         <td>1</td>
+                        <td>OL1</td>
                       </tr>
                       <tr>
                         <td>
@@ -235,6 +268,7 @@ const IndexPage = () => (
                         </td>
                         <td>EC11 Rotary Encoder</td>
                         <td>1</td>
+                        <td>MX12</td>
                       </tr>
                       <tr>
                         <td>
@@ -246,6 +280,7 @@ const IndexPage = () => (
                         </td>
                         <td>Aluminium Rotary Encoder Knob</td>
                         <td>1</td>
+                        <td></td>
                       </tr>
                       <tr>
                         <td>
@@ -253,6 +288,7 @@ const IndexPage = () => (
                         </td>
                         <td>USB-C Port</td>
                         <td>1</td>
+                        <td>J1</td>
                       </tr>
                       <tr>
                         <td>
@@ -260,6 +296,7 @@ const IndexPage = () => (
                         </td>
                         <td>RESET and BOOT Buttons</td>
                         <td>2</td>
+                        <td>SW1, SW2</td>
                       </tr>
                       <tr>
                         <td>
@@ -267,6 +304,7 @@ const IndexPage = () => (
                         </td>
                         <td>ATMEGA328p Processor</td>
                         <td>1</td>
+                        <td>U1</td>
                       </tr>
                       <tr>
                         <td>
@@ -279,6 +317,7 @@ const IndexPage = () => (
                           16MHz
                         </td>
                         <td>1</td>
+                        <td>Y1</td>
                       </tr>
                       <tr>
                         <td>
@@ -291,6 +330,7 @@ const IndexPage = () => (
                           500mA
                         </td>
                         <td>1</td>
+                        <td>F1</td>
                       </tr>
                       <tr>
                         <td>
@@ -311,6 +351,7 @@ const IndexPage = () => (
                           have enough!
                         </td>
                         <td>48</td>
+                        <td>D1...48</td>
                       </tr>
                       <tr>
                         <td>
@@ -327,6 +368,7 @@ const IndexPage = () => (
                           1N4729
                         </td>
                         <td>2</td>
+                        <td>D49, D50</td>
                       </tr>
                       <tr>
                         <td>
@@ -339,6 +381,7 @@ const IndexPage = () => (
                           75Ohm
                         </td>
                         <td>2</td>
+                        <td>R3, R4</td>
                       </tr>
                       <tr>
                         <td>
@@ -355,6 +398,7 @@ const IndexPage = () => (
                           1.5kOhm
                         </td>
                         <td>1</td>
+                        <td>R6</td>
                       </tr>
                       <tr>
                         <td>
@@ -371,6 +415,7 @@ const IndexPage = () => (
                           5.1kOhm
                         </td>
                         <td>2</td>
+                        <td>R1, R2</td>
                       </tr>
                       <tr>
                         <td>
@@ -383,6 +428,7 @@ const IndexPage = () => (
                           10kOhm
                         </td>
                         <td>1</td>
+                        <td>R5</td>
                       </tr>
                       <tr>
                         <td>
@@ -399,6 +445,7 @@ const IndexPage = () => (
                           20pF
                         </td>
                         <td>2</td>
+                        <td>C3, C4</td>
                       </tr>
                       <tr>
                         <td>
@@ -411,6 +458,7 @@ const IndexPage = () => (
                           0.1uF
                         </td>
                         <td>2</td>
+                        <td>C1, C2</td>
                       </tr>
                       <tr>
                         <td>
@@ -429,6 +477,7 @@ const IndexPage = () => (
                           this way!
                         </td>
                         <td>1</td>
+                        <td></td>
                       </tr>
                       <tr>
                         <td>
@@ -446,6 +495,7 @@ const IndexPage = () => (
                           for assembly!
                         </td>
                         <td>1</td>
+                        <td></td>
                       </tr>
                     </tbody>
                   </table>
@@ -522,16 +572,62 @@ const IndexPage = () => (
               </div>
             </div>
           </section>
+          <section id="solder" className="wrapper">
+            <div className="inner">
+              <div className="content">
+                <h2 className="major">Soldering</h2>
+                <p>
+                  <span className="image left">
+                    <img src={pictopdownic} alt="" />
+                  </span>
+                  Here we will go a little into how to solder the PCB. For all
+                  the components you will find the names, references and
+                  pictures of the component in the table of contents. You then
+                  can head over to the{' '}
+                  <Link to="#pnp">component placement</Link> section and look at
+                  the interactive BOM. We will explain how you work with that
+                  there.
+                  <br />
+                  <br />
+                  For all of you that haven't soldered before:
+                  <br />
+                  You can find a little explanation to soldering though hole
+                  components <Link to="#tools">here</Link>. <br />A little
+                  explanation on soldering a USB-C port{' '}
+                  <Link to="#tools">here</Link>. <br />
+                  And a explanation how to solder the OLED and EC11{' '}
+                  <Link to="#tools">here</Link>.
+                </p>
+              </div>
+            </div>
+          </section>
           <section id="pnp" className="wrapper">
             <div className="inner">
               <div className="content">
                 <h2 className="major">Component placement</h2>
                 <p>
-                  Here you have an interactive map to place components<br />
+                  Here you have an interactive map to place components. This
+                  shows you which component has to be placed where. You go from
+                  top to bottom to get a good point of reference for the order
+                  you should place them in. This doesn't matter in the end in
+                  which order you place the components, but it makes it easier
+                  for soldering. You can always find the name and the
+                  referenceof the component in the Packing List and see photos
+                  of everything (especially usefull for the resistors). You can
+                  also find those names in the Value Row. When you hover over
+                  one element it will show that to you with a red outline on the
+                  right PCB. You can also use the References (C3 for example)
+                  and find that name printed on the PCB also. You then just go
+                  ahead and place every component and solder it in place.
+                  <br />
+                  <br /> If you want to see the interactive BOM in full screen
+                  just click here:
+                  <br />
                   <a
                     href="https://files.0xcb.dev/0xCB/static/humanpnp.html"
                     rel="external noreferrer"
                     target="_blank"
+                    className="button primary fit"
                   >
                     Open in new Tab
                   </a>
@@ -547,6 +643,13 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
+    <div className="inner">
+      <div className="content">
+        <ScrollUp showUnder={50}>
+          <img src={picscroller} alt="" />
+        </ScrollUp>
+      </div>
+    </div>
   </Layout>
 );
 
