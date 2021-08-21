@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
-import '../assets/sass/main.scss';
+import 'assets/sass/main.scss';
 import Footer from './Footer';
 import SideBar from './Sidebar';
 

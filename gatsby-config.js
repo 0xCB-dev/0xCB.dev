@@ -29,6 +29,7 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-sitemap',
+    'gatsby-plugin-root-import',
     'gatsby-plugin-remove-serviceworker',
     {
       resolve: 'gatsby-plugin-brotli',

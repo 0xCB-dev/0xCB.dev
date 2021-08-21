@@ -1,10 +1,10 @@
 import React from 'react';
-import Layout from '../components/Layout';
+import Layout from 'components/Layout';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import icon from '../assets/images/header.svg';
-import pic1337 from '../assets/images/1337.jpg';
-import picstatic from '../assets/images/static-cover.jpg';
-import piccloseup from '../assets/images/pcb-closeup.jpg';
+import icon from 'assets/images/index/header.svg';
+import pic1337 from 'assets/images/index/1337.jpg';
+import picstatic from 'assets/images/index/static-cover.jpg';
+import piccloseup from 'assets/images/index/pcb-closeup.jpg';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';

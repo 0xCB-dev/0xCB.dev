@@ -41,6 +41,12 @@
 				width: 100%;
 			}
 		}
+		&.table {
+			display: inline-block;
+		  vertical-align: top;
+		  width:100%;
+		  height: auto;
+		}
 
 		&.main {
 			display: block;

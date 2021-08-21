@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import Layout from '../../components/Layout';
+import Layout from 'components/Layout';
 
-import pic1337 from '../../assets/images/1337.jpg';
-import picstatic from '../../assets/images/si-cover.jpg';
+import pic1337 from 'assets/images/instructions/1337.jpg';
+import picstatic from 'assets/images/instructions/static.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
