@@ -82,6 +82,9 @@ const IndexPage = () => (
                     </li>
                   </ul>
                 </li>
+                <li>
+                  <Link to="#ass">Assembly of the board</Link>
+                </li>
               </ol>
             </div>
             <div className="col-6 col-12-medium">
@@ -525,6 +528,30 @@ const IndexPage = () => (
                       kit!
                     </td>
                   </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="tools" className="wrapper style1">
+        <div className="inner">
+          <div className="content">
+            <h2 className="major">Optional Supplies</h2>
+            <p>
+              These Supplies are not needed to build the Static, but they
+              definitely help!
+            </p>
+            <div className="table-wrapper">
+              <table className="alt">
+                <thead>
+                  <tr>
+                    <th>Pic</th>
+                    <th>Part</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
                   <tr>
                     <td>
                       <img
@@ -534,7 +561,11 @@ const IndexPage = () => (
                       />
                     </td>
                     <td>extra flux / flux pen</td>
-                    <td></td>
+                    <td>
+                      Extra Flux can be helpfull when soldering. Especially for
+                      the USB Port! Flux makes the solder flow better into the
+                      cavities and generally helpes get a good solder joint.
+                    </td>
                   </tr>
                   <tr>
                     <td>
@@ -545,7 +576,10 @@ const IndexPage = () => (
                       />
                     </td>
                     <td>isopropyl alcohol / PCB cleaner</td>
-                    <td></td>
+                    <td>
+                      IPA or PCB Cleaner is super cool to make the PCB look good
+                      after you are done soldering.
+                    </td>
                   </tr>
                   <tr>
                     <td>
@@ -556,7 +590,12 @@ const IndexPage = () => (
                       />
                     </td>
                     <td>Brass sponge</td>
-                    <td></td>
+                    <td>
+                      With a brass sponge you can clean the tip of the soldering
+                      iron. A brass sponge is a small investement but surely a
+                      good one! It makes soldering that much easier when you can
+                      work with a clean soldering iron tip!
+                    </td>
                   </tr>
                 </tbody>
               </table>
@@ -564,7 +603,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="solder" className="wrapper style1">
+      <section id="solder" className="wrapper style2 alt">
         <div className="inner">
           <div className="content">
             <h2 className="major">Soldering</h2>
@@ -668,35 +707,203 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="tht" className="wrapper style2 alt">
+      <section id="throughhole" className="wrapper style3">
         <div className="inner">
           <div className="content">
-            <h2 className="major">Soldering Through Hole Components</h2>
+            <h2 className="major">Soldering through hole components</h2>
+            <p>
+              <span className="image left">
+                <img src={picplaceholder} alt="" />
+              </span>
+              <br />
+              For most through hole components you have to bend the legs first!
+              When soldering the small diodes you can use our diode bender, to
+              get clean bends, but for the rest just look at the distance the
+              holes on the pcb are apart and bend the components accordingly by
+              hand.
+              <br /> This of course doesn't apply to the controller, BOOT and
+              RESET buttons, USB port, OLED and EC11 because those don't have
+              long legs... Those components can just be placed in the right
+              holes and soldereed in place.
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <span className="image right">
+                <img src={picplaceholder} alt="" />
+              </span>
+              Then you can just go ahead and place the component at the right
+              spot on the PCB.
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <span className="image left">
+                <img src={picplaceholder} alt="" />
+              </span>
+              Bend the legs of the component on the other side to hold it in
+              place so you can solder it easily.
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <span className="image right">
+                <img src={picplaceholder} alt="" />
+              </span>
+              Now add a bit of solder to each solder joint of the component!.
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+            </p>
           </div>
         </div>
       </section>
-      <section id="usb" className="wrapper style3">
+      <section id="usb" className="wrapper style4 alt">
         <div className="inner">
           <div className="content">
             <h2 className="major">Soldering the USB-C Port</h2>
           </div>
         </div>
       </section>
-      <section id="oled" className="wrapper style4 alt">
+      <section id="oled" className="wrapper style3">
         <div className="inner">
           <div className="content">
             <h2 className="major">Soldering the OLED</h2>
+            <span className="image left">
+              <img src={picplaceholder} alt="" />
+            </span>
+            Soldering an OLED Screen is not hard in a soldering kind of way, but
+            it is challenging to get it sit straight and look good!
+            <br />
+            <br />
+            <br />
+            <br />
+            <span className="image right">
+              <img src={picplaceholder} alt="" />
+            </span>
+            Start by just placing the OLED in there. It should face away from
+            the diodes and to the rotary encoder.
+            <br />
+            <br />
+            <br />
+            <span className="image left">
+              <img src={picplaceholder} alt="" />
+            </span>
+            Now you can place the diode bender under the OLED this ensures the
+            right distance between the PCB and the OLED.
+            <br />
+            <br />
+            <br />
+            <span className="image right">
+              <img src={picplaceholder} alt="" />
+            </span>
+            Now flip over the PCB and solder one pin of the OLED. Preferably one
+            of the outer ones.
+            <br />
+            <br />
+            <br />
+            <span className="image left">
+              <img src={picplaceholder} alt="" />
+            </span>
+            You can now look if the OLED sits straight. If it does great job!
+            That's awesome. If not you can just bend it a bit in place.
+            <br />
+            <br />
+            <br />
+            <span className="image right">
+              <img src={picplaceholder} alt="" />
+            </span>
+            If you are satisfied with the result you can go ahead and solder the
+            other three pins of the OLED.
+            <br />
+            <br />
+            <br />
+            <span className="image left">
+              <img src={picplaceholder} alt="" />
+            </span>
+            You now have a great looking OLED in your Static! If you want you
+            can peel off the little protective film now! You can also wait till
+            you are all done with your Static of course.
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
           </div>
         </div>
       </section>
-      <section id="enc" className="wrapper style5">
+      <section id="enc" className="wrapper style2 alt">
         <div className="inner">
           <div className="content">
             <h2 className="major">Soldering the Encoder (EC11)</h2>
+            <span className="image left">
+              <img src={picec11} alt="" />
+            </span>
+            <br />
+            <br />
+            <br />
+            Soldering an Encoder is just as easy as soldering your switches!
+            <br />
+            <br />
+            <br />
+            <span className="image right">
+              <img src={picplaceholder} alt="" />
+            </span>
+            <br />
+            <br />
+            <br />
+            The Encoder has two big pins on it. Those are just for holding the
+            encoder in there. They also act as ground pins.
+            <br />
+            <br />
+            <br />
+            <span className="image left">
+              <img src={picplaceholder} alt="" />
+            </span>
+            <br />
+            <br />
+            <br />
+            The Encoder also has two small pins on one side and three on the
+            other. This is great, because it means you cannot put the encoder
+            into the PCB the wrong way around! So go ahead and do that now. The
+            two big pins should hold it in there good.
+            <br />
+            <br />
+            <br />
+            <span className="image right">
+              <img src={picplaceholder} alt="" />
+            </span>
+            <br />
+            <br />
+            <br />
+            Now you can go ahead and just solder all the pins. The two big ones
+            take quite a lot of solder so don't be suprised!
+            <br />
+            <br />
+            <br />
           </div>
         </div>
       </section>
-      <section id="pnp" className="wrapper style6 alt">
+      <section id="pnp" className="wrapper style1">
         <div className="inner">
           <div className="content">
             <h2 className="major">Interactive BOM / human PnP</h2>
@@ -715,6 +922,30 @@ const IndexPage = () => (
               title="humanpnp"
               style={{ width: '100%', height: '400px' }}
             ></iframe>
+          </div>
+        </div>
+      </section>
+      <section id="ass" className="wrapper style2 alt">
+        <div className="inner">
+          <div className="content">
+            <h2 className="major">Assembling the keyboard</h2>
+            <p>
+              <span className="image left">
+                <img src={pictopdownic} alt="" />
+              </span>
+              Here we will go over all the steps you need to follow after you
+              have soldered the PCB!
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+            </p>
           </div>
         </div>
       </section>
