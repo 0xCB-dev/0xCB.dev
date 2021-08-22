@@ -91,13 +91,13 @@ const IndexPage = () => (
                   click on the different sections and it will take you there!
                   <br />
                   <br />
-                  Also please read the whole assembly instruction onces before
-                  building and onces during the build to make sure you do
+                  Also please read the whole assembly instruction once before
+                  building and once during the build to make sure you do
                   everything right!
                   <br />
                   <br />
                   If you have any problems during assembly don't hesitate to
-                  shoot us a e-mail or just ask over at our discord.
+                  shoot us an e-mail or just ask over at our discord.
                 </p>
 
                 <div className="row">
@@ -589,16 +589,17 @@ const IndexPage = () => (
                   <br />
                   <br />
                   <br />
-                  PLease head over to these sections to read a bit about
+                  Please head over to these sections to read a bit about
                   soldering. We go over some basic soldering techniques but also
                   some Static specific stuff!
                   <br />
                   <br />
-                  You can find a little explanation to soldering though hole
-                  components <Link to="#throughhole">here</Link>. <br />A little
+                  <br />You can find a little
                   explanation on soldering a USB-C port{' '}
                   <Link to="#tools">here</Link>. <br />
-                  And a explanation how to solder the OLED and EC11{' '}
+                  A little explanation for soldering through hole
+                  components <Link to="#throughhole">here</Link>.<br/>
+                  And an explanation of how to solder the OLED and EC11{' '}
                   <Link to="#tools">here</Link>.
                 </p>
               </div>
@@ -621,7 +622,7 @@ const IndexPage = () => (
                   <br /> This of course doesn't apply to the controller, BOOT
                   and RESET buttons, USB port, OLED and EC11 because those don't
                   have long legs... Those components can just be placed in the
-                  right holes and soldereed in place.
+                  right holes and soldered in place.
                   <br />
                   <br />
                   <br />
@@ -651,8 +652,17 @@ const IndexPage = () => (
                     <img src={picplaceholder} alt="" />
                   </span>
                   Now add a bit of solder to each solder joint of the
-                  component!.
+                  component!
                   <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <span className="image left">
+                    <img src={picplaceholder} alt="" />
+                  </span>
+                  As a last step just clip off those legs and you are done!
                   <br />
                   <br />
                   <br />
@@ -679,11 +689,11 @@ const IndexPage = () => (
                   you should place them in. This doesn't matter in the end but
                   it makes it easier for soldering. You can always find the name
                   and the reference of the component in the Packing List and see
-                  photos of everything (especially usefull for the resistors).
+                  photos of everything (especially useful for the resistors).
                   The reference consists of a letter and a number. Those "codes"
                   are also printed on the PCB so you can just use the references
                   to see, where something has to be placed. When you hover over
-                  one element in the intercative BOM it will also show that to
+                  one element in the interactive BOM it will also show that to
                   you with a red outline on the right PCB. You then just go
                   ahead and place every component and solder it in place.
                   <br />
