@@ -83,7 +83,7 @@ const IndexPage = () => (
                   </ul>
                 </li>
                 <li>
-                  <Link to="#ass">Assembly of the board</Link>
+                  <Link to="#ass">Assembling the Keyboard</Link>
                 </li>
               </ol>
             </div>
@@ -785,7 +785,7 @@ const IndexPage = () => (
               <img src={picplaceholder} alt="" />
             </span>
             Soldering an OLED Screen is not hard in a soldering kind of way, but
-            it is challenging to get it sit straight and look good!
+            it is challenging to get it to sit straight and look good!
             <br />
             <br />
             <br />
@@ -801,7 +801,7 @@ const IndexPage = () => (
             <span className="image left">
               <img src={picplaceholder} alt="" />
             </span>
-            Now you can place the diode bender under the OLED this ensures the
+            Now you can place the diode bender under the OLED. This ensures the
             right distance between the PCB and the OLED.
             <br />
             <br />
