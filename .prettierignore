@@ -1,0 +1,5 @@
+# Project dependencies
+.cache
+
+# Build directory
+/public
