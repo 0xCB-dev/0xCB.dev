@@ -70,7 +70,7 @@ const IndexPage = () => (
                         <Link to="#pnp">Component Placement</Link>
                       </li>
                       <li>
-                        <Link to="#parts">Through Hole Components</Link>
+                        <Link to="#throughhole">Through Hole Components</Link>
                       </li>
                       <li>
                         <Link to="#tools">USB-C Port</Link>
@@ -87,8 +87,8 @@ const IndexPage = () => (
                   Here you can find the instructions for the 0xCB Static!
                   <br />
                   <br />
-                  You can use the Table of Content on the right for easy
-                  navigation.
+                  You can use the Table of Content for easy navigation. Just
+                  click on the different sections and it will take you there!
                   <br />
                   <br />
                   Also please read the whole assembly instruction onces before
@@ -140,8 +140,8 @@ const IndexPage = () => (
                       <tr>
                         <th>Pic</th>
                         <th>Description</th>
-                        <th>Quantity</th>
                         <th>Reference</th>
+                        <th>Quantity</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -150,8 +150,8 @@ const IndexPage = () => (
                           <img className="image table" src={picpcb} alt="" />
                         </td>
                         <td>PCB</td>
-                        <td>1</td>
                         <td></td>
+                        <td>1</td>
                       </tr>
                       <tr>
                         <td>
@@ -162,8 +162,8 @@ const IndexPage = () => (
                           />
                         </td>
                         <td>Switch Plate</td>
-                        <td>1</td>
                         <td></td>
+                        <td>1</td>
                       </tr>
                       <tr>
                         <td>
@@ -174,8 +174,8 @@ const IndexPage = () => (
                           />
                         </td>
                         <td>Bottom PLate</td>
-                        <td>1</td>
                         <td></td>
+                        <td>1</td>
                       </tr>
                       <tr>
                         <td>
@@ -185,23 +185,19 @@ const IndexPage = () => (
                             alt=""
                           />
                         </td>
-                        <td>
-                          Plexi Cover
-                          <br />
-                          PLACEHOLDER PIC
-                        </td>
-                        <td>1</td>
+                        <td>Plexi Cover</td>
                         <td></td>
+                        <td>1</td>
                       </tr>
                       <tr>
                         <td>
                           <img className="image table" src={picfeet} alt="" />
                         </td>
                         <td>3D-Printed Feet</td>
+                        <td></td>
                         <td>
                           1 Left <br /> 1 Right
                         </td>
-                        <td></td>
                       </tr>
                       <tr>
                         <td>
@@ -212,8 +208,8 @@ const IndexPage = () => (
                           />
                         </td>
                         <td>Rubber Feet</td>
-                        <td>6</td>
                         <td></td>
+                        <td>6</td>
                       </tr>
                       <tr>
                         <td>
@@ -224,8 +220,8 @@ const IndexPage = () => (
                           />
                         </td>
                         <td>Small Standoffs (M2x8mm)</td>
-                        <td>4</td>
                         <td></td>
+                        <td>4</td>
                       </tr>
                       <tr>
                         <td>
@@ -236,16 +232,16 @@ const IndexPage = () => (
                           />
                         </td>
                         <td>Big Standoffs (M2x14mm)</td>
-                        <td>4</td>
                         <td></td>
+                        <td>4</td>
                       </tr>
                       <tr>
                         <td>
                           <img className="image table" src={picscrews} alt="" />
                         </td>
                         <td>Screws (M2x5mm)</td>
-                        <td>16</td>
                         <td></td>
+                        <td>16</td>
                       </tr>
                       <tr>
                         <td>
@@ -259,16 +255,16 @@ const IndexPage = () => (
                           arrival. This ensures, that they are fully functioning
                           when you get them!{' '}
                         </td>
-                        <td>1</td>
                         <td>OL1</td>
+                        <td>1</td>
                       </tr>
                       <tr>
                         <td>
                           <img className="image table" src={picec11} alt="" />
                         </td>
                         <td>EC11 Rotary Encoder</td>
-                        <td>1</td>
                         <td>MX12</td>
+                        <td>1</td>
                       </tr>
                       <tr>
                         <td>
@@ -279,32 +275,32 @@ const IndexPage = () => (
                           />
                         </td>
                         <td>Aluminium Rotary Encoder Knob</td>
-                        <td>1</td>
                         <td></td>
+                        <td>1</td>
                       </tr>
                       <tr>
                         <td>
                           <img className="image table" src={picusb} alt="" />
                         </td>
                         <td>USB-C Port</td>
-                        <td>1</td>
                         <td>J1</td>
+                        <td>1</td>
                       </tr>
                       <tr>
                         <td>
                           <img className="image table" src={picbutton} alt="" />
                         </td>
                         <td>RESET and BOOT Buttons</td>
-                        <td>2</td>
                         <td>SW1, SW2</td>
+                        <td>2</td>
                       </tr>
                       <tr>
                         <td>
                           <img className="image table" src={picatmega} alt="" />
                         </td>
                         <td>ATMEGA328p Processor</td>
-                        <td>1</td>
                         <td>U1</td>
+                        <td>1</td>
                       </tr>
                       <tr>
                         <td>
@@ -316,8 +312,8 @@ const IndexPage = () => (
                           <br />
                           16MHz
                         </td>
-                        <td>1</td>
                         <td>Y1</td>
+                        <td>1</td>
                       </tr>
                       <tr>
                         <td>
@@ -329,8 +325,8 @@ const IndexPage = () => (
                           <br />
                           500mA
                         </td>
-                        <td>1</td>
                         <td>F1</td>
+                        <td>1</td>
                       </tr>
                       <tr>
                         <td>
@@ -350,8 +346,8 @@ const IndexPage = () => (
                           We will include a few extras of those to ensure you
                           have enough!
                         </td>
-                        <td>48</td>
                         <td>D1...48</td>
+                        <td>48</td>
                       </tr>
                       <tr>
                         <td>
@@ -367,8 +363,8 @@ const IndexPage = () => (
                           <br />
                           1N4729
                         </td>
-                        <td>2</td>
                         <td>D49, D50</td>
+                        <td>2</td>
                       </tr>
                       <tr>
                         <td>
@@ -380,8 +376,8 @@ const IndexPage = () => (
                           <br />
                           75Ohm
                         </td>
-                        <td>2</td>
                         <td>R3, R4</td>
+                        <td>2</td>
                       </tr>
                       <tr>
                         <td>
@@ -397,8 +393,8 @@ const IndexPage = () => (
                           <br />
                           1.5kOhm
                         </td>
-                        <td>1</td>
                         <td>R6</td>
+                        <td>1</td>
                       </tr>
                       <tr>
                         <td>
@@ -414,8 +410,8 @@ const IndexPage = () => (
                           <br />
                           5.1kOhm
                         </td>
-                        <td>2</td>
                         <td>R1, R2</td>
+                        <td>2</td>
                       </tr>
                       <tr>
                         <td>
@@ -427,8 +423,8 @@ const IndexPage = () => (
                           <br />
                           10kOhm
                         </td>
-                        <td>1</td>
                         <td>R5</td>
+                        <td>1</td>
                       </tr>
                       <tr>
                         <td>
@@ -444,8 +440,8 @@ const IndexPage = () => (
                           <br />
                           20pF
                         </td>
-                        <td>2</td>
                         <td>C3, C4</td>
+                        <td>2</td>
                       </tr>
                       <tr>
                         <td>
@@ -457,8 +453,8 @@ const IndexPage = () => (
                           <br />
                           0.1uF
                         </td>
-                        <td>2</td>
                         <td>C1, C2</td>
+                        <td>2</td>
                       </tr>
                       <tr>
                         <td>
@@ -476,8 +472,8 @@ const IndexPage = () => (
                           fit in our PCB. You will get the nicest looking bends
                           this way!
                         </td>
-                        <td>1</td>
                         <td></td>
+                        <td>1</td>
                       </tr>
                       <tr>
                         <td>
@@ -494,8 +490,8 @@ const IndexPage = () => (
                           This allan key fits the M2 Hex Screws that are needed
                           for assembly!
                         </td>
-                        <td>1</td>
                         <td></td>
+                        <td>1</td>
                       </tr>
                     </tbody>
                   </table>
@@ -580,23 +576,94 @@ const IndexPage = () => (
                   <span className="image left">
                     <img src={pictopdownic} alt="" />
                   </span>
+                  <br />
+                  <br />
                   Here we will go a little into how to solder the PCB. For all
                   the components you will find the names, references and
-                  pictures of the component in the table of contents. You then
-                  can head over to the{' '}
-                  <Link to="#pnp">component placement</Link> section and look at
-                  the interactive BOM. We will explain how you work with that
-                  there.
+                  pictures of the component in the{' '}
+                  <Link to="#parts">packing list</Link>. You then can head over
+                  to the <Link to="#pnp">component placement</Link> section and
+                  look at the interactive BOM. We will explain how you work with
+                  that there.
                   <br />
                   <br />
-                  For all of you that haven't soldered before:
+                  <br />
+                  <br />
+                  PLease head over to these sections to read a bit about
+                  soldering. We go over some basic soldering techniques but also
+                  some Static specific stuff!
+                  <br />
                   <br />
                   You can find a little explanation to soldering though hole
-                  components <Link to="#tools">here</Link>. <br />A little
+                  components <Link to="#throughhole">here</Link>. <br />A little
                   explanation on soldering a USB-C port{' '}
                   <Link to="#tools">here</Link>. <br />
                   And a explanation how to solder the OLED and EC11{' '}
                   <Link to="#tools">here</Link>.
+                </p>
+              </div>
+            </div>
+          </section>
+          <section id="throughhole" className="wrapper">
+            <div className="inner">
+              <div className="content">
+                <h2 className="major">Soldering through hole components</h2>
+                <p>
+                  <span className="image left">
+                    <img src={picplaceholder} alt="" />
+                  </span>
+                  <br />
+                  For most through hole components you have to bend the legs
+                  first! When soldering the small diodes you can use our diode
+                  bender, to get clean bends, but for the rest just look at the
+                  distance the holes on the pcb are apart and bend the
+                  components accordingly by hand.
+                  <br /> This of course doesn't apply to the controller, BOOT
+                  and RESET buttons, USB port, OLED and EC11 because those don't
+                  have long legs... Those components can just be placed in the
+                  right holes and soldereed in place.
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <span className="image right">
+                    <img src={picplaceholder} alt="" />
+                  </span>
+                  Then you can just go ahead and place the component at the
+                  right spot on the PCB.
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <span className="image left">
+                    <img src={picplaceholder} alt="" />
+                  </span>
+                  Bend the legs of the component on the other side to hold it in
+                  place so you can solder it easily.
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <span className="image right">
+                    <img src={picplaceholder} alt="" />
+                  </span>
+                  Now add a bit of solder to each solder joint of the
+                  component!.
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
+                  <br />
                 </p>
               </div>
             </div>
@@ -609,19 +676,21 @@ const IndexPage = () => (
                   Here you have an interactive map to place components. This
                   shows you which component has to be placed where. You go from
                   top to bottom to get a good point of reference for the order
-                  you should place them in. This doesn't matter in the end in
-                  which order you place the components, but it makes it easier
-                  for soldering. You can always find the name and the
-                  referenceof the component in the Packing List and see photos
-                  of everything (especially usefull for the resistors). You can
-                  also find those names in the Value Row. When you hover over
-                  one element it will show that to you with a red outline on the
-                  right PCB. You can also use the References (C3 for example)
-                  and find that name printed on the PCB also. You then just go
+                  you should place them in. This doesn't matter in the end but
+                  it makes it easier for soldering. You can always find the name
+                  and the reference of the component in the Packing List and see
+                  photos of everything (especially usefull for the resistors).
+                  The reference consists of a letter and a number. Those "codes"
+                  are also printed on the PCB so you can just use the references
+                  to see, where something has to be placed. When you hover over
+                  one element in the intercative BOM it will also show that to
+                  you with a red outline on the right PCB. You then just go
                   ahead and place every component and solder it in place.
+                  <br />
                   <br />
                   <br /> If you want to see the interactive BOM in full screen
                   just click here:
+                  <br />
                   <br />
                   <a
                     href="https://files.0xcb.dev/0xCB/static/humanpnp.html"
