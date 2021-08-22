@@ -22,16 +22,6 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={(e) => {
                 onMenuToggle();
               }}
-              to="https://blog.0xcb.dev"
-            >
-              Conor's Blog
-            </Link>
-          </li>
-          <li>
-            <Link
-              onClick={(e) => {
-                onMenuToggle();
-              }}
               to="/instructions"
             >
               Instructions

@@ -93,15 +93,14 @@ const IndexPage = () => (
                 on the different sections and it will take you there!
                 <br />
                 <br />
-                Also please read the whole assembly instruction onces before
-                building and onces during the build to make sure you do
+                Also please read the whole assembly instruction once before
+                building and once during the build to make sure you do
                 everything right!
                 <br />
                 <br />
                 If you have any problems during assembly don't hesitate to shoot
-                us a e-mail or just ask over at our discord.
+                us an e-mail or just ask over at our discord.
               </p>
-
               <div className="row">
                 <div className="col">
                   <ul className="actions">
@@ -480,8 +479,8 @@ const IndexPage = () => (
                 <thead>
                   <tr>
                     <th>Pic</th>
+                    <th>Part</th>
                     <th>Description</th>
-                    <th>Quantity</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -493,14 +492,12 @@ const IndexPage = () => (
                         alt=""
                       />
                     </td>
+                    <td>Flush Cutters</td>
                     <td>
-                      Flush Cutters
-                      <br />
-                      <br />
+                      {' '}
                       You will need these to clip off the legs of the through
                       hole components.
                     </td>
-                    <td>1</td>
                   </tr>
                   <tr>
                     <td>
@@ -510,28 +507,56 @@ const IndexPage = () => (
                         alt=""
                       />
                     </td>
+                    <td>Soldering Iron</td>
                     <td>
-                      Soldering Iron
-                      <br />
-                      <br />
+                      {' '}
                       We recomment a good soldering iron especially for
                       soldering the USB port!
                     </td>
-                    <td>1</td>
                   </tr>
                   <tr>
                     <td>
                       <img className="image table" src={picsolder} alt="" />
                     </td>
+                    <td>Solder</td>
                     <td>
-                      Solder
-                      <br />
-                      <br />
                       Please use high quality solder (flux core or apply flux
                       externally) to make your life easier when soldering this
                       kit!
                     </td>
-                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img
+                        className="image table"
+                        src={picplaceholder}
+                        alt=""
+                      />
+                    </td>
+                    <td>extra flux / flux pen</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img
+                        className="image table"
+                        src={picplaceholder}
+                        alt=""
+                      />
+                    </td>
+                    <td>isopropyl alcohol / PCB cleaner</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img
+                        className="image table"
+                        src={picplaceholder}
+                        alt=""
+                      />
+                    </td>
+                    <td>Brass sponge</td>
+                    <td></td>
                   </tr>
                 </tbody>
               </table>
