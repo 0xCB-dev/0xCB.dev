@@ -41,7 +41,6 @@ import picbenderender from 'assets/images/static/instructions/si-diode-bender.jp
 import picflushcutters from 'assets/images/static/instructions/si-flush-cutters.jpg';
 import picplaceholder from 'assets/images/placeholder.jpg';
 import picscroller from 'assets/images/up.png';
-
 import picusb4soldered from 'assets/images/static/instructions/si-usb-bottom-4soldered.jpg';
 import picusb1soldered from 'assets/images/static/instructions/si-usb-bottom-1soldered.jpg';
 import picirontip from 'assets/images/static/instructions/si-irontip.jpg';
@@ -56,6 +55,10 @@ import piclegssoldered from 'assets/images/static/instructions/si-legs-soldered.
 import piclegsclipped from 'assets/images/static/instructions/si-legs-clipped.jpg';
 import piclegsbend from 'assets/images/static/instructions/si-legs-bend.jpg';
 import piccapinplace from 'assets/images/static/instructions/si-cap-in-place.jpg';
+import picrotarysoldered from 'assets/images/static/instructions/si-rotary-soldered.jpg';
+import picrotarynotsoldered from 'assets/images/static/instructions/si-rotary-not-soldered.jpg';
+import picrotarysmolpins from 'assets/images/static/instructions/si-rotary-smol-pins.jpg';
+import picrotarybigpins from 'assets/images/static/instructions/si-rotary-big-pins.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -104,7 +107,9 @@ const IndexPage = () => (
             </div>
             <div className="col-6 col-12-medium">
               <p>
-                Here you can find the instructions for the 0xCB Static!
+                Here you can find the instructions for the 0xCB Static! For the
+                best experience please make sure to view them on a big monitor
+                or a laptop and not on your mobile device!
                 <br />
                 <br />
                 You can use the Table of Content for easy navigation. Just click
@@ -827,10 +832,9 @@ const IndexPage = () => (
             </span>
             <br />
             <br />
-            Start by flipping the board around and taking a good look at the USB
-            Port. Does it sit good in there? Are all pins looking good? You can
-            see if the port wiggles a bit. That usually means that it sits good
-            in there!
+            Now flip the board around and take a good look at the USB Port. Does
+            it sit good in there? Are all pins looking good? You can see if the
+            port wiggles a bit. That usually means that it sits good in there!
             <br />
             <br />
             <br />
@@ -1020,12 +1024,18 @@ const IndexPage = () => (
             <br />
             <br />
             <br />
+            <br />
+            <br />
+            <br />
             Soldering an Encoder is just as easy as soldering your switches!
             <br />
             <br />
             <br />
+            <br />
+            <br />
+            <br />
             <span className="image right">
-              <img src={picplaceholder} alt="" />
+              <img src={picrotarybigpins} alt="" />
             </span>
             <br />
             <br />
@@ -1036,26 +1046,37 @@ const IndexPage = () => (
             <br />
             <br />
             <span className="image left">
-              <img src={picplaceholder} alt="" />
+              <img src={picrotarysmolpins} alt="" />
             </span>
             <br />
             <br />
             <br />
             The Encoder also has two small pins on one side and three on the
             other. This is great, because it means you cannot put the encoder
-            into the PCB the wrong way around! So go ahead and do that now. The
-            two big pins should hold it in there good.
+            into the PCB the wrong way around!
             <br />
             <br />
             <br />
             <span className="image right">
-              <img src={picplaceholder} alt="" />
+              <img src={picrotarynotsoldered} alt="" />
             </span>
             <br />
             <br />
             <br />
-            Now you can go ahead and just solder all the pins. The two big ones
-            take quite a lot of solder so don't be suprised!
+            So go ahead and do that now. The two big pins should hold it in
+            there good.
+            <br />
+            <br />
+            <br />
+            <span className="image left">
+              <img src={picrotarysoldered} alt="" />
+            </span>
+            <br />
+            <br />
+            <br />
+            You can now go ahead and solder the big pins forst and then the 5
+            small pins. The big pins take quite a bit of solder, so just keep
+            feeding solder in there until you see a nice coverage of solder.
             <br />
             <br />
             <br />
