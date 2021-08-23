@@ -42,6 +42,21 @@ import picflushcutters from 'assets/images/static/instructions/si-flush-cutters.
 import picplaceholder from 'assets/images/placeholder.jpg';
 import picscroller from 'assets/images/up.png';
 
+import picusb4soldered from 'assets/images/static/instructions/si-usb-bottom-4soldered.jpg';
+import picusb1soldered from 'assets/images/static/instructions/si-usb-bottom-1soldered.jpg';
+import picirontip from 'assets/images/static/instructions/si-irontip.jpg';
+import picusbstart from 'assets/images/static/instructions/si-usb-start.jpg';
+import picusbcrooked from 'assets/images/static/instructions/si-usb-crooked.jpg';
+import picusbpartly from 'assets/images/static/instructions/si-usb-bottom-partlysoldered.jpg';
+import picusbbottom from 'assets/images/static/instructions/si-usb-bottom.jpg';
+import picusbcloseup from 'assets/images/static/instructions/si-usb-closeup.jpg';
+import picusbfully from 'assets/images/static/instructions/si-usb-bottom-fullysoldered.jpg';
+import picresistorbend from 'assets/images/static/instructions/si-resistorbend.jpg';
+import piclegssoldered from 'assets/images/static/instructions/si-legs-soldered.jpg';
+import piclegsclipped from 'assets/images/static/instructions/si-legs-clipped.jpg';
+import piclegsbend from 'assets/images/static/instructions/si-legs-bend.jpg';
+import piccapinplace from 'assets/images/static/instructions/si-cap-in-place.jpg';
+
 const IndexPage = () => (
   <Layout fullMenu>
     <section id="wrapper">
@@ -69,7 +84,7 @@ const IndexPage = () => (
                       <Link to="#pnp">Interactive BOM / human PnP</Link>
                     </li>
                     <li>
-                      <Link to="#tht">Through Hole Components</Link>
+                      <Link to="#throughhole">Through Hole Components</Link>
                     </li>
                     <li>
                       <Link to="#usb">USB-C Port</Link>
@@ -710,29 +725,29 @@ const IndexPage = () => (
       <section id="throughhole" className="wrapper style3">
         <div className="inner">
           <div className="content">
-            <h2 className="major">Soldering through hole components</h2>
+            <h2 className="major">Soldering basic through hole components</h2>
             <p>
               <span className="image left">
-                <img src={picplaceholder} alt="" />
+                <img src={picresistorbend} alt="" />
               </span>
-              <br />
               For most through hole components you have to bend the legs first!
               When soldering the small diodes you can use our diode bender, to
               get clean bends, but for the rest just look at the distance the
               holes on the pcb are apart and bend the components accordingly by
               hand.
-              <br /> This of course doesn't apply to the controller, BOOT and
-              RESET buttons, USB port, OLED and EC11 because those don't have
-              long legs... Those components can just be placed in the right
-              holes and soldereed in place.
-              <br />
-              <br />
+              <br /> This of course doesn't apply to all of the parts. Just take
+              a good look at each part and see if you can fit it in without
+              bending the legs. If so, just put them in there! If not, go ahead
+              and bend the legs accordingly.
               <br />
               <br />
               <br />
               <span className="image right">
-                <img src={picplaceholder} alt="" />
+                <img src={piccapinplace} alt="" />
               </span>
+              <br />
+              <br />
+              <br />
               Then you can just go ahead and place the component at the right
               spot on the PCB.
               <br />
@@ -740,32 +755,50 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
+              <br />
               <span className="image left">
-                <img src={picplaceholder} alt="" />
+                <img src={piclegsbend} alt="" />
               </span>
-              Bend the legs of the component on the other side to hold it in
-              place so you can solder it easily.
+              <br />
+              <br />
+              Now flip the PCB over. It is important to note that ALL soldering
+              will take place on the bottom of the PCB! Now bend the legs of the
+              component to hold it in place so you can solder it easily.
               <br />
               <br />
               <br />
               <br />
               <br />
               <span className="image right">
-                <img src={picplaceholder} alt="" />
+                <img src={piclegssoldered} alt="" />
               </span>
-              Now add a bit of solder to each solder joint of the component!.
+              <br />
+              <br />
+              Now add a bit of solder to each solder joint of the component! If
+              you think you added too little just add a little more. Through
+              Hole components are really forgiving with solder. Just make sure
+              no two solder joints are touching!
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <span className="image left">
+                <img src={piclegsclipped} alt="" />
+              </span>
+              <br />
+              <br />
+              When you are happy with your solder joints, go ahead and clip the
+              legs off with your flush cutters.
               <br />
               <br />
               <br />
               <br />
               <br />
               <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
+              You are now done with your first soldered through hole component.
+              Great job! You can repeat those steps for all basic components on
+              this board like the resistors, capacitors and diodes!
             </p>
           </div>
         </div>
@@ -774,6 +807,132 @@ const IndexPage = () => (
         <div className="inner">
           <div className="content">
             <h2 className="major">Soldering the USB-C Port</h2>
+            <span className="image left">
+              <img src={picusbstart} alt="" />
+            </span>
+            <br />
+            Soldering the USB Port is always the most challenging part of any
+            build! We recommend starting with it, because it is easiest when no
+            other component is in the PCB.
+            <br />
+            <br />
+            Start by placing the USB Port in the PCB on the side, that has all
+            the printing for the components on it. It should go in super easy.
+            If you need to use any kind of force you are doing it wrong! Just
+            let it slide in there.
+            <br />
+            <br />
+            <span className="image right">
+              <img src={picusbbottom} alt="" />
+            </span>
+            <br />
+            <br />
+            Start by flipping the board around and taking a good look at the USB
+            Port. Does it sit good in there? Are all pins looking good? You can
+            see if the port wiggles a bit. That usually means that it sits good
+            in there!
+            <br />
+            <br />
+            <br />
+            <br />
+            <span className="image left">
+              <img src={picusb1soldered} alt="" />
+            </span>
+            <br />
+            Now you can add solder to one of the big pins of the USB port.
+            Please be patient and really only do one! ;) Just hold the soldering
+            iron on the pin for a while and then slowly add solder. If all goes
+            well it should flow into the hole around the pin and you should be
+            able to see a bit of solder on the other side.
+            <br />
+            <br />
+            <br />
+            <span className="image right">
+              <img src={picusbcrooked} alt="" />
+            </span>
+            <br />
+            <br />
+            Now look at the top of the USB port if it sits straight in there. If
+            it is not straight (Like on the pic to the right) you can go ahead
+            and put the soldering iron on the joint and heat it up again. Now
+            grab a pair of tweezers and position the USB port so that it sits
+            straight. Don't touch it with your hands! The whole housing will get
+            hot!
+            <br />
+            <br />
+            <br />
+            <br />
+            <span className="image left">
+              <img src={picusb4soldered} alt="" />
+            </span>
+            <br />
+            <br />
+            After that you can go ahead and solder the other three big pins of
+            the USB port. Those should go the same as the first one. Just let
+            your soldering iron rest on the joint a bit, add solder to it and
+            let it flow into the holes around the pins.
+            <br />
+            <br />
+            <br />
+            <br />
+            <span className="image right">
+              <img src={picirontip} alt="" />
+            </span>
+            <br />
+            <br />
+            If you have extra flux add that to the little pins of the USB port
+            now! Also go ahead and add a little bit of solder to your soldering
+            iron now. You will use it in the next step.
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <span className="image left">
+              <img src={picusbpartly} alt="" />
+            </span>
+            <br />
+            <br />
+            Take your soldering iron and rub it over the little pins. The solder
+            should flow nicely into the cavities.
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <span className="image right">
+              <img src={picusbfully} alt="" />
+            </span>
+            <br />
+            <br />
+            If you didn't add enough just go over the pins again with a bit of
+            new solder. But be careful! Here it is crucial to not add a lot of
+            solder! So be careful when soldering.
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <span className="image left">
+              <img src={picusbcloseup} alt="" />
+            </span>
+            <br />
+            <br />
+            Here is a close up of an USB port. It should look like this. No pin
+            is touching another one. If there are pins toughing each other go
+            over there again with the soldering iron and kind of wipe the solder
+            off of there. Before that it's also great if you have a brass sponge
+            to clean your tip of the soldering iron!
+            <br />
+            <br />
+            <br />
+            <br />
+            And that's it! You soldered your (maybe first) USB Port! Godd job!
+            You are now good to go to solder all the other components in there!
+            <br />
+            <br />
+            <br />
+            <br />
           </div>
         </div>
       </section>
