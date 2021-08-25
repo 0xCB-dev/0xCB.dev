@@ -70,6 +70,9 @@ import picfrontside from 'assets/images/static/instructions/si-front-side.jpg';
 import picfeetscrews from 'assets/images/static/instructions/si-feet-screws.jpg';
 import picbottomplateview from 'assets/images/static/instructions/si-bottom-plate-view.jpg';
 import picbottomscrews from 'assets/images/static/instructions/si-bottom-plate-screws.jpg';
+import picflux from 'assets/images/static/instructions/si-flux.jpg';
+import piciso from 'assets/images/static/instructions/si-iso.jpg';
+import picbrasssponge from 'assets/images/static/instructions/si-brass-sponge.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -587,7 +590,7 @@ const IndexPage = () => (
                     <td>
                       <img
                         className="image table"
-                        src={picplaceholder}
+                        src={picflux}
                         alt=""
                       />
                     </td>
@@ -602,7 +605,7 @@ const IndexPage = () => (
                     <td>
                       <img
                         className="image table"
-                        src={picplaceholder}
+                        src={piciso}
                         alt=""
                       />
                     </td>
@@ -616,7 +619,7 @@ const IndexPage = () => (
                     <td>
                       <img
                         className="image table"
-                        src={picplaceholder}
+                        src={picbrasssponge}
                         alt=""
                       />
                     </td>
