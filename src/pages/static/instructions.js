@@ -59,6 +59,17 @@ import picrotarysoldered from 'assets/images/static/instructions/si-rotary-solde
 import picrotarynotsoldered from 'assets/images/static/instructions/si-rotary-not-soldered.jpg';
 import picrotarysmolpins from 'assets/images/static/instructions/si-rotary-smol-pins.jpg';
 import picrotarybigpins from 'assets/images/static/instructions/si-rotary-big-pins.jpg';
+import picstandoffsmounted from 'assets/images/static/instructions/si-stand-offs-mounted.jpg';
+import picrubberfeetmounted from 'assets/images/static/instructions/si-rubber-feet-mounted.jpg';
+import picoledstraight from 'assets/images/static/instructions/si-oled-straight.jpg';
+import picolednotsoldered from 'assets/images/static/instructions/si-oled-not-soldered.jpg';
+import picoledbenderender from 'assets/images/static/instructions/si-oled-benderender.jpg';
+import picoled4soldered from 'assets/images/static/instructions/si-oled-4soldered.jpg';
+import picoled1soldered from 'assets/images/static/instructions/si-oled-1soldered.jpg';
+import picfrontside from 'assets/images/static/instructions/si-front-side.jpg';
+import picfeetscrews from 'assets/images/static/instructions/si-feet-screws.jpg';
+import picbottomplateview from 'assets/images/static/instructions/si-bottom-plate-view.jpg';
+import picbottomscrews from 'assets/images/static/instructions/si-bottom-plate-screws.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -945,66 +956,90 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">Soldering the OLED</h2>
             <span className="image left">
-              <img src={picplaceholder} alt="" />
+              <img src={picoled} alt="" />
             </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             Soldering an OLED Screen is not hard in a soldering kind of way, but
             it is challenging to get it to sit straight and look good!
             <br />
             <br />
             <br />
             <br />
+            <br />
+            <br />
+            <br />
             <span className="image right">
-              <img src={picplaceholder} alt="" />
+              <img src={picolednotsoldered} alt="" />
             </span>
+            <br />
+            <br />
+            <br />
             Start by just placing the OLED in there. It should face away from
             the diodes and to the rotary encoder.
             <br />
             <br />
             <br />
+            <br />
             <span className="image left">
-              <img src={picplaceholder} alt="" />
+              <img src={picoledbenderender} alt="" />
             </span>
+            <br />
+            <br />
             Now you can place the diode bender under the OLED. This ensures the
             right distance between the PCB and the OLED.
             <br />
             <br />
             <br />
+            <br />
             <span className="image right">
-              <img src={picplaceholder} alt="" />
+              <img src={picoled1soldered} alt="" />
             </span>
+            <br />
+            <br />
+            <br />
             Now flip over the PCB and solder one pin of the OLED. Preferably one
             of the outer ones.
             <br />
             <br />
             <br />
+            <br />
             <span className="image left">
-              <img src={picplaceholder} alt="" />
+              <img src={picoledstraight} alt="" />
             </span>
+            <br />
+            <br />
             You can now look if the OLED sits straight. If it does great job!
-            That's awesome. If not you can just bend it a bit in place.
+            That's awesome. If not you can just bend it a bit in place. Be
+            careful with that tho! The OLED is a very fragile part. Be sure to
+            grab it only by the PCB (the blue part) and not on the display
+            itself or the ribbon cable on the right.
             <br />
             <br />
             <br />
             <span className="image right">
-              <img src={picplaceholder} alt="" />
+              <img src={picoled4soldered} alt="" />
             </span>
+            <br />
+            <br />
+            <br />
             If you are satisfied with the result you can go ahead and solder the
             other three pins of the OLED.
             <br />
             <br />
             <br />
             <span className="image left">
-              <img src={picplaceholder} alt="" />
+              <img src={picoledrotary} alt="" />
             </span>
+            <br />
+            <br />
+            <br />
             You now have a great looking OLED in your Static! If you want you
             can peel off the little protective film now! You can also wait till
             you are all done with your Static of course.
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
             <br />
             <br />
             <br />
@@ -1064,14 +1099,15 @@ const IndexPage = () => (
             <br />
             <br />
             So go ahead and do that now. The two big pins should hold it in
-            there good.
+            there good. If some pins are bend during shipping it's really not a
+            problem. Just bend them back carefully so that they look straight
+            again!
             <br />
             <br />
             <br />
             <span className="image left">
               <img src={picrotarysoldered} alt="" />
             </span>
-            <br />
             <br />
             <br />
             You can now go ahead and solder the big pins forst and then the 5
@@ -1113,8 +1149,87 @@ const IndexPage = () => (
               <span className="image left">
                 <img src={pictopdownic} alt="" />
               </span>
+              <br />
+              <br />
+              <br />
+              <br />
               Here we will go over all the steps you need to follow after you
               have soldered the PCB!
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <span className="image right">
+                <img src={picrubberfeetmounted} alt="" />
+              </span>
+              <br />
+              <br />
+              <br />
+              Start by placing the rubber feet in the little cutouts in the
+              3D-Printed Feet.
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <span className="image left">
+                <img src={picfeetscrews} alt="" />
+              </span>
+              <br />
+              <br />
+              <br />
+              Now go ahead and put screws in the holes through the feet. They
+              might need a bit of force to get in there, just push them in with
+              the allan key. We wanted it that way!
+              <br />
+              <br />
+              <br />
+              <br />
+              <span className="image right">
+                <img src={picbottomscrews} alt="" />
+              </span>
+              <br />
+              <br />
+              <br />
+              You can place the feets below the bottom plate.
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <span className="image left">
+                <img src={picbottomplateview} alt="" />
+              </span>
+              <br />
+              <br />
+              <br />
+              Make sure the bottom plate is the right way around for that! You
+              should be able to read the CB!
+              <br />
+              <br />
+              <br />
+              <br />
+              <span className="image right">
+                <img src={picfrontside} alt="" />
+              </span>
+              <br />
+              <br />
+              <br />
+              The Cutout for the feet and the bottom plate should align.
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <span className="image left">
+                <img src={picstandoffsmounted} alt="" />
+              </span>
+              <br />
+              <br />
+              <br />
+              After that you can screw the standoffs in there. The small ones go
+              to the front while the longer ones go in the back.
               <br />
               <br />
               <br />

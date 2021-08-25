@@ -6,7 +6,7 @@ import pichead from 'assets/images/static/index/static-full.jpg';
 import pictop from 'assets/images/static/index/static-top.jpg';
 import picplate from 'assets/images/static/index/static-plate.jpg';
 import picside from 'assets/images/static/index/static-side.jpg';
-import piclayout from 'assets/images/static/index/static-layout.png';
+import piclayout from 'assets/images/static/index/static-layout.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
