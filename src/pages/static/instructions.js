@@ -588,11 +588,7 @@ const IndexPage = () => (
                 <tbody>
                   <tr>
                     <td>
-                      <img
-                        className="image table"
-                        src={picflux}
-                        alt=""
-                      />
+                      <img className="image table" src={picflux} alt="" />
                     </td>
                     <td>extra flux / flux pen</td>
                     <td>
@@ -603,11 +599,7 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img
-                        className="image table"
-                        src={piciso}
-                        alt=""
-                      />
+                      <img className="image table" src={piciso} alt="" />
                     </td>
                     <td>isopropyl alcohol / PCB cleaner</td>
                     <td>

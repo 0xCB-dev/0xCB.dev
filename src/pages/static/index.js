@@ -7,6 +7,7 @@ import pictop from 'assets/images/static/index/static-top.jpg';
 import picplate from 'assets/images/static/index/static-plate.jpg';
 import picside from 'assets/images/static/index/static-side.jpg';
 import piclayout from 'assets/images/static/index/static-layout.jpg';
+import picbg from 'assets/images/bg.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -18,25 +19,16 @@ const IndexPage = () => (
       </header>
       <section className="wrapper style1">
         <div className="inner">
-          <img className="image fit" src={pichead} alt="" />
+          <img className="image fit" src={picbg} alt="" />
           <div className="content">
             <p>
-              Meet the 0xCB Static. After the launch of our macro pad, we wanted
-              to do something bigger. So we made a 40% keyboard with an
-              industrial design. This is an interest check to see, what you guys
-              think of it.
+              Here it is! The 0xCB Static. Feel free to scroll through here and
+              learn a bit about its features and look at a few nice pics of it!{' '}
               <br />
               <br />
-              <span>
-                <a
-                  href="https://forms.gle/jWJwK8SiRSpQJb8X8"
-                  rel="noreferrer"
-                  target="_blank"
-                  className="button primary fit"
-                >
-                  Feel free to vote here
-                </a>
-              </span>
+              <br />
+              As always head over to our Discord to always get the latest news
+              and just to hang out with us:
               <br />
               <br />
               <span>
@@ -86,8 +78,9 @@ const IndexPage = () => (
               prefer it that way. It has a USB-C port on the back for you to
               connect it to your computer. With the rotary controller, you can
               control your volume and on the OLED screen, there will be info
-              about what layer you are on. It will also display when your Caps
-              or Num Lock is on.
+              about what layer you are on and if Caps or Numlock is on. We also
+              added a second Layer to the OLED that you can switch to which
+              shows BongoCat which is animated when you begin typing.
               <br />
               <br />
               <br />
@@ -102,19 +95,9 @@ const IndexPage = () => (
               <span className="image fit">
                 <img src={picplate} alt="" />
               </span>
-              The plate will be available in aluminum or in FR4. The bottom
-              plate will be available in Stainless Steel or FR4. The PCB and FR4
-              Plates will be available in black or white. The 3D-Printed feet
-              will also come in black or white depending what color you choose
-              from. So there will be 4 keyboards for you to choose from:
-              <br />
-              <br />
-              - FR4 completely black <br />
-              - FR4 completely white <br />
-              - aluminum plate and stainless steel bottom piece with black PCB
-              and black feets <br />
-              - aluminum plate and stainless steel bottom piece with white PCB
-              and white feets <br />
+              The base kits for the Static will feature black or white FR4
+              plates. However you can get a stainless steel and aluminium extra
+              to replace them with a higher quality feeling metal.
             </p>
           </div>
         </div>
@@ -133,28 +116,6 @@ const IndexPage = () => (
                 <img src={piclayout} alt="" />
               </span>
             </p>
-            <ul className="actions">
-              <li>
-                <a
-                  href="https://forms.gle/jWJwK8SiRSpQJb8X8"
-                  rel="noreferrer"
-                  target="_blank"
-                  className="button primary fit"
-                >
-                  Feel free to vote here
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://discord.gg/WpmFC2NRWV"
-                  rel="noreferrer"
-                  target="_blank"
-                  className="button primary fit"
-                >
-                  Join us on Discord ;)
-                </a>
-              </li>
-            </ul>
           </div>
         </div>
       </section>

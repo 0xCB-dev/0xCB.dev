@@ -44,13 +44,14 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">1337</h2>
             <p>
-              0xCB 1337 is our custom-made Macropad. You can program it with QMK
-              and VIA, software that is the golden standard for custom
-              Keyboards. You have 4 Layers on the Keyboard that you can cycle
-              through. It features a Rotary Encoder from which you can control
-              your Sound. On our OLED Screen, you can see the Layers your on and
-              the RGB Settings. Our Keyboard also features RGB lighting at the
-              Bottom and a white backlight for your Keycaps.
+              In 2020, the 0xCB 1337 was our first foray into the custom
+              mechanical keyboard scene. It is a feature rich macropad, fully
+              programmable with QMK and VIA both of which are considered the
+              gold standard for keyboard firmware! In addition to 4 seperate
+              function layers, it features a rotary encoder for volume control,
+              RGB underglow and white per-key lighting, not to mention a very
+              snazzy OLED that displays information like your current layer/RGB
+              settings/etc.!
             </p>
           </div>
         </div>
@@ -63,10 +64,13 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">Static</h2>
             <p>
-              Meet the 0xCB Static. After the launch of our macro pad, we wanted
-              to do something bigger. So we made a 40% keyboard with an
-              industrial design. This is an interest check to see, what you guys
-              think of it.
+              After we saw how well recieved our 1337 macropads were, we quickly
+              realized that we wanted to try something even bigger and better.
+              We put our heads together and made a list of every feature we
+              would want in our own dream 40% keeb, and after many hours in the
+              lab we're extra proud of what we've come up with. We're very
+              excited to introduce you to our newest addition to the OxCB
+              family, the Static!
             </p>
           </div>
         </div>
@@ -78,7 +82,11 @@ const IndexPage = () => (
           </a>
           <div className="content">
             <h2 className="major">Instructions</h2>
-            <p>Here you can find the instructions for our keyboards.</p>
+            <p>
+              This is where you'll find our detailed build guides for both the
+              1337 macropad and Static 40% keyboard. Please click through for
+              more!
+            </p>
           </div>
         </div>
       </section>
