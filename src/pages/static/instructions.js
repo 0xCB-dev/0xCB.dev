@@ -491,10 +491,10 @@ const IndexPage = () => (
                       <img className="image table" src={picallankey} alt="" />
                     </td>
                     <td>
-                      Allan Key
+                      Allen Key
                       <br />
                       <br />
-                      This allan key fits the M2 Hex Screws that are needed for
+                      This allen key fits the M2 Hex Screws that are needed for
                       assembly!
                     </td>
                     <td></td>
@@ -1176,7 +1176,7 @@ const IndexPage = () => (
               <br />
               Now go ahead and put screws in the holes through the feet. They
               might need a bit of force to get in there, just push them in with
-              the allan key. We wanted it that way!
+              the allen key. We wanted it that way!
               <br />
               <br />
               <br />
