@@ -73,6 +73,7 @@ import picbottomscrews from 'assets/images/static/instructions/si-bottom-plate-s
 import picflux from 'assets/images/static/instructions/si-flux.jpg';
 import piciso from 'assets/images/static/instructions/si-iso.jpg';
 import picbrasssponge from 'assets/images/static/instructions/si-brass-sponge.jpg';
+import picoled11 from 'assets/images/static/instructions/si-oled11.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -280,7 +281,7 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img className="image table" src={picoled} alt="" />
+                      <img className="image table" src={picoled11} alt="" />
                     </td>
                     <td>
                       OLED Screen
