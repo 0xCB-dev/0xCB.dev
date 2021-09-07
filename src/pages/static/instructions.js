@@ -956,13 +956,8 @@ const IndexPage = () => (
             <br />
             <br />
             <br />
-            <br />
-            <br />
             Soldering an OLED Screen is not hard in a soldering kind of way, but
             it is challenging to get it to sit straight and look good!
-            <br />
-            <br />
-            <br />
             <br />
             <br />
             <br />
