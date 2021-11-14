@@ -4,7 +4,7 @@
   "description": "https://0xcb.dev",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/conor-burns/0xcb.dev.git"
+    "url": "git+https://github.com/0xcb-dev/0xcb.dev.git"
   },
   "author": {
     "name": "Conor Burns",

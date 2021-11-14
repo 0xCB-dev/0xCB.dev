@@ -96,11 +96,11 @@ const IndexPage = () => (
                   <Link to="#tools">Required Supplies</Link>
                 </li>
                 <li>
+                  <Link to="#opttools">Optional Supplies</Link>
+                </li>
+                <li>
                   <Link to="#solder">Soldering</Link>
                   <ul>
-                    <li>
-                      <Link to="#pnp">Interactive BOM / human PnP</Link>
-                    </li>
                     <li>
                       <Link to="#throughhole">Through Hole Components</Link>
                     </li>
@@ -112,6 +112,9 @@ const IndexPage = () => (
                     </li>
                     <li>
                       <Link to="#enc">EC11</Link>
+                    </li>
+                    <li>
+                      <Link to="#pnp">Interactive BOM / human PnP</Link>
                     </li>
                   </ul>
                 </li>
@@ -127,13 +130,13 @@ const IndexPage = () => (
                 or a laptop and not on your mobile device!
                 <br />
                 <br />
-                You can use the Table of Content for easy navigation. Just click
-                on the different sections and it will take you there!
-                <br />
-                <br />
                 Also please read the whole assembly instruction once before
                 building and once during the build to make sure you do
                 everything right!
+                <br />
+                <br />
+                You can use the Table of Content for easy navigation. Just click
+                on the different sections and it will take you there!
                 <br />
                 <br />
                 If you have any problems during assembly don't hesitate to shoot
@@ -267,7 +270,7 @@ const IndexPage = () => (
                         alt=""
                       />
                     </td>
-                    <td>Big Standoffs (M2x14mm)</td>
+                    <td>Big Standoffs (M2x12mm)</td>
                     <td></td>
                     <td>4</td>
                   </tr>
@@ -569,7 +572,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="tools" className="wrapper style1">
+      <section id="opttools" className="wrapper style1">
         <div className="inner">
           <div className="content">
             <h2 className="major">Optional Supplies</h2>
@@ -724,6 +727,8 @@ const IndexPage = () => (
               These include:
               <br />- how to solder basic through hole components
               <Link to="#tht"> here</Link>
+              <br />- see the two parts where orientation matters
+              <Link to="#orient"> here</Link>
               <br />- how to solder the USB-C port
               <Link to="#usb"> here</Link>
               <br />- how to solder the OLED screen
@@ -815,7 +820,67 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="usb" className="wrapper style4 alt">
+      <section id="orient" className="wrapper style4 alt">
+        <div className="inner">
+          <div className="content">
+            <h2 className="major">Orientation of the components</h2>
+            <p>
+              <span className="image left">
+                <img src={picplaceholder} alt="" />
+              </span>
+              <br />
+              <br />
+              There are only two components on the kit where orientation
+              matters. All the other ones either only fit in one way or the
+              orientaion doesn't matter on those.
+              <br />
+              <br />
+              <span className="image right">
+                <img src={picatmegatopdown} alt="" />
+              </span>
+              <br />
+              <br />
+              <br />
+              The controller is the first one. You can see the little half
+              circle on the right. This has to align with the half circle on the
+              PCB.
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <span className="image left">
+                <img src={picplaceholder} alt="" />
+              </span>
+              <br />
+              <br />
+              While putting in the controller you also need to bend the legs to
+              get it to fit. It is best to bend them all at ones on the table.
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <span className="image right">
+                <img src={picplaceholder} alt="" />
+              </span>
+              <br />
+              <br />
+              The other part where orientation matters are the diodes. We have
+              to types in the Kit, two large and 50 small ones. Both function
+              the same tho. You have one black circle on the diode and one black
+              line on the PCB. These should align.
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="usb" className="wrapper style3">
         <div className="inner">
           <div className="content">
             <h2 className="major">Soldering the USB-C Port</h2>
@@ -947,7 +1012,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="oled" className="wrapper style3">
+      <section id="oled" className="wrapper style2 alt">
         <div className="inner">
           <div className="content">
             <h2 className="major">Soldering the OLED</h2>
@@ -1040,7 +1105,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="enc" className="wrapper style2 alt">
+      <section id="enc" className="wrapper style1">
         <div className="inner">
           <div className="content">
             <h2 className="major">Soldering the Encoder (EC11)</h2>
@@ -1112,7 +1177,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="pnp" className="wrapper style1">
+      <section id="pnp" className="wrapper style2 alt">
         <div className="inner">
           <div className="content">
             <h2 className="major">Interactive BOM / human PnP</h2>
@@ -1134,7 +1199,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="ass" className="wrapper style2 alt">
+      <section id="ass" className="wrapper style3">
         <div className="inner">
           <div className="content">
             <h2 className="major">Assembling the keyboard</h2>
@@ -1281,7 +1346,7 @@ const IndexPage = () => (
               <br />
               <br />
               <span className="image right">
-                <img src={picfrontside} alt="" />
+                <img src={picplaceholder} alt="" />
               </span>
               <br />
               <br />
@@ -1295,7 +1360,7 @@ const IndexPage = () => (
               <br />
               <br />
               <span className="image left">
-                <img src={picstandoffsmounted} alt="" />
+                <img src={picplaceholder} alt="" />
               </span>
               <br />
               <br />
@@ -1307,7 +1372,7 @@ const IndexPage = () => (
               <br />
               <br />
               <span className="image right">
-                <img src={picfrontside} alt="" />
+                <img src={picplaceholder} alt="" />
               </span>
               <br />
               <br />
@@ -1321,7 +1386,7 @@ const IndexPage = () => (
               <br />
               <br />
               <span className="image left">
-                <img src={picstandoffsmounted} alt="" />
+                <img src={picplaceholder} alt="" />
               </span>
               <br />
               <br />
@@ -1340,7 +1405,7 @@ const IndexPage = () => (
               <br />
               <br />
               Now just place the rotary knob on the encoder and screw in the
-              little nut with the larger allan key we included.
+              little nut with the larger allen key we included.
               <br />
               <br />
               <br />
