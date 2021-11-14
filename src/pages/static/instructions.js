@@ -734,7 +734,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="throughhole" className="wrapper style3">
+      <section id="tht" className="wrapper style3">
         <div className="inner">
           <div className="content">
             <h2 className="major">Soldering basic through hole components</h2>
@@ -1067,7 +1067,9 @@ const IndexPage = () => (
             <br />
             <br />
             The Encoder has two big pins on it. Those are just for holding the
-            encoder in there. They also act as ground pins.
+            encoder in there. They also act as ground pins. You will have to
+            bend those two pins outwards to get them to fit the PCB. Don't be
+            scared to break them off, they are pretty sturdy!
             <br />
             <br />
             <br />
@@ -1152,13 +1154,64 @@ const IndexPage = () => (
               <br />
               <br />
               <span className="image right">
+                <img src={picplaceholder} alt="" />
+              </span>
+              <br />
+              <br />
+              <br />
+              Get your soldered PCB and the switch plate. In the next step we
+              will solder in the switches. So if you plan to Mill-Max your
+              Static please do that now!
+              <br />
+              <br />
+              <br />
+              <br />
+              <span className="image left">
+                <img src={picplaceholder} alt="" />
+              </span>
+              <br />
+              <br />
+              <br />
+              Get your switch plate and place 4 switches in the corners. Now put
+              the switch plate on top of the PCB and put the Switches in the
+              right holes.
+              <br />
+              <br />
+              <br />
+              <br />
+              <span className="image right">
+                <img src={picplaceholder} alt="" />
+              </span>
+              <br />
+              <br />
+              <br />
+              After that you can put all switches in there. PLease referr to our
+              KLE for all the Layouts that are possible.
+              <br />
+              <br />
+              <br />
+              <br />
+              <span className="image left">
+                <img src={picplaceholder} alt="" />
+              </span>
+              <br />
+              <br />
+              <br />
+              Now that all the Switches are seated you can solder them in. You
+              now have finished the PCB assembly!
+              <br />
+              <br />
+              <br />
+              <br />
+              <span className="image right">
                 <img src={picrubberfeetmounted} alt="" />
               </span>
               <br />
               <br />
               <br />
-              Start by placing the rubber feet in the little cutouts in the
-              3D-Printed Feet.
+              <br />
+              Now onto the bottom half of the Keeb. Start by placing the rubber
+              feet in the little cutouts in the 3D-Printed Feet.
               <br />
               <br />
               <br />
@@ -1172,7 +1225,7 @@ const IndexPage = () => (
               <br />
               Now go ahead and put screws in the holes through the feet. They
               might need a bit of force to get in there, just push them in with
-              the allen key. We wanted it that way!
+              the allen key. We wanted it that way.
               <br />
               <br />
               <br />
@@ -1183,7 +1236,7 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              You can place the feets below the bottom plate.
+              You can place the feet below the bottom plate now.
               <br />
               <br />
               <br />
@@ -1220,12 +1273,74 @@ const IndexPage = () => (
               <br />
               <br />
               After that you can screw the standoffs in there. The small ones go
-              to the front while the longer ones go in the back.
+              to the front while the longer ones go in the back. Orientation of
+              the Standoffs doesn't matter. If you want you can orient them all
+              the same so they look pretty of course.
+              <br />
+              <br />
+              <br />
+              <br />
+              <span className="image right">
+                <img src={picfrontside} alt="" />
+              </span>
+              <br />
+              <br />
+              <br />
+              Now you are able to put the PCB assembly onto the Standoffs at the
+              bottom. Align the switch plate with the bottom plate and screw in
+              the 4 screws from the top.
               <br />
               <br />
               <br />
               <br />
               <br />
+              <span className="image left">
+                <img src={picstandoffsmounted} alt="" />
+              </span>
+              <br />
+              <br />
+              <br />
+              If you did not do it earlier remove the washer from the Encoder
+              now.
+              <br />
+              <br />
+              <br />
+              <br />
+              <span className="image right">
+                <img src={picfrontside} alt="" />
+              </span>
+              <br />
+              <br />
+              <br />
+              Get yourself the Acrylic cover now and remove the protective film
+              from both sides. After that place it on the 4 longer standoffs in
+              the back and screw in the 4 screws to tighten it down.
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <span className="image left">
+                <img src={picstandoffsmounted} alt="" />
+              </span>
+              <br />
+              <br />
+              <br />
+              Screw in the washer from the Encoder to secure it in place. Please
+              don't overtighten this just make sure it is seated on there with a
+              bit of force.
+              <br />
+              <br />
+              <br />
+              <br />
+              <span className="image right">
+                <img src={picplaceholder} alt="" />
+              </span>
+              <br />
+              <br />
+              <br />
+              Now just place the rotary knob on the encoder and screw in the
+              little nut with the larger allan key we included.
               <br />
               <br />
               <br />
