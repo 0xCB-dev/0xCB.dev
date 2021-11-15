@@ -74,6 +74,7 @@ import picflux from 'assets/images/static/instructions/si-flux.jpg';
 import piciso from 'assets/images/static/instructions/si-iso.jpg';
 import picbrasssponge from 'assets/images/static/instructions/si-brass-sponge.jpg';
 import picoled11 from 'assets/images/static/instructions/si-oled11.jpg';
+import picplexicover from 'assets/images/static/instructions/si-plexicover.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -224,7 +225,7 @@ const IndexPage = () => (
                     <td>
                       <img
                         className="image table"
-                        src={picplaceholder}
+                        src={picplexicover}
                         alt=""
                       />
                     </td>
@@ -863,7 +864,7 @@ const IndexPage = () => (
               <br />
               <br />
               <span className="image right">
-                <img src={picplaceholder} alt="" />
+                <img src={picpcbdiodeplacement} alt="" />
               </span>
               <br />
               <br />
