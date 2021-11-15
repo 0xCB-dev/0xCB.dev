@@ -75,6 +75,9 @@ import piciso from 'assets/images/static/instructions/si-iso.jpg';
 import picbrasssponge from 'assets/images/static/instructions/si-brass-sponge.jpg';
 import picoled11 from 'assets/images/static/instructions/si-oled11.jpg';
 import picplexicover from 'assets/images/static/instructions/si-plexicover.jpg';
+import picwasher from 'assets/images/static/instructions/si-washer.jpg';
+import piccontrollerbend from 'assets/images/static/instructions/si-controllerbend.jpg';
+import piccomponentsplacement from 'assets/images/static/instructions/si-componentsplacement.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -827,7 +830,7 @@ const IndexPage = () => (
             <h2 className="major">Orientation of the components</h2>
             <p>
               <span className="image left">
-                <img src={picplaceholder} alt="" />
+                <img src={piccomponentsplacement} alt="" />
               </span>
               <br />
               <br />
@@ -842,6 +845,9 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
+              <br />
+              <br />
+              <br />
               The controller is the first one. You can see the little half
               circle on the right. This has to align with the half circle on the
               PCB.
@@ -852,7 +858,7 @@ const IndexPage = () => (
               <br />
               <br />
               <span className="image left">
-                <img src={picplaceholder} alt="" />
+                <img src={piccontrollerbend} alt="" />
               </span>
               <br />
               <br />
@@ -1387,7 +1393,7 @@ const IndexPage = () => (
               <br />
               <br />
               <span className="image left">
-                <img src={picplaceholder} alt="" />
+                <img src={picwasher} alt="" />
               </span>
               <br />
               <br />
