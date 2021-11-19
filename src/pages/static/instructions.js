@@ -18,11 +18,9 @@ import picbutton from 'assets/images/static/instructions/si-button.jpg';
 import picclock from 'assets/images/static/instructions/si-clock.jpg';
 import picec11 from 'assets/images/static/instructions/si-ec11.jpg';
 import picfeet from 'assets/images/static/instructions/si-feet.jpg';
-import picfusebend from 'assets/images/static/instructions/si-fuse-bend.jpg';
 import picfuse from 'assets/images/static/instructions/si-fuse.jpg';
 import picoledrotary from 'assets/images/static/instructions/si-oled-and-rotary.jpg';
 import picoled from 'assets/images/static/instructions/si-oled.jpg';
-import picpcbatmega from 'assets/images/static/instructions/si-pcb-atmega.jpg';
 import picpcbdiodeplacement from 'assets/images/static/instructions/si-pcb-diode-placement.jpg';
 import picpcb from 'assets/images/static/instructions/si-pcb.jpg';
 import picrotaryknob from 'assets/images/static/instructions/si-rotary knob.jpg';
@@ -39,7 +37,6 @@ import picsolder from 'assets/images/static/instructions/si-solder.jpg';
 import picsolderingiron from 'assets/images/static/instructions/si-soldering-iron.jpg';
 import picbenderender from 'assets/images/static/instructions/si-diode-bender.jpg';
 import picflushcutters from 'assets/images/static/instructions/si-flush-cutters.jpg';
-import picplaceholder from 'assets/images/placeholder.jpg';
 import picscroller from 'assets/images/up.png';
 import picusb4soldered from 'assets/images/static/instructions/si-usb-bottom-4soldered.jpg';
 import picusb1soldered from 'assets/images/static/instructions/si-usb-bottom-1soldered.jpg';
@@ -78,6 +75,20 @@ import picplexicover from 'assets/images/static/instructions/si-plexicover.jpg';
 import picwasher from 'assets/images/static/instructions/si-washer.jpg';
 import piccontrollerbend from 'assets/images/static/instructions/si-controllerbend.jpg';
 import piccomponentsplacement from 'assets/images/static/instructions/si-componentsplacement.jpg';
+import picswitchfull from 'assets/images/static/instructions/si-switchfull.jpg';
+import picstab from 'assets/images/static/instructions/si-stab.jpg';
+import picscrewpcb from 'assets/images/static/instructions/si-screwpcb.jpg';
+import picrotarytogether from 'assets/images/static/instructions/si-rotarytogether.jpg';
+import picplacetogether from 'assets/images/static/instructions/si-placetogether.jpg';
+import picmillmax from 'assets/images/static/instructions/si-millmax.jpg';
+import picacryltogether from 'assets/images/static/instructions/si-acryltogether.jpg';
+import picacrylscrew from 'assets/images/static/instructions/si-acrylscrew.jpg';
+import pic4switchespcb from 'assets/images/static/instructions/si-4switches-pcb.jpg';
+import pic4switches from 'assets/images/static/instructions/si-4switches.jpg';
+import picremovewasher from 'assets/images/static/instructions/si-removewasher.jpg';
+import picrubberbottom from 'assets/images/static/instructions/si-rubberbottom.jpg';
+import picswitchsolder from 'assets/images/static/instructions/si-switchsolder.jpg';
+import picfinished from 'assets/images/static/instructions/si-finished.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -226,11 +237,7 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img
-                        className="image table"
-                        src={picplexicover}
-                        alt=""
-                      />
+                      <img className="image table" src={picplexicover} alt="" />
                     </td>
                     <td>Plexi Cover</td>
                     <td></td>
@@ -1226,7 +1233,7 @@ const IndexPage = () => (
               <br />
               <br />
               <span className="image right">
-                <img src={picplaceholder} alt="" />
+                <img src={picmillmax} alt="" />
               </span>
               <br />
               <br />
@@ -1239,32 +1246,61 @@ const IndexPage = () => (
               <br />
               <br />
               <span className="image left">
-                <img src={picplaceholder} alt="" />
+                <img src={picstab} alt="" />
               </span>
               <br />
               <br />
               <br />
-              Get your switch plate and place 4 switches in the corners. Now put
-              the switch plate on top of the PCB and put the Switches in the
-              right holes.
+              Now is also the right time to put your stabilisers in there!
               <br />
               <br />
               <br />
               <br />
               <span className="image right">
-                <img src={picplaceholder} alt="" />
+                <img src={pic4switches} alt="" />
               </span>
               <br />
               <br />
               <br />
-              After that you can put all switches in there. PLease referr to our
-              KLE for all the Layouts that are possible.
+              Get your switch plate and place 4 switches in the corners. This
+              will help align the switch plate with the PCB.
               <br />
               <br />
               <br />
               <br />
               <span className="image left">
-                <img src={picplaceholder} alt="" />
+                <img src={pic4switchespcb} alt="" />
+              </span>
+              <br />
+              <br />
+              <br />
+              Now put the switch plate on top of the PCB and put the Switches in
+              the right holes.
+              <br />
+              <br />
+              <br />
+              <br />
+              <span className="image right">
+                <img src={picswitchfull} alt="" />
+              </span>
+              <br />
+              <br />
+              <br />
+              After that you can put all switches in there. Make sure to kind of
+              pull up on the plate while putting in the switches to lock them
+              in. If you start from the middle that makes it easier. PLease
+              refer to our KLE for all the Layouts that are possible{' '}
+              <Link to="http://www.keyboard-layout-editor.com/##@@_x:2.5&c=%23dbd9d9%3B&=ESC&=Q&=W&=E&=R&=T&=Y&=U&=I&=O&=P&=BkSpc%3B&@_x:2.5&c=%23586ba4&w:1.25%3B&=1.25&_c=%23dbd9d9%3B&=A&=S&=D&=F&=G&=H&=J&=K&=L&_c=%23324376&w:1.75%3B&=1.75%3B&@_x:2.5&w:1.75%3B&=1.75&_c=%23dbd9d9%3B&=Z&=X&=C&=V&=B&=N&=M&=%3C%0A,&=%3E%0A.&_c=%23586ba4&w:1.25%3B&=1.25%3B&@_y:0.5&x:2.5&c=%23dbd9d9&a:7%3B&=&=&=&_c=%23f76c5e&a:4&w:2.75%3B&=2.75&_c=%23dbd9d9&a:7%3B&=&_c=%23f68e5f&a:4&w:2.25%3B&=2.25&_c=%23dbd9d9&a:7%3B&=&=&=%3B&@_x:2.5%3B&=&=&=&_c=%23f68e5f&a:4&w:2.25%3B&=2.25&_c=%23dbd9d9&a:7%3B&=&_c=%23f76c5e&a:4&w:2.75%3B&=2.75&_c=%23dbd9d9&a:7%3B&=&=&=%3B&@_x:2.5&c=%23586ba4&a:4&w:1.25%3B&=1.25&_c=%23dbd9d9&a:7%3B&=&=&_c=%23f5dd90&a:4&w:6.25%3B&=6.25&_c=%23586ba4&w:1.25%3B&=1.25&_w:1.25%3B&=1.25%3B&@_x:2.5&c=%23dbd9d9&a:7%3B&=&_c=%23586ba4&a:4&w:1.25%3B&=1.25&_c=%23dbd9d9&a:7%3B&=&_c=%23f5dd90&a:4&w:6.25%3B&=6.25&_c=%23586ba4&w:1.25%3B&=1.25&_w:1.25%3B&=1.25%3B&@_x:2.5&c=%23dbd9d9&a:7%3B&=&=&_c=%23586ba4&a:4&w:1.25%3B&=1.25&_c=%23f5dd90&w:6.25%3B&=6.25&_c=%23586ba4&w:1.25%3B&=1.25&_w:1.25%3B&=1.25">
+                {' '}
+                here
+              </Link>
+              .
+              <br />
+              <br />
+              <br />
+              <br />
+              <span className="image left">
+                <img src={picswitchsolder} alt="" />
               </span>
               <br />
               <br />
@@ -1276,6 +1312,20 @@ const IndexPage = () => (
               <br />
               <br />
               <span className="image right">
+                <img src={picrubberbottom} alt="" />
+              </span>
+              <br />
+              <br />
+              <br />
+              Please take two of the rubber feet now and place them roughly
+              where the red circles are on the bottom of the PCB. This will
+              prevent a bit more flex and in the case of the metal plates
+              prevent any shorts from happening.
+              <br />
+              <br />
+              <br />
+              <br />
+              <span className="image left">
                 <img src={picrubberfeetmounted} alt="" />
               </span>
               <br />
@@ -1288,8 +1338,7 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <br />
-              <span className="image left">
+              <span className="image right">
                 <img src={picfeetscrews} alt="" />
               </span>
               <br />
@@ -1302,7 +1351,7 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <span className="image right">
+              <span className="image left">
                 <img src={picbottomscrews} alt="" />
               </span>
               <br />
@@ -1314,7 +1363,7 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <span className="image left">
+              <span className="image right">
                 <img src={picbottomplateview} alt="" />
               </span>
               <br />
@@ -1326,7 +1375,7 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <span className="image right">
+              <span className="image left">
                 <img src={picfrontside} alt="" />
               </span>
               <br />
@@ -1338,7 +1387,7 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <span className="image left">
+              <span className="image right">
                 <img src={picstandoffsmounted} alt="" />
               </span>
               <br />
@@ -1352,22 +1401,33 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <span className="image right">
-                <img src={picplaceholder} alt="" />
+              <span className="image left">
+                <img src={picplacetogether} alt="" />
               </span>
               <br />
               <br />
               <br />
               Now you are able to put the PCB assembly onto the Standoffs at the
-              bottom. Align the switch plate with the bottom plate and screw in
-              the 4 screws from the top.
+              bottom.
               <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <span className="image right">
+                <img src={picscrewpcb} alt="" />
+              </span>
+              <br />
+              <br />
+              <br />
+              After that screw in the 4 screws. Please screw them in lightly
+              first, then align the plate and then tighten them down fully.
               <br />
               <br />
               <br />
               <br />
               <span className="image left">
-                <img src={picplaceholder} alt="" />
+                <img src={picremovewasher} alt="" />
               </span>
               <br />
               <br />
@@ -1379,20 +1439,31 @@ const IndexPage = () => (
               <br />
               <br />
               <span className="image right">
-                <img src={picplaceholder} alt="" />
+                <img src={picacryltogether} alt="" />
               </span>
               <br />
               <br />
               <br />
               Get yourself the Acrylic cover now and remove the protective film
-              from both sides. After that place it on the 4 longer standoffs in
-              the back and screw in the 4 screws to tighten it down.
-              <br />
+              from both sides. After that place it on the 4 longer standoffs.
               <br />
               <br />
               <br />
               <br />
               <span className="image left">
+                <img src={picacrylscrew} alt="" />
+              </span>
+              <br />
+              <br />
+              <br />
+              Now screw in the 4 screws to tighten it down. Do as before and put
+              them all in before tightening them fully.
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <span className="image right">
                 <img src={picwasher} alt="" />
               </span>
               <br />
@@ -1405,14 +1476,25 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <span className="image right">
-                <img src={picplaceholder} alt="" />
+              <span className="image left">
+                <img src={picrotarytogether} alt="" />
               </span>
               <br />
               <br />
               <br />
               Now just place the rotary knob on the encoder and screw in the
               little nut with the larger allen key we included.
+              <br />
+              <br />
+              <br />
+              <br />
+              <h2 style={{ 'text-align': 'center' }}>
+                And you are done! Isn't this awesome?
+              </h2>
+              <br />
+              <span className="image fit">
+                <img src={picfinished} alt="" />
+              </span>
               <br />
               <br />
               <br />

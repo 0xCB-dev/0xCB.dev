@@ -78,10 +78,6 @@ export default function Footer() {
           <li>
             <Link to="/legal/aup">AUP</Link>
           </li>
-          <img
-            src="https://stats.conor-burns.com/ingress/b8d4be52-076c-4066-a608-a0ecdc725502/pixel.gif"
-            alt=""
-          />
         </ul>
       </div>
     </section>
