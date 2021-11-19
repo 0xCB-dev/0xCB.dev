@@ -2,12 +2,11 @@ import React from 'react';
 
 import Layout from 'components/Layout';
 
-import pichead from 'assets/images/static/index/static-full.jpg';
-import pictop from 'assets/images/static/index/static-top.jpg';
-import picplate from 'assets/images/static/index/static-plate.jpg';
 import picside from 'assets/images/static/index/static-side.jpg';
 import piclayout from 'assets/images/static/index/static-layout.jpg';
-import picbg from 'assets/images/bg.jpg';
+import piccover from 'assets/images/static/index/cover.jpg';
+import picmetal from 'assets/images/static/index/metal.jpg';
+import pictopdown from 'assets/images/static/index/topdown.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -19,7 +18,7 @@ const IndexPage = () => (
       </header>
       <section className="wrapper style1">
         <div className="inner">
-          <img className="image fit" src={picbg} alt="" />
+          <img className="image fit" src={piccover} alt="" />
           <div className="content">
             <p>
               And here it is in all it's glory, the 0xCB Static! <br />
@@ -53,7 +52,7 @@ const IndexPage = () => (
           <div className="content">
             <p>
               <span className="image fit">
-                <img src={pictop} alt="" />
+                <img src={pictopdown} alt="" />
               </span>
               Our new Static keyboard will be sold as a DIY build kit, and we're
               especially excited to announce that it will be available soon
@@ -107,7 +106,7 @@ const IndexPage = () => (
           <div className="content">
             <p>
               <span className="image fit">
-                <img src={picplate} alt="" />
+                <img src={picmetal} alt="" />
               </span>
               All of our base kits will come with your choice of either black or
               white FR4 switch and bottom plates, for that nice flexy feel and

@@ -35,8 +35,27 @@ const IndexPage = () => (
       </div>
     </section>
 
+    <section id="one" className="wrapper spotlight style1">
+      <div className="inner">
+        <a href="/static">
+          <img className="image" src={picstatic} alt="" />
+        </a>
+        <div className="content">
+          <h2 className="major">Static</h2>
+          <p>
+            After we saw how well recieved our 1337 macropads were, we quickly
+            realized that we wanted to try something even bigger and better.
+            We put our heads together and made a list of every feature we
+            would want in our own dream 40% keeb, and after many hours in the
+            lab we're extra proud of what we've come up with. We're very
+            excited to introduce you to our newest addition to the OxCB
+            family, the Static!
+          </p>
+        </div>
+      </div>
+    </section>
     <section id="wrapper">
-      <section id="one" className="wrapper spotlight style1">
+      <section id="two" className="wrapper spotlight alt style2">
         <div className="inner">
           <a href="/1337">
             <img className="image" src={pic1337} alt="" />
@@ -52,25 +71,6 @@ const IndexPage = () => (
               RGB underglow and white per-key lighting, not to mention a very
               snazzy OLED that displays information like your current layer/RGB
               settings/etc.!
-            </p>
-          </div>
-        </div>
-      </section>
-      <section id="two" className="wrapper spotlight alt style2">
-        <div className="inner">
-          <a href="/static">
-            <img className="image" src={picstatic} alt="" />
-          </a>
-          <div className="content">
-            <h2 className="major">Static</h2>
-            <p>
-              After we saw how well recieved our 1337 macropads were, we quickly
-              realized that we wanted to try something even bigger and better.
-              We put our heads together and made a list of every feature we
-              would want in our own dream 40% keeb, and after many hours in the
-              lab we're extra proud of what we've come up with. We're very
-              excited to introduce you to our newest addition to the OxCB
-              family, the Static!
             </p>
           </div>
         </div>

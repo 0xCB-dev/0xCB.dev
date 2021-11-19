@@ -32,7 +32,7 @@ import picsmoldiode from 'assets/images/static/instructions/si-smol-diode.jpg';
 import picswitchplate from 'assets/images/static/instructions/si-switch-plate.jpg';
 import pictopdownic from 'assets/images/static/instructions/si-topdown-ic.jpg';
 import picusb from 'assets/images/static/instructions/si-usb.jpg';
-import picallankey from 'assets/images/static/instructions/si-allan-key.jpg';
+import picallenkey from 'assets/images/static/instructions/si-allen-key.jpg';
 import picsolder from 'assets/images/static/instructions/si-solder.jpg';
 import picsolderingiron from 'assets/images/static/instructions/si-soldering-iron.jpg';
 import picbenderender from 'assets/images/static/instructions/si-diode-bender.jpg';
@@ -503,17 +503,17 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img className="image table" src={picallankey} alt="" />
+                      <img className="image table" src={picallenkey} alt="" />
                     </td>
                     <td>
                       Allen Key
                       <br />
                       <br />
-                      This allen key fits the M2 Hex Screws that are needed for
-                      assembly!
+                      These allen key fit the M2 Hex Screws that are needed for
+                      the case and the one screw for the Encoder!
                     </td>
                     <td></td>
-                    <td>1</td>
+                    <td>2</td>
                   </tr>
                 </tbody>
               </table>
