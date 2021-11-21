@@ -1,23 +1,6 @@
 import React from 'react';
-
+import { StaticImage } from 'gatsby-plugin-image';
 import Layout from 'components/Layout';
-
-import pic1 from 'assets/images/1337/instructions/1-pcb.jpg';
-import pic2 from 'assets/images/1337/instructions/2-standoff.jpg';
-import pic3 from 'assets/images/1337/instructions/3-standoff.jpg';
-import pic4 from 'assets/images/1337/instructions/4-encoder-switches.jpg';
-import pic5 from 'assets/images/1337/instructions/5-direction.jpg';
-import pic6 from 'assets/images/1337/instructions/6-bend.jpg';
-import pic7 from 'assets/images/1337/instructions/7-setpcb.jpg';
-import pic8 from 'assets/images/1337/instructions/8-solder.jpg';
-import pic9 from 'assets/images/1337/instructions/9-led.jpg';
-import pic10 from 'assets/images/1337/instructions/10-solderled.jpg';
-import pic11 from 'assets/images/1337/instructions/11-shortprotec.jpg';
-import pic12 from 'assets/images/1337/instructions/12-mcu.jpg';
-import pic13 from 'assets/images/1337/instructions/13-oledwire.jpg';
-import pic14 from 'assets/images/1337/instructions/14-oledwiresolderpcb.jpg';
-import pic15 from 'assets/images/1337/instructions/15-oledwiresolderoled.jpg';
-import pic16 from 'assets/images/1337/instructions/16-finished.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -42,7 +25,12 @@ const IndexPage = () => (
         <div className="inner">
           <section className="features">
             <article>
-              <img className="image" src={pic1} alt="" />
+              <StaticImage
+                className="image"
+                src="../../assets/images/1337/instructions/1-pcb.jpg"
+                alt="pcboverview"
+                placeholder="blurred"
+              />
               <h3 className="major">1. The PCB</h3>
               <p>
                 1x{' '}
@@ -78,7 +66,12 @@ const IndexPage = () => (
               </p>
             </article>
             <article>
-              <img className="image" src={pic2} alt="" />
+              <StaticImage
+                className="image"
+                src="../../assets/images/1337/instructions/2-standoff.jpg"
+                alt="standoff"
+                placeholder="blurred"
+              />
               <h3 className="major">2. SMD and Standoffs</h3>
               <p>
                 Solder in all the SMD components (Be careful they are tiny) and
@@ -86,7 +79,12 @@ const IndexPage = () => (
               </p>
             </article>
             <article>
-              <img className="image" src={pic3} alt="" />
+              <StaticImage
+                className="image"
+                src="../../assets/images/1337/instructions/3-standoff.jpg"
+                alt="standoffs"
+                placeholder="blurred"
+              />
               <h3 className="major">3. Solder them</h3>
               <p>
                 Solder them and make sure that they are completly flat on the
@@ -94,7 +92,12 @@ const IndexPage = () => (
               </p>
             </article>
             <article>
-              <img className="image" src={pic4} alt="" />
+              <StaticImage
+                className="image"
+                src="../../assets/images/1337/instructions/4-encoder-switches.jpg"
+                alt="switches"
+                placeholder="blurred"
+              />
               <h3 className="major">4. Encoder and Switches</h3>
               <p>
                 Click in the switches with the LED hole facing you and place the
@@ -102,22 +105,42 @@ const IndexPage = () => (
               </p>
             </article>
             <article>
-              <img className="image" src={pic5} alt="" />
+              <StaticImage
+                className="image"
+                src="../../assets/images/1337/instructions/5-direction.jpg"
+                alt="direction"
+                placeholder="blurred"
+              />
               <h3 className="major">5. Encoder Orientation</h3>
               <p>Make sure the 2 pins face the hole.</p>
             </article>
             <article>
-              <img className="image" src={pic6} alt="" />
+              <StaticImage
+                className="image"
+                src="../../assets/images/1337/instructions/6-bend.jpg"
+                alt="bend"
+                placeholder="blurred"
+              />
               <h3 className="major">6. Pin Placement</h3>
               <p>Bend the pins like so to make PCB installing easier.</p>
             </article>
             <article>
-              <img className="image" src={pic7} alt="" />
+              <StaticImage
+                className="image"
+                src="../../assets/images/1337/instructions/7-setpcb.jpg"
+                alt="place"
+                placeholder="blurred"
+              />
               <h3 className="major">7. Insert PCB</h3>
               <p>Insert the PCB making sure not to bend any pins.</p>
             </article>
             <article>
-              <img className="image" src={pic8} alt="" />
+              <StaticImage
+                className="image"
+                src="../../assets/images/1337/instructions/8-solder.jpg"
+                alt="solder"
+                placeholder="blurred"
+              />
               <h3 className="major">8. Solder Encoder and Switches</h3>
               <p>
                 Solder in the encoder and switches while pressing them into the
@@ -125,7 +148,12 @@ const IndexPage = () => (
               </p>
             </article>
             <article>
-              <img className="image" src={pic9} alt="" />
+              <StaticImage
+                className="image"
+                src="../../assets/images/1337/instructions/9-led.jpg"
+                alt="led"
+                placeholder="blurred"
+              />
               <h3 className="major">9. Place LEDs</h3>
               <p>
                 Insert the LEDs with the longer leg (Anode) facing the square
@@ -133,12 +161,22 @@ const IndexPage = () => (
               </p>
             </article>
             <article>
-              <img className="image" src={pic10} alt="" />
+              <StaticImage
+                className="image"
+                src="../../assets/images/1337/instructions/10-solderled.jpg"
+                alt="solderled"
+                placeholder="blurred"
+              />
               <h3 className="major">10. Solder LEDs</h3>
               <p>Solder them in place making sure they are not slipping out.</p>
             </article>
             <article>
-              <img className="image" src={pic11} alt="" />
+              <StaticImage
+                className="image"
+                src="../../assets/images/1337/instructions/11-shortprotec.jpg"
+                alt="shorts"
+                placeholder="blurred"
+              />
               <h3 className="major">11. Protection</h3>
               <p>
                 Do not remove the insulation - It protects the controller and
@@ -146,7 +184,12 @@ const IndexPage = () => (
               </p>
             </article>
             <article>
-              <img className="image" src={pic12} alt="" />
+              <StaticImage
+                className="image"
+                src="../../assets/images/1337/instructions/12-mcu.jpg"
+                alt="mcu"
+                placeholder="blurred"
+              />
               <h3 className="major">12. Place MCU</h3>
               <p>
                 Insert and solder the MCU (Elite-C/ProMicro) with the flat side
@@ -154,12 +197,22 @@ const IndexPage = () => (
               </p>
             </article>
             <article>
-              <img className="image" src={pic13} alt="" />
+              <StaticImage
+                className="image"
+                src="../../assets/images/1337/instructions/13-oledwire.jpg"
+                alt="oledwire"
+                placeholder="blurred"
+              />
               <h3 className="major">13. OLED wires</h3>
               <p>Strip the ends of the OLED wires.</p>
             </article>
             <article>
-              <img className="image" src={pic14} alt="" />
+              <StaticImage
+                className="image"
+                src="../../assets/images/1337/instructions/14-oledwiresolderpcb.jpg"
+                alt="wirepcb"
+                placeholder="blurred"
+              />
               <h3 className="major">14. Solder to PCB</h3>
               <p>
                 Solder them to the PCB (
@@ -170,7 +223,12 @@ const IndexPage = () => (
               </p>
             </article>
             <article>
-              <img className="image" src={pic15} alt="" />
+              <StaticImage
+                className="image"
+                src="../../assets/images/1337/instructions/15-oledwiresolderoled.jpg"
+                alt="wireoled"
+                placeholder="blurred"
+              />
               <h3 className="major">15. Solder to OLED</h3>
               <p>
                 Clip the top two corners of the OLED PCB round to make it fit
@@ -179,7 +237,12 @@ const IndexPage = () => (
               </p>
             </article>
             <article>
-              <img className="image" src={pic16} alt="" />
+              <StaticImage
+                className="image"
+                src="../../assets/images/1337/instructions/16-finished.jpg"
+                alt="done"
+                placeholder="blurred"
+              />
               <h3 className="major">16. Screw in the Covers</h3>
               <p>
                 Screw in the two covers for the OLED and the bottom piece with

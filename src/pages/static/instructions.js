@@ -1,94 +1,9 @@
 import React from 'react';
+import { StaticImage } from 'gatsby-plugin-image';
 import { Link } from 'gatsby';
 import ScrollUp from 'react-scroll-up';
-
 import Layout from 'components/Layout';
-
-import pic1_5kohm from 'assets/images/static/instructions/si-1,5kOhm.jpg';
-import pic5_1kohm from 'assets/images/static/instructions/si-5,1kOhm.jpg';
-import pic10kohm from 'assets/images/static/instructions/si-10kOhm.jpg';
-import pic75ohm from 'assets/images/static/instructions/si-75Ohm.jpg';
-import picatmegatopdown from 'assets/images/static/instructions/si-atmega-topdown.jpg';
-import picatmega from 'assets/images/static/instructions/si-atmega.jpg';
-import picbigcap from 'assets/images/static/instructions/si-big-cap.jpg';
-import picbigdiode from 'assets/images/static/instructions/si-big-diode.jpg';
-import picbigstandoffs from 'assets/images/static/instructions/si-big-standoffs.jpg';
-import picbottomplate from 'assets/images/static/instructions/si-bottom-plate.jpg';
-import picbutton from 'assets/images/static/instructions/si-button.jpg';
-import picclock from 'assets/images/static/instructions/si-clock.jpg';
-import picec11 from 'assets/images/static/instructions/si-ec11.jpg';
-import picfeet from 'assets/images/static/instructions/si-feet.jpg';
-import picfuse from 'assets/images/static/instructions/si-fuse.jpg';
-import picoledrotary from 'assets/images/static/instructions/si-oled-and-rotary.jpg';
-import picoled from 'assets/images/static/instructions/si-oled.jpg';
-import picpcbdiodeplacement from 'assets/images/static/instructions/si-pcb-diode-placement.jpg';
-import picpcb from 'assets/images/static/instructions/si-pcb.jpg';
-import picrotaryknob from 'assets/images/static/instructions/si-rotary knob.jpg';
-import picrubberfeet from 'assets/images/static/instructions/si-rubber-feet.jpg';
-import picscrews from 'assets/images/static/instructions/si-screws.jpg';
-import picsmolstandoffs from 'assets/images/static/instructions/si-small-standoffs.jpg';
-import picsmolcap from 'assets/images/static/instructions/si-smol-cap.jpg';
-import picsmoldiode from 'assets/images/static/instructions/si-smol-diode.jpg';
-import picswitchplate from 'assets/images/static/instructions/si-switch-plate.jpg';
-import pictopdownic from 'assets/images/static/instructions/si-topdown-ic.jpg';
-import picusb from 'assets/images/static/instructions/si-usb.jpg';
-import picallenkey from 'assets/images/static/instructions/si-allen-key.jpg';
-import picsolder from 'assets/images/static/instructions/si-solder.jpg';
-import picsolderingiron from 'assets/images/static/instructions/si-soldering-iron.jpg';
-import picbenderender from 'assets/images/static/instructions/si-diode-bender.jpg';
-import picflushcutters from 'assets/images/static/instructions/si-flush-cutters.jpg';
 import picscroller from 'assets/images/up.png';
-import picusb4soldered from 'assets/images/static/instructions/si-usb-bottom-4soldered.jpg';
-import picusb1soldered from 'assets/images/static/instructions/si-usb-bottom-1soldered.jpg';
-import picirontip from 'assets/images/static/instructions/si-irontip.jpg';
-import picusbstart from 'assets/images/static/instructions/si-usb-start.jpg';
-import picusbcrooked from 'assets/images/static/instructions/si-usb-crooked.jpg';
-import picusbpartly from 'assets/images/static/instructions/si-usb-bottom-partlysoldered.jpg';
-import picusbbottom from 'assets/images/static/instructions/si-usb-bottom.jpg';
-import picusbcloseup from 'assets/images/static/instructions/si-usb-closeup.jpg';
-import picusbfully from 'assets/images/static/instructions/si-usb-bottom-fullysoldered.jpg';
-import picresistorbend from 'assets/images/static/instructions/si-resistorbend.jpg';
-import piclegssoldered from 'assets/images/static/instructions/si-legs-soldered.jpg';
-import piclegsclipped from 'assets/images/static/instructions/si-legs-clipped.jpg';
-import piclegsbend from 'assets/images/static/instructions/si-legs-bend.jpg';
-import piccapinplace from 'assets/images/static/instructions/si-cap-in-place.jpg';
-import picrotarysoldered from 'assets/images/static/instructions/si-rotary-soldered.jpg';
-import picrotarynotsoldered from 'assets/images/static/instructions/si-rotary-not-soldered.jpg';
-import picrotarysmolpins from 'assets/images/static/instructions/si-rotary-smol-pins.jpg';
-import picrotarybigpins from 'assets/images/static/instructions/si-rotary-big-pins.jpg';
-import picstandoffsmounted from 'assets/images/static/instructions/si-stand-offs-mounted.jpg';
-import picrubberfeetmounted from 'assets/images/static/instructions/si-rubber-feet-mounted.jpg';
-import picoledstraight from 'assets/images/static/instructions/si-oled-straight.jpg';
-import picolednotsoldered from 'assets/images/static/instructions/si-oled-not-soldered.jpg';
-import picoledbenderender from 'assets/images/static/instructions/si-oled-benderender.jpg';
-import picoled4soldered from 'assets/images/static/instructions/si-oled-4soldered.jpg';
-import picoled1soldered from 'assets/images/static/instructions/si-oled-1soldered.jpg';
-import picfrontside from 'assets/images/static/instructions/si-front-side.jpg';
-import picfeetscrews from 'assets/images/static/instructions/si-feet-screws.jpg';
-import picbottomplateview from 'assets/images/static/instructions/si-bottom-plate-view.jpg';
-import picbottomscrews from 'assets/images/static/instructions/si-bottom-plate-screws.jpg';
-import picflux from 'assets/images/static/instructions/si-flux.jpg';
-import piciso from 'assets/images/static/instructions/si-iso.jpg';
-import picbrasssponge from 'assets/images/static/instructions/si-brass-sponge.jpg';
-import picoled11 from 'assets/images/static/instructions/si-oled11.jpg';
-import picplexicover from 'assets/images/static/instructions/si-plexicover.jpg';
-import picwasher from 'assets/images/static/instructions/si-washer.jpg';
-import piccontrollerbend from 'assets/images/static/instructions/si-controllerbend.jpg';
-import piccomponentsplacement from 'assets/images/static/instructions/si-componentsplacement.jpg';
-import picswitchfull from 'assets/images/static/instructions/si-switchfull.jpg';
-import picstab from 'assets/images/static/instructions/si-stab.jpg';
-import picscrewpcb from 'assets/images/static/instructions/si-screwpcb.jpg';
-import picrotarytogether from 'assets/images/static/instructions/si-rotarytogether.jpg';
-import picplacetogether from 'assets/images/static/instructions/si-placetogether.jpg';
-import picmillmax from 'assets/images/static/instructions/si-millmax.jpg';
-import picacryltogether from 'assets/images/static/instructions/si-acryltogether.jpg';
-import picacrylscrew from 'assets/images/static/instructions/si-acrylscrew.jpg';
-import pic4switchespcb from 'assets/images/static/instructions/si-4switches-pcb.jpg';
-import pic4switches from 'assets/images/static/instructions/si-4switches.jpg';
-import picremovewasher from 'assets/images/static/instructions/si-removewasher.jpg';
-import picrubberbottom from 'assets/images/static/instructions/si-rubberbottom.jpg';
-import picswitchsolder from 'assets/images/static/instructions/si-switchsolder.jpg';
-import picfinished from 'assets/images/static/instructions/si-finished.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -205,7 +120,12 @@ const IndexPage = () => (
                 <tbody>
                   <tr>
                     <td>
-                      <img className="image table" src={picpcb} alt="" />
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-pcb.jpg"
+                        alt="pcb"
+                        placeholder="blurred"
+                      />
                     </td>
                     <td>PCB</td>
                     <td></td>
@@ -213,10 +133,11 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img
-                        className="image table"
-                        src={picswitchplate}
-                        alt=""
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-switch-plate.jpg"
+                        alt="switch plate"
+                        placeholder="blurred"
                       />
                     </td>
                     <td>Switch Plate</td>
@@ -225,10 +146,11 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img
-                        className="image table"
-                        src={picbottomplate}
-                        alt=""
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-bottom-plate.jpg"
+                        alt="bottom plate"
+                        placeholder="blurred"
                       />
                     </td>
                     <td>Bottom PLate</td>
@@ -237,7 +159,12 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img className="image table" src={picplexicover} alt="" />
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-plexicover.jpg"
+                        alt="plexi cover"
+                        placeholder="blurred"
+                      />
                     </td>
                     <td>Plexi Cover</td>
                     <td></td>
@@ -245,7 +172,12 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img className="image table" src={picfeet} alt="" />
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-feet.jpg"
+                        alt="3D feet"
+                        placeholder="blurred"
+                      />
                     </td>
                     <td>3D-Printed Feet</td>
                     <td></td>
@@ -255,7 +187,12 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img className="image table" src={picrubberfeet} alt="" />
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-rubber-feet.jpg"
+                        alt="rubber feet"
+                        placeholder="blurred"
+                      />{' '}
                     </td>
                     <td>Rubber Feet</td>
                     <td></td>
@@ -263,10 +200,11 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img
-                        className="image table"
-                        src={picsmolstandoffs}
-                        alt=""
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-small-standoffs.jpg"
+                        alt="small standoffs"
+                        placeholder="blurred"
                       />
                     </td>
                     <td>Small Standoffs (M2x8mm)</td>
@@ -275,10 +213,11 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img
-                        className="image table"
-                        src={picbigstandoffs}
-                        alt=""
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-big-standoffs.jpg"
+                        alt="big standoffs"
+                        placeholder="blurred"
                       />
                     </td>
                     <td>Big Standoffs (M2x12mm)</td>
@@ -287,7 +226,12 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img className="image table" src={picscrews} alt="" />
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-screws.jpg"
+                        alt="screws"
+                        placeholder="blurred"
+                      />
                     </td>
                     <td>Screws (M2x5mm)</td>
                     <td></td>
@@ -295,7 +239,12 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img className="image table" src={picoled11} alt="" />
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-oled11.jpg"
+                        alt="OLED"
+                        placeholder="blurred"
+                      />
                     </td>
                     <td>
                       OLED Screen
@@ -310,7 +259,12 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img className="image table" src={picec11} alt="" />
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-ec11.jpg"
+                        alt="EC11"
+                        placeholder="blurred"
+                      />
                     </td>
                     <td>EC11 Rotary Encoder</td>
                     <td>MX12</td>
@@ -318,7 +272,12 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img className="image table" src={picrotaryknob} alt="" />
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-rotary-knob.jpg"
+                        alt="knob"
+                        placeholder="blurred"
+                      />
                     </td>
                     <td>Aluminium Rotary Encoder Knob</td>
                     <td></td>
@@ -326,7 +285,12 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img className="image table" src={picusb} alt="" />
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-usb.jpg"
+                        alt="USB"
+                        placeholder="blurred"
+                      />{' '}
                     </td>
                     <td>USB-C Port</td>
                     <td>J1</td>
@@ -334,7 +298,12 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img className="image table" src={picbutton} alt="" />
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-button.jpg"
+                        alt="buttons"
+                        placeholder="blurred"
+                      />
                     </td>
                     <td>RESET and BOOT Buttons</td>
                     <td>SW1, SW2</td>
@@ -342,7 +311,12 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img className="image table" src={picatmega} alt="" />
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-atmega.jpg"
+                        alt="atmega328P"
+                        placeholder="blurred"
+                      />
                     </td>
                     <td>ATMEGA328p Processor</td>
                     <td>U1</td>
@@ -350,7 +324,12 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img className="image table" src={picclock} alt="" />
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-clock.jpg"
+                        alt="16MHz clock"
+                        placeholder="blurred"
+                      />
                     </td>
                     <td>
                       Clock
@@ -363,7 +342,12 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img className="image table" src={picfuse} alt="" />
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-fuse.jpg"
+                        alt="fuse"
+                        placeholder="blurred"
+                      />
                     </td>
                     <td>
                       Fuse
@@ -376,7 +360,12 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img className="image table" src={picsmoldiode} alt="" />
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-smol-diode.jpg"
+                        alt="switch diode"
+                        placeholder="blurred"
+                      />
                     </td>
                     <td>
                       Small Diodes
@@ -393,7 +382,12 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img className="image table" src={picbigdiode} alt="" />
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-big-diode.jpg"
+                        alt="zener diode"
+                        placeholder="blurred"
+                      />
                     </td>
                     <td>
                       Large Diodes
@@ -406,7 +400,12 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img className="image table" src={pic75ohm} alt="" />
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-75Ohm.jpg"
+                        alt="75Ohm"
+                        placeholder="blurred"
+                      />
                     </td>
                     <td>
                       Resistor
@@ -419,7 +418,12 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img className="image table" src={pic1_5kohm} alt="" />
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-1,5kOhm.jpg"
+                        alt="1,5kOhm"
+                        placeholder="blurred"
+                      />
                     </td>
                     <td>
                       Resistor
@@ -432,7 +436,12 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img className="image table" src={pic5_1kohm} alt="" />
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-5,1kOhm.jpg"
+                        alt="5,1kOhm"
+                        placeholder="blurred"
+                      />
                     </td>
                     <td>
                       Resistor
@@ -445,7 +454,12 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img className="image table" src={pic10kohm} alt="" />
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-10kOhm.jpg"
+                        alt="10kOhm"
+                        placeholder="blurred"
+                      />
                     </td>
                     <td>
                       Resistor
@@ -458,7 +472,12 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img className="image table" src={picsmolcap} alt="" />
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-smol-cap.jpg"
+                        alt="22pF"
+                        placeholder="blurred"
+                      />
                     </td>
                     <td>
                       Capacitor
@@ -471,7 +490,12 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img className="image table" src={picbigcap} alt="" />
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-big-cap.jpg"
+                        alt="100nF"
+                        placeholder="blurred"
+                      />
                     </td>
                     <td>
                       Capacitor
@@ -484,10 +508,11 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img
-                        className="image table"
-                        src={picbenderender}
-                        alt=""
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-diode-bender.jpg"
+                        alt="benderender"
+                        placeholder="blurred"
                       />
                     </td>
                     <td>
@@ -503,7 +528,12 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img className="image table" src={picallenkey} alt="" />
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-allen-key.jpg"
+                        alt="allen key"
+                        placeholder="blurred"
+                      />
                     </td>
                     <td>
                       Allen Key
@@ -538,10 +568,11 @@ const IndexPage = () => (
                 <tbody>
                   <tr>
                     <td>
-                      <img
-                        className="image table"
-                        src={picflushcutters}
-                        alt=""
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-flush-cutters.jpg"
+                        alt="flush cutters"
+                        placeholder="blurred"
                       />
                     </td>
                     <td>Flush Cutters</td>
@@ -553,10 +584,11 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img
-                        className="image table"
-                        src={picsolderingiron}
-                        alt=""
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-soldering-iron.jpg"
+                        alt="soldering iron"
+                        placeholder="blurred"
                       />
                     </td>
                     <td>Soldering Iron</td>
@@ -568,7 +600,12 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img className="image table" src={picsolder} alt="" />
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-solder.jpg"
+                        alt="solder"
+                        placeholder="blurred"
+                      />
                     </td>
                     <td>Solder</td>
                     <td>
@@ -603,7 +640,12 @@ const IndexPage = () => (
                 <tbody>
                   <tr>
                     <td>
-                      <img className="image table" src={picflux} alt="" />
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-flux.jpg"
+                        alt="flux"
+                        placeholder="blurred"
+                      />
                     </td>
                     <td>extra flux / flux pen</td>
                     <td>
@@ -614,7 +656,12 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img className="image table" src={piciso} alt="" />
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-iso.jpg"
+                        alt="isopropanol"
+                        placeholder="blurred"
+                      />
                     </td>
                     <td>isopropyl alcohol / PCB cleaner</td>
                     <td>
@@ -624,10 +671,11 @@ const IndexPage = () => (
                   </tr>
                   <tr>
                     <td>
-                      <img
-                        className="image table"
-                        src={picbrasssponge}
-                        alt=""
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-brass-sponge.jpg"
+                        alt="brass sponge"
+                        placeholder="blurred"
                       />
                     </td>
                     <td>Brass sponge</td>
@@ -649,9 +697,12 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">Soldering</h2>
             <p>
-              <span className="image left">
-                <img src={pictopdownic} alt="" />
-              </span>
+              <StaticImage
+                className="image left"
+                src="../../assets/images/static/instructions/si-topdown-ic.jpg"
+                alt="ic"
+                placeholder="blurred"
+              />
               In this section we will show you how to do the required soldering
               for your new Static, please take the time to read these
               instructions fully at least once before actually starting. If this
@@ -689,9 +740,12 @@ const IndexPage = () => (
               were in a rush is no fun at all!
               <br />
               <br />
-              <span className="image right">
-                <img src={picatmegatopdown} alt="" />
-              </span>
+              <StaticImage
+                className="image right"
+                src="../../assets/images/static/instructions/si-atmega-topdown.jpg"
+                alt="atmega"
+                placeholder="blurred"
+              />
               Please take a few minutes now to familiarize yourself with each
               part and it's location, some of them are quite small. Some of them
               will obviously only fit into their footprint on the PCB in a
@@ -755,9 +809,12 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">Soldering basic through hole components</h2>
             <p>
-              <span className="image left">
-                <img src={picresistorbend} alt="" />
-              </span>
+              <StaticImage
+                className="image left"
+                src="../../assets/images/static/instructions/si-resistorbend.jpg"
+                alt="resistorbend"
+                placeholder="blurred"
+              />
               For most through hole components you have to bend the legs first!
               When soldering the small diodes you can use our diode bender, to
               get clean bends, but for the rest just look at the distance the
@@ -770,9 +827,12 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <span className="image right">
-                <img src={piccapinplace} alt="" />
-              </span>
+              <StaticImage
+                className="image right"
+                src="../../assets/images/static/instructions/si-cap-in-place.jpg"
+                alt="cap placement"
+                placeholder="blurred"
+              />
               <br />
               <br />
               <br />
@@ -784,9 +844,12 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <span className="image left">
-                <img src={piclegsbend} alt="" />
-              </span>
+              <StaticImage
+                className="image left"
+                src="../../assets/images/static/instructions/si-legs-bend.jpg"
+                alt="leg bending"
+                placeholder="blurred"
+              />
               <br />
               <br />
               Now flip the PCB over. It is important to note that ALL soldering
@@ -797,9 +860,12 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <span className="image right">
-                <img src={piclegssoldered} alt="" />
-              </span>
+              <StaticImage
+                className="image right"
+                src="../../assets/images/static/instructions/si-legs-soldered.jpg"
+                alt="solder legs"
+                placeholder="blurred"
+              />
               <br />
               <br />
               Now add a bit of solder to each solder joint of the component! If
@@ -811,9 +877,12 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <span className="image left">
-                <img src={piclegsclipped} alt="" />
-              </span>
+              <StaticImage
+                className="image left"
+                src="../../assets/images/static/instructions/si-legs-clipped.jpg"
+                alt="clip legs"
+                placeholder="blurred"
+              />
               <br />
               <br />
               When you are happy with your solder joints, go ahead and clip the
@@ -836,9 +905,12 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">Orientation of the components</h2>
             <p>
-              <span className="image left">
-                <img src={piccomponentsplacement} alt="" />
-              </span>
+              <StaticImage
+                className="image left"
+                src="../../assets/images/static/instructions/si-componentsplacement.jpg"
+                alt="placement"
+                placeholder="blurred"
+              />
               <br />
               <br />
               There are only two components on the kit where orientation
@@ -846,9 +918,12 @@ const IndexPage = () => (
               orientaion doesn't matter on those.
               <br />
               <br />
-              <span className="image right">
-                <img src={picatmegatopdown} alt="" />
-              </span>
+              <StaticImage
+                className="image right"
+                src="../../assets/images/static/instructions/si-atmega-topdown.jpg"
+                alt="atmega"
+                placeholder="blurred"
+              />
               <br />
               <br />
               <br />
@@ -864,9 +939,12 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <span className="image left">
-                <img src={piccontrollerbend} alt="" />
-              </span>
+              <StaticImage
+                className="image left"
+                src="../../assets/images/static/instructions/si-controllerbend.jpg"
+                alt="bend"
+                placeholder="blurred"
+              />
               <br />
               <br />
               While putting in the controller you also need to bend the legs to
@@ -876,9 +954,12 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <span className="image right">
-                <img src={picpcbdiodeplacement} alt="" />
-              </span>
+              <StaticImage
+                className="image right"
+                src="../../assets/images/static/instructions/si-pcb-diode-placement.jpg"
+                alt="diodes"
+                placeholder="blurred"
+              />
               <br />
               <br />
               The other part where orientation matters are the diodes. We have
@@ -898,9 +979,12 @@ const IndexPage = () => (
         <div className="inner">
           <div className="content">
             <h2 className="major">Soldering the USB-C Port</h2>
-            <span className="image left">
-              <img src={picusbstart} alt="" />
-            </span>
+            <StaticImage
+              className="image left"
+              src="../../assets/images/static/instructions/si-usb-start.jpg"
+              alt="usb start"
+              placeholder="blurred"
+            />
             <br />
             Soldering the USB Port is always the most challenging part of any
             build! We recommend starting with it, because it is easiest when no
@@ -913,9 +997,12 @@ const IndexPage = () => (
             let it slide in there.
             <br />
             <br />
-            <span className="image right">
-              <img src={picusbbottom} alt="" />
-            </span>
+            <StaticImage
+              className="image right"
+              src="../../assets/images/static/instructions/si-usb-bottom.jpg"
+              alt="usb bottom"
+              placeholder="blurred"
+            />
             <br />
             <br />
             Now flip the board around and take a good look at the USB Port. Does
@@ -925,9 +1012,12 @@ const IndexPage = () => (
             <br />
             <br />
             <br />
-            <span className="image left">
-              <img src={picusb1soldered} alt="" />
-            </span>
+            <StaticImage
+              className="image left"
+              src="../../assets/images/static/instructions/si-usb-bottom-1soldered.jpg"
+              alt="usb 1solder"
+              placeholder="blurred"
+            />
             <br />
             Now you can add solder to one of the big pins of the USB port.
             Please be patient and really only do one! ;) Just hold the soldering
@@ -937,9 +1027,12 @@ const IndexPage = () => (
             <br />
             <br />
             <br />
-            <span className="image right">
-              <img src={picusbcrooked} alt="" />
-            </span>
+            <StaticImage
+              className="image right"
+              src="../../assets/images/static/instructions/si-usb-crooked.jpg"
+              alt="crooked"
+              placeholder="blurred"
+            />
             <br />
             <br />
             Now look at the top of the USB port if it sits straight in there. If
@@ -952,9 +1045,12 @@ const IndexPage = () => (
             <br />
             <br />
             <br />
-            <span className="image left">
-              <img src={picusb4soldered} alt="" />
-            </span>
+            <StaticImage
+              className="image left"
+              src="../../assets/images/static/instructions/si-usb-bottom-4soldered.jpg"
+              alt="usb 4solder"
+              placeholder="blurred"
+            />
             <br />
             <br />
             After that you can go ahead and solder the other three big pins of
@@ -965,9 +1061,12 @@ const IndexPage = () => (
             <br />
             <br />
             <br />
-            <span className="image right">
-              <img src={picirontip} alt="" />
-            </span>
+            <StaticImage
+              className="image right"
+              src="../../assets/images/static/instructions/si-irontip.jpg"
+              alt="iron tip"
+              placeholder="blurred"
+            />
             <br />
             <br />
             If you have extra flux add that to the little pins of the USB port
@@ -978,9 +1077,12 @@ const IndexPage = () => (
             <br />
             <br />
             <br />
-            <span className="image left">
-              <img src={picusbpartly} alt="" />
-            </span>
+            <StaticImage
+              className="image left"
+              src="../../assets/images/static/instructions/si-usb-bottom-partlysoldered.jpg"
+              alt="usb partly"
+              placeholder="blurred"
+            />
             <br />
             <br />
             Take your soldering iron and rub it over the little pins. The solder
@@ -990,9 +1092,12 @@ const IndexPage = () => (
             <br />
             <br />
             <br />
-            <span className="image right">
-              <img src={picusbfully} alt="" />
-            </span>
+            <StaticImage
+              className="image right"
+              src="../../assets/images/static/instructions/si-usb-bottom-fullysoldered.jpg"
+              alt="usb done"
+              placeholder="blurred"
+            />
             <br />
             <br />
             If you didn't add enough just go over the pins again with a bit of
@@ -1003,9 +1108,12 @@ const IndexPage = () => (
             <br />
             <br />
             <br />
-            <span className="image left">
-              <img src={picusbcloseup} alt="" />
-            </span>
+            <StaticImage
+              className="image left"
+              src="../../assets/images/static/instructions/si-usb-closeup.jpg"
+              alt="usb closeup"
+              placeholder="blurred"
+            />
             <br />
             <br />
             Here is a close up of an USB port. It should look like this. No pin
@@ -1030,9 +1138,12 @@ const IndexPage = () => (
         <div className="inner">
           <div className="content">
             <h2 className="major">Soldering the OLED</h2>
-            <span className="image left">
-              <img src={picoled} alt="" />
-            </span>
+            <StaticImage
+              className="image left"
+              src="../../assets/images/static/instructions/si-oled.jpg"
+              alt="oled"
+              placeholder="blurred"
+            />
             <br />
             <br />
             <br />
@@ -1042,9 +1153,12 @@ const IndexPage = () => (
             <br />
             <br />
             <br />
-            <span className="image right">
-              <img src={picolednotsoldered} alt="" />
-            </span>
+            <StaticImage
+              className="image right"
+              src="../../assets/images/static/instructions/si-oled-not-soldered.jpg"
+              alt="oled not soldered"
+              placeholder="blurred"
+            />
             <br />
             <br />
             <br />
@@ -1054,9 +1168,12 @@ const IndexPage = () => (
             <br />
             <br />
             <br />
-            <span className="image left">
-              <img src={picoledbenderender} alt="" />
-            </span>
+            <StaticImage
+              className="image left"
+              src="../../assets/images/static/instructions/si-oled-benderender.jpg"
+              alt="oled benderender"
+              placeholder="blurred"
+            />
             <br />
             <br />
             Now you can place the diode bender under the OLED. This ensures the
@@ -1065,9 +1182,12 @@ const IndexPage = () => (
             <br />
             <br />
             <br />
-            <span className="image right">
-              <img src={picoled1soldered} alt="" />
-            </span>
+            <StaticImage
+              className="image right"
+              src="../../assets/images/static/instructions/si-oled-1soldered.jpg"
+              alt="oled 1solder"
+              placeholder="blurred"
+            />
             <br />
             <br />
             <br />
@@ -1077,9 +1197,12 @@ const IndexPage = () => (
             <br />
             <br />
             <br />
-            <span className="image left">
-              <img src={picoledstraight} alt="" />
-            </span>
+            <StaticImage
+              className="image left"
+              src="../../assets/images/static/instructions/si-oled-straight.jpg"
+              alt="oled straight"
+              placeholder="blurred"
+            />
             <br />
             <br />
             You can now look if the OLED sits straight. If it does great job!
@@ -1090,9 +1213,12 @@ const IndexPage = () => (
             <br />
             <br />
             <br />
-            <span className="image right">
-              <img src={picoled4soldered} alt="" />
-            </span>
+            <StaticImage
+              className="image right"
+              src="../../assets/images/static/instructions/si-oled-4soldered.jpg"
+              alt="oled 4 solder"
+              placeholder="blurred"
+            />
             <br />
             <br />
             <br />
@@ -1101,9 +1227,12 @@ const IndexPage = () => (
             <br />
             <br />
             <br />
-            <span className="image left">
-              <img src={picoledrotary} alt="" />
-            </span>
+            <StaticImage
+              className="image left"
+              src="../../assets/images/static/instructions/si-oled-and-rotary.jpg"
+              alt="oled + rotary enc"
+              placeholder="blurred"
+            />
             <br />
             <br />
             <br />
@@ -1123,9 +1252,12 @@ const IndexPage = () => (
         <div className="inner">
           <div className="content">
             <h2 className="major">Soldering the Encoder (EC11)</h2>
-            <span className="image left">
-              <img src={picec11} alt="" />
-            </span>
+            <StaticImage
+              className="image left"
+              src="../../assets/images/static/instructions/si-ec11.jpg"
+              alt="EC11"
+              placeholder="blurred"
+            />
             <br />
             <br />
             <br />
@@ -1139,9 +1271,12 @@ const IndexPage = () => (
             <br />
             <br />
             <br />
-            <span className="image right">
-              <img src={picrotarybigpins} alt="" />
-            </span>
+            <StaticImage
+              className="image right"
+              src="../../assets/images/static/instructions/si-rotary-big-pins.jpg"
+              alt="big pins"
+              placeholder="blurred"
+            />
             <br />
             <br />
             <br />
@@ -1152,9 +1287,12 @@ const IndexPage = () => (
             <br />
             <br />
             <br />
-            <span className="image left">
-              <img src={picrotarysmolpins} alt="" />
-            </span>
+            <StaticImage
+              className="image left"
+              src="../../assets/images/static/instructions/si-rotary-smol-pins.jpg"
+              alt="small pins"
+              placeholder="blurred"
+            />
             <br />
             <br />
             <br />
@@ -1164,9 +1302,12 @@ const IndexPage = () => (
             <br />
             <br />
             <br />
-            <span className="image right">
-              <img src={picrotarynotsoldered} alt="" />
-            </span>
+            <StaticImage
+              className="image right"
+              src="../../assets/images/static/instructions/si-rotary-not-soldered.jpg"
+              alt="rotary unsoldered"
+              placeholder="blurred"
+            />
             <br />
             <br />
             <br />
@@ -1177,9 +1318,12 @@ const IndexPage = () => (
             <br />
             <br />
             <br />
-            <span className="image left">
-              <img src={picrotarysoldered} alt="" />
-            </span>
+            <StaticImage
+              className="image left"
+              src="../../assets/images/static/instructions/si-rotary-soldered.jpg"
+              alt="rotary soldered"
+              placeholder="blurred"
+            />
             <br />
             <br />
             You can now go ahead and solder the big pins forst and then the 5
@@ -1218,9 +1362,12 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">Assembling the keyboard</h2>
             <p>
-              <span className="image left">
-                <img src={pictopdownic} alt="" />
-              </span>
+              <StaticImage
+                className="image left"
+                src="../../assets/images/static/instructions/si-topdown-ic.jpg"
+                alt="atmega"
+                placeholder="blurred"
+              />
               <br />
               <br />
               <br />
@@ -1232,9 +1379,12 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <span className="image right">
-                <img src={picmillmax} alt="" />
-              </span>
+              <StaticImage
+                className="image right"
+                src="../../assets/images/static/instructions/si-millmax.jpg"
+                alt="MillMax"
+                placeholder="blurred"
+              />
               <br />
               <br />
               <br />
@@ -1245,9 +1395,12 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <span className="image left">
-                <img src={picstab} alt="" />
-              </span>
+              <StaticImage
+                className="image left"
+                src="../../assets/images/static/instructions/si-stab.jpg"
+                alt="stabs"
+                placeholder="blurred"
+              />
               <br />
               <br />
               <br />
@@ -1256,9 +1409,12 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <span className="image right">
-                <img src={pic4switches} alt="" />
-              </span>
+              <StaticImage
+                className="image right"
+                src="../../assets/images/static/instructions/si-4switches.jpg"
+                alt="4 switches"
+                placeholder="blurred"
+              />
               <br />
               <br />
               <br />
@@ -1268,9 +1424,12 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <span className="image left">
-                <img src={pic4switchespcb} alt="" />
-              </span>
+              <StaticImage
+                className="image left"
+                src="../../assets/images/static/instructions/si-4switches-pcb.jpg"
+                alt="place on pcb"
+                placeholder="blurred"
+              />
               <br />
               <br />
               <br />
@@ -1280,28 +1439,37 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <span className="image right">
-                <img src={picswitchfull} alt="" />
-              </span>
+              <StaticImage
+                className="image right"
+                src="../../assets/images/static/instructions/si-switchfull.jpg"
+                alt="all switches"
+                placeholder="blurred"
+              />
               <br />
               <br />
               <br />
               After that you can put all switches in there. Make sure to kind of
               pull up on the plate while putting in the switches to lock them
-              in. If you start from the middle that makes it easier. PLease
+              in. If you start from the middle that makes it easier. Please
               refer to our KLE for all the Layouts that are possible{' '}
-              <Link to="http://www.keyboard-layout-editor.com/##@@_x:2.5&c=%23dbd9d9%3B&=ESC&=Q&=W&=E&=R&=T&=Y&=U&=I&=O&=P&=BkSpc%3B&@_x:2.5&c=%23586ba4&w:1.25%3B&=1.25&_c=%23dbd9d9%3B&=A&=S&=D&=F&=G&=H&=J&=K&=L&_c=%23324376&w:1.75%3B&=1.75%3B&@_x:2.5&w:1.75%3B&=1.75&_c=%23dbd9d9%3B&=Z&=X&=C&=V&=B&=N&=M&=%3C%0A,&=%3E%0A.&_c=%23586ba4&w:1.25%3B&=1.25%3B&@_y:0.5&x:2.5&c=%23dbd9d9&a:7%3B&=&=&=&_c=%23f76c5e&a:4&w:2.75%3B&=2.75&_c=%23dbd9d9&a:7%3B&=&_c=%23f68e5f&a:4&w:2.25%3B&=2.25&_c=%23dbd9d9&a:7%3B&=&=&=%3B&@_x:2.5%3B&=&=&=&_c=%23f68e5f&a:4&w:2.25%3B&=2.25&_c=%23dbd9d9&a:7%3B&=&_c=%23f76c5e&a:4&w:2.75%3B&=2.75&_c=%23dbd9d9&a:7%3B&=&=&=%3B&@_x:2.5&c=%23586ba4&a:4&w:1.25%3B&=1.25&_c=%23dbd9d9&a:7%3B&=&=&_c=%23f5dd90&a:4&w:6.25%3B&=6.25&_c=%23586ba4&w:1.25%3B&=1.25&_w:1.25%3B&=1.25%3B&@_x:2.5&c=%23dbd9d9&a:7%3B&=&_c=%23586ba4&a:4&w:1.25%3B&=1.25&_c=%23dbd9d9&a:7%3B&=&_c=%23f5dd90&a:4&w:6.25%3B&=6.25&_c=%23586ba4&w:1.25%3B&=1.25&_w:1.25%3B&=1.25%3B&@_x:2.5&c=%23dbd9d9&a:7%3B&=&=&_c=%23586ba4&a:4&w:1.25%3B&=1.25&_c=%23f5dd90&w:6.25%3B&=6.25&_c=%23586ba4&w:1.25%3B&=1.25&_w:1.25%3B&=1.25">
-                {' '}
+              <a
+                href="http://www.keyboard-layout-editor.com/##@@_x:2.5&c=%23dbd9d9%3B&=ESC&=Q&=W&=E&=R&=T&=Y&=U&=I&=O&=P&=BkSpc%3B&@_x:2.5&c=%23586ba4&w:1.25%3B&=1.25&_c=%23dbd9d9%3B&=A&=S&=D&=F&=G&=H&=J&=K&=L&_c=%23324376&w:1.75%3B&=1.75%3B&@_x:2.5&w:1.75%3B&=1.75&_c=%23dbd9d9%3B&=Z&=X&=C&=V&=B&=N&=M&=%3C%0A,&=%3E%0A.&_c=%23586ba4&w:1.25%3B&=1.25%3B&@_y:0.5&x:2.5&c=%23dbd9d9&a:7%3B&=&=&=&_c=%23f76c5e&a:4&w:2.75%3B&=2.75&_c=%23dbd9d9&a:7%3B&=&_c=%23f68e5f&a:4&w:2.25%3B&=2.25&_c=%23dbd9d9&a:7%3B&=&=&=%3B&@_x:2.5%3B&=&=&=&_c=%23f68e5f&a:4&w:2.25%3B&=2.25&_c=%23dbd9d9&a:7%3B&=&_c=%23f76c5e&a:4&w:2.75%3B&=2.75&_c=%23dbd9d9&a:7%3B&=&=&=%3B&@_x:2.5&c=%23586ba4&a:4&w:1.25%3B&=1.25&_c=%23dbd9d9&a:7%3B&=&=&_c=%23f5dd90&a:4&w:6.25%3B&=6.25&_c=%23586ba4&w:1.25%3B&=1.25&_w:1.25%3B&=1.25%3B&@_x:2.5&c=%23dbd9d9&a:7%3B&=&_c=%23586ba4&a:4&w:1.25%3B&=1.25&_c=%23dbd9d9&a:7%3B&=&_c=%23f5dd90&a:4&w:6.25%3B&=6.25&_c=%23586ba4&w:1.25%3B&=1.25&_w:1.25%3B&=1.25%3B&@_x:2.5&c=%23dbd9d9&a:7%3B&=&=&_c=%23586ba4&a:4&w:1.25%3B&=1.25&_c=%23f5dd90&w:6.25%3B&=6.25&_c=%23586ba4&w:1.25%3B&=1.25&_w:1.25%3B&=1.25"
+                rel="noreferrer"
+                target="_blank"
+              >
                 here
-              </Link>
+              </a>
               .
               <br />
               <br />
               <br />
               <br />
-              <span className="image left">
-                <img src={picswitchsolder} alt="" />
-              </span>
+              <StaticImage
+                className="image left"
+                src="../../assets/images/static/instructions/si-switchsolder.jpg"
+                alt="solder switches"
+                placeholder="blurred"
+              />
               <br />
               <br />
               <br />
@@ -1311,9 +1479,13 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <span className="image right">
-                <img src={picrubberbottom} alt="" />
-              </span>
+              <StaticImage
+                className="image right"
+                src="../../assets/images/static/instructions/si-rubberbottom.jpg"
+                alt="rubber bottom"
+                placeholder="blurred"
+              />
+              >
               <br />
               <br />
               <br />
@@ -1325,9 +1497,12 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <span className="image left">
-                <img src={picrubberfeetmounted} alt="" />
-              </span>
+              <StaticImage
+                className="image left"
+                src="../../assets/images/static/instructions/si-rubber-feet-mounted.jpg"
+                alt="rubber feet"
+                placeholder="blurred"
+              />
               <br />
               <br />
               <br />
@@ -1338,9 +1513,12 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <span className="image right">
-                <img src={picfeetscrews} alt="" />
-              </span>
+              <StaticImage
+                className="image right"
+                src="../../assets/images/static/instructions/si-feet-screws.jpg"
+                alt="feet screws"
+                placeholder="blurred"
+              />
               <br />
               <br />
               <br />
@@ -1351,9 +1529,12 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <span className="image left">
-                <img src={picbottomscrews} alt="" />
-              </span>
+              <StaticImage
+                className="image left"
+                src="../../assets/images/static/instructions/si-bottom-plate-screws.jpg"
+                alt="plate screws"
+                placeholder="blurred"
+              />
               <br />
               <br />
               <br />
@@ -1363,9 +1544,12 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <span className="image right">
-                <img src={picbottomplateview} alt="" />
-              </span>
+              <StaticImage
+                className="image right"
+                src="../../assets/images/static/instructions/si-bottom-plate-view.jpg"
+                alt="bottom plate"
+                placeholder="blurred"
+              />
               <br />
               <br />
               <br />
@@ -1375,21 +1559,27 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <span className="image left">
-                <img src={picfrontside} alt="" />
-              </span>
+              <StaticImage
+                className="image left"
+                src="../../assets/images/static/instructions/si-front-side.jpg"
+                alt="front"
+                placeholder="blurred"
+              />
               <br />
               <br />
               <br />
-              The Cutout for the feet and the bottom plate should align.
+              The cutouts for the feet and the bottom plate should align.
               <br />
               <br />
               <br />
               <br />
               <br />
-              <span className="image right">
-                <img src={picstandoffsmounted} alt="" />
-              </span>
+              <StaticImage
+                className="image right"
+                src="../../assets/images/static/instructions/si-standoffs-mounted.jpg"
+                alt="standoffs"
+                placeholder="blurred"
+              />
               <br />
               <br />
               <br />
@@ -1401,9 +1591,12 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <span className="image left">
-                <img src={picplacetogether} alt="" />
-              </span>
+              <StaticImage
+                className="image left"
+                src="../../assets/images/static/instructions/si-placetogether.jpg"
+                alt="place"
+                placeholder="blurred"
+              />
               <br />
               <br />
               <br />
@@ -1414,9 +1607,12 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <span className="image right">
-                <img src={picscrewpcb} alt="" />
-              </span>
+              <StaticImage
+                className="image right"
+                src="../../assets/images/static/instructions/si-screwpcb.jpg"
+                alt="screw in pcb"
+                placeholder="blurred"
+              />
               <br />
               <br />
               <br />
@@ -1426,21 +1622,26 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <span className="image left">
-                <img src={picremovewasher} alt="" />
-              </span>
+              <StaticImage
+                className="image left"
+                src="../../assets/images/static/instructions/si-removewasher.jpg"
+                alt="remove nut"
+                placeholder="blurred"
+              />
               <br />
               <br />
               <br />
-              If you did not do it earlier remove the washer from the Encoder
-              now.
+              If you did not do it earlier remove the nut from the Encoder now.
               <br />
               <br />
               <br />
               <br />
-              <span className="image right">
-                <img src={picacryltogether} alt="" />
-              </span>
+              <StaticImage
+                className="image right"
+                src="../../assets/images/static/instructions/si-acryltogether.jpg"
+                alt="plexi"
+                placeholder="blurred"
+              />
               <br />
               <br />
               <br />
@@ -1450,9 +1651,12 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <span className="image left">
-                <img src={picacrylscrew} alt="" />
-              </span>
+              <StaticImage
+                className="image left"
+                src="../../assets/images/static/instructions/si-acrylscrew.jpg"
+                alt="screw in plexi"
+                placeholder="blurred"
+              />
               <br />
               <br />
               <br />
@@ -1463,22 +1667,28 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <span className="image right">
-                <img src={picwasher} alt="" />
-              </span>
+              <StaticImage
+                className="image right"
+                src="../../assets/images/static/instructions/si-washer.jpg"
+                alt="nut"
+                placeholder="blurred"
+              />
               <br />
               <br />
               <br />
-              Screw in the washer from the Encoder to secure it in place. Please
+              Screw in the nut from the Encoder to secure it in place. Please
               don't overtighten this just make sure it is seated on there with a
               bit of force.
               <br />
               <br />
               <br />
               <br />
-              <span className="image left">
-                <img src={picrotarytogether} alt="" />
-              </span>
+              <StaticImage
+                className="image left"
+                src="../../assets/images/static/instructions/si-rotarytogether.jpg"
+                alt="rotary"
+                placeholder="blurred"
+              />
               <br />
               <br />
               <br />
@@ -1492,9 +1702,12 @@ const IndexPage = () => (
                 And you are done! Isn't this awesome?
               </h2>
               <br />
-              <span className="image fit">
-                <img src={picfinished} alt="" />
-              </span>
+              <StaticImage
+                className="image fit"
+                src="../../assets/images/static/instructions/si-finished.jpg"
+                alt="done"
+                placeholder="blurred"
+              />
               <br />
               <br />
               <br />

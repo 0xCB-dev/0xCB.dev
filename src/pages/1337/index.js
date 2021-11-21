@@ -1,23 +1,6 @@
 import React from 'react';
-
+import { StaticImage } from 'gatsby-plugin-image';
 import Layout from 'components/Layout';
-
-import pichead from 'assets/images/1337/index/head.jpg';
-import picencoled from 'assets/images/1337/index/encoled.jpg';
-import picenc from 'assets/images/1337/index/enc.jpg';
-import picsw from 'assets/images/1337/index/sw.jpg';
-import picswoled from 'assets/images/1337/index/swoled.jpg';
-import piconly from 'assets/images/1337/index/only.jpg';
-import picpcb from 'assets/images/1337/index/pcb-closeup.jpg';
-import picwhite from 'assets/images/1337/index/white.jpg';
-import piccolors from 'assets/images/1337/index/color.jpg';
-import picmcu from 'assets/images/1337/index/mcu.jpg';
-import pickk from 'assets/images/1337/index/kk.jpg';
-import picsws from 'assets/images/1337/index/sws.jpg';
-import picscreen from 'assets/images/1337/index/screen.jpg';
-import picenck from 'assets/images/1337/index/enck.jpg';
-import picrgb from 'assets/images/1337/index/rgb.jpg';
-import picbl from 'assets/images/1337/index/bl.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -29,7 +12,12 @@ const IndexPage = () => (
       </header>
       <section className="wrapper spotlight style1">
         <div className="inner">
-          <img className="image" src={pichead} alt="" />
+          <StaticImage
+            className="image"
+            src="../../assets/images/1337/index/head.jpg"
+            alt="cover"
+            placeholder="blurred"
+          />
           <div className="content">
             <h2 className="major">1337</h2>
             <p>
@@ -57,19 +45,39 @@ const IndexPage = () => (
           </h3>
           <section className="features">
             <article>
-              <img className="image" src={picencoled} alt="" />
+              <StaticImage
+                className="image"
+                src="../../assets/images/1337/index/encoled.jpg"
+                alt="encoled"
+                placeholder="blurred"
+              />
               <p>The most common variant with all options.</p>
             </article>
             <article>
-              <img className="image" src={picswoled} alt="" />
+              <StaticImage
+                className="image"
+                src="../../assets/images/1337/index/swoled.jpg"
+                alt="swoled"
+                placeholder="blurred"
+              />
               <p>Like the common variant just without the rotary encoder.</p>
             </article>
             <article>
-              <img className="image" src={picenc} alt="" />
+              <StaticImage
+                className="image"
+                src="../../assets/images/1337/index/enc.jpg"
+                alt="enc"
+                placeholder="blurred"
+              />
               <p>Very clean build without the OLED but with the encoder.</p>
             </article>
             <article>
-              <img className="image" src={picsw} alt="" />
+              <StaticImage
+                className="image"
+                src="../../assets/images/1337/index/sw.jpg"
+                alt="sw"
+                placeholder="blurred"
+              />
               <p>The most simple keyboard with just 9 switches.</p>
             </article>
           </section>
@@ -77,7 +85,12 @@ const IndexPage = () => (
       </section>
       <section className="wrapper spotlight style2">
         <div className="inner">
-          <img className="image" src={piconly} alt="" />
+          <StaticImage
+            className="image"
+            src="../../assets/images/1337/index/only.jpg"
+            alt="only"
+            placeholder="blurred"
+          />
           <div className="content">
             <h2 className="major">DIY</h2>
             <p>
@@ -89,7 +102,12 @@ const IndexPage = () => (
       </section>
       <section className="wrapper spotlight style3 alt">
         <div className="inner">
-          <img className="image" src={picpcb} alt="" />
+          <StaticImage
+            className="image"
+            src="../../assets/images/1337/index/pcb-closeup.jpg"
+            alt="pcb"
+            placeholder="blurred"
+          />
           <div className="content">
             <h2 className="major">Presoldered DIY</h2>
             <p>
@@ -104,7 +122,12 @@ const IndexPage = () => (
       </section>
       <section className="wrapper spotlight style4">
         <div className="inner">
-          <img className="image" src={picwhite} alt="" />
+          <StaticImage
+            className="image"
+            src="../../assets/images/1337/index/white.jpg"
+            alt="white"
+            placeholder="blurred"
+          />
           <div className="content">
             <h2 className="major">Fully Assembled</h2>
             <p>
@@ -124,15 +147,23 @@ const IndexPage = () => (
             our filaments are PLA and the black is matte, so after printing, it
             will not be glossy anymore.
           </p>
-          <span className="image fit">
-            <img src={piccolors} alt="" />
-          </span>
+          <StaticImage
+            className="image fit"
+            src="../../assets/images/1337/index/color.jpg"
+            alt="colors"
+            placeholder="blurred"
+          />
         </div>
       </section>
     </section>
     <section className="wrapper spotlight style5 ">
       <div className="inner">
-        <img className="image" src={picmcu} alt="" />
+        <StaticImage
+          className="image"
+          src="../../assets/images/1337/index/mcu.jpg"
+          alt="mcu"
+          placeholder="blurred"
+        />
         <div className="content">
           <h2 className="major">Our Microcontrollers</h2>
           <p>
@@ -150,7 +181,12 @@ const IndexPage = () => (
     </section>
     <section className="wrapper spotlight style6 alt">
       <div className="inner">
-        <img className="image" src={pickk} alt="" />
+        <StaticImage
+          className="image"
+          src="../../assets/images/1337/index/kk.jpg"
+          alt="kk"
+          placeholder="blurred"
+        />
         <div className="content">
           <h2 className="major">Keycaps</h2>
           <p>
@@ -163,7 +199,12 @@ const IndexPage = () => (
     </section>
     <section className="wrapper spotlight style5">
       <div className="inner">
-        <img className="image" src={picsws} alt="" />
+        <StaticImage
+          className="image"
+          src="../../assets/images/1337/index/sws.jpg"
+          alt="sws"
+          placeholder="blurred"
+        />
         <div className="content">
           <h2 className="major">Switches</h2>
           <p>
@@ -182,7 +223,12 @@ const IndexPage = () => (
     </section>
     <section className="wrapper spotlight style4 alt">
       <div className="inner">
-        <img className="image" src={picscreen} alt="" />
+        <StaticImage
+          className="image"
+          src="../../assets/images/1337/index/screen.jpg"
+          alt="oled"
+          placeholder="blurred"
+        />
         <div className="content">
           <h2 className="major">OLED Screen</h2>
           <p>
@@ -197,7 +243,12 @@ const IndexPage = () => (
     </section>
     <section className="wrapper spotlight style3">
       <div className="inner">
-        <img className="image" src={picenck} alt="" />
+        <StaticImage
+          className="image"
+          src="../../assets/images/1337/index/enck.jpg"
+          alt="enck"
+          placeholder="blurred"
+        />
         <div className="content">
           <h2 className="major">Rotary Knob</h2>
           <p>
@@ -212,7 +263,12 @@ const IndexPage = () => (
     </section>
     <section className="wrapper spotlight style2 alt">
       <div className="inner">
-        <img className="image" src={picrgb} alt="" />
+        <StaticImage
+          className="image"
+          src="../../assets/images/1337/index/rgb.jpg"
+          alt="rgb"
+          placeholder="blurred"
+        />
         <div className="content">
           <h2 className="major">RGB Underglow</h2>
           <p>
@@ -225,7 +281,12 @@ const IndexPage = () => (
     </section>
     <section className="wrapper spotlight style1">
       <div className="inner">
-        <img className="image" src={picbl} alt="" />
+        <StaticImage
+          className="image"
+          src="../../assets/images/1337/index/bl.jpg"
+          alt="bl"
+          placeholder="blurred"
+        />
         <div className="content">
           <h2 className="major">Keycap Lights</h2>
           <p>

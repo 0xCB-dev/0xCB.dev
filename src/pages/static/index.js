@@ -1,12 +1,7 @@
 import React from 'react';
+import { StaticImage } from 'gatsby-plugin-image';
 
 import Layout from 'components/Layout';
-
-import picside from 'assets/images/static/index/static-side.jpg';
-import piclayout from 'assets/images/static/index/static-layout.jpg';
-import piccover from 'assets/images/static/index/cover.jpg';
-import picmetal from 'assets/images/static/index/metal.jpg';
-import pictopdown from 'assets/images/static/index/topdown.jpg';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -18,7 +13,12 @@ const IndexPage = () => (
       </header>
       <section className="wrapper style1">
         <div className="inner">
-          <img className="image fit" src={piccover} alt="" />
+          <StaticImage
+            className="image fit"
+            src="../../assets/images/static/index/cover.jpg"
+            alt="cover"
+            placeholder="blurred"
+          />
           <div className="content">
             <p>
               And here it is in all it's glory, the 0xCB Static! <br />
@@ -51,9 +51,12 @@ const IndexPage = () => (
         <div className="inner">
           <div className="content">
             <p>
-              <span className="image fit">
-                <img src={pictopdown} alt="" />
-              </span>
+              <StaticImage
+                className="image fit"
+                src="../../assets/images/static/index/topdown.jpg"
+                alt="topdown"
+                placeholder="blurred"
+              />
               Our new Static keyboard will be sold as a DIY build kit, and we're
               especially excited to announce that it will be available soon
               exclusively through our friend David over at
@@ -76,9 +79,12 @@ const IndexPage = () => (
         <div className="inner">
           <div className="content">
             <p>
-              <span className="image fit">
-                <img src={picside} alt="" />
-              </span>
+              <StaticImage
+                className="image fit"
+                src="../../assets/images/static/index/static-side.jpg"
+                alt="side"
+                placeholder="blurred"
+              />
               The Static has two available orientations, a 6° angle via our 3D
               printed feet or flat against your desk if that's more your
               flavour. For both future-proofing and convenience sake we've gone
@@ -105,9 +111,12 @@ const IndexPage = () => (
         <div className="inner">
           <div className="content">
             <p>
-              <span className="image fit">
-                <img src={picmetal} alt="" />
-              </span>
+              <StaticImage
+                className="image fit"
+                src="../../assets/images/static/index/metal.jpg"
+                alt="metal"
+                placeholder="blurred"
+              />
               All of our base kits will come with your choice of either black or
               white FR4 switch and bottom plates, for that nice flexy feel and
               thocky sound profile so many of you have come to know and love. If
@@ -134,9 +143,12 @@ const IndexPage = () => (
               just gonna have to get your hands on one to see what we mean!
               <br />
               Please see our layout and supported bottom row options below:
-              <span className="image fit">
-                <img src={piclayout} alt="" />
-              </span>
+              <StaticImage
+                className="image fit"
+                src="../../assets/images/static/index/static-layout.jpg"
+                alt="layout"
+                placeholder="blurred"
+              />
             </p>
           </div>
         </div>

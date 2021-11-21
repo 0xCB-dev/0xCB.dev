@@ -1,10 +1,8 @@
 import React from 'react';
 import Layout from 'components/Layout';
+import { StaticImage } from 'gatsby-plugin-image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import icon from 'assets/images/index/header.svg';
-import pic1337 from 'assets/images/index/1337.jpg';
-import picstatic from 'assets/images/index/static-cover.jpg';
-import piccloseup from 'assets/images/index/pcb-closeup.jpg';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -38,18 +36,22 @@ const IndexPage = () => (
     <section id="one" className="wrapper spotlight style1">
       <div className="inner">
         <a href="/static">
-          <img className="image" src={picstatic} alt="" />
+          <StaticImage
+            className="image fit"
+            src="../assets/images/index/static-cover.jpg"
+            alt="static"
+            placeholder="blurred"
+          />
         </a>
         <div className="content">
           <h2 className="major">Static</h2>
           <p>
             After we saw how well recieved our 1337 macropads were, we quickly
-            realized that we wanted to try something even bigger and better.
-            We put our heads together and made a list of every feature we
-            would want in our own dream 40% keeb, and after many hours in the
-            lab we're extra proud of what we've come up with. We're very
-            excited to introduce you to our newest addition to the OxCB
-            family, the Static!
+            realized that we wanted to try something even bigger and better. We
+            put our heads together and made a list of every feature we would
+            want in our own dream 40% keeb, and after many hours in the lab
+            we're extra proud of what we've come up with. We're very excited to
+            introduce you to our newest addition to the OxCB family, the Static!
           </p>
         </div>
       </div>
@@ -58,7 +60,12 @@ const IndexPage = () => (
       <section id="two" className="wrapper spotlight alt style2">
         <div className="inner">
           <a href="/1337">
-            <img className="image" src={pic1337} alt="" />
+            <StaticImage
+              className="image fit"
+              src="../assets/images/index/1337.jpg"
+              alt="1337"
+              placeholder="blurred"
+            />
           </a>
           <div className="content">
             <h2 className="major">1337</h2>
@@ -78,7 +85,12 @@ const IndexPage = () => (
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
           <a href="/instructions">
-            <img className="image" src={piccloseup} alt="" />
+            <StaticImage
+              className="image fit"
+              src="../assets/images/index/pcb-closeup.jpg"
+              alt="pcb"
+              placeholder="blurred"
+            />
           </a>
           <div className="content">
             <h2 className="major">Instructions</h2>
