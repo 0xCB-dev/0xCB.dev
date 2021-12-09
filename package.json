@@ -12,6 +12,8 @@
   },
   "dependencies": {
     "@babel/core": "^7.16.0",
+    "@fontsource/courier-prime": "^4.5.0",
+    "@fontsource/dosis": "^4.5.1",
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
