@@ -87,7 +87,7 @@ const IndexPage = () => (
           <a href="/instructions">
             <StaticImage
               className="image fit"
-              src="../assets/images/index/pcb-closeup.jpg"
+              src="../assets/images/index/instructions.jpg"
               alt="pcb"
               placeholder="blurred"
             />

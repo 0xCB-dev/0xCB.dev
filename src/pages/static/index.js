@@ -58,17 +58,25 @@ const IndexPage = () => (
                 placeholder="blurred"
               />
               Our new Static keyboard will be sold as a DIY build kit, and we're
-              especially excited to announce that it will be available soon
-              exclusively through our friend David over at
-              <a href="https://candykeys.com"> CandyKeys</a>! Each kit includes
-              a Static PCB, switch and bottom plate, EC11 rotary encoder and
-              knob, 0.91" OLED screen, acrylic OLED/electronics cover, all of
-              the required through-hole components and mounting hardware, plus a
-              pair of 3D printed feet. We've even gone so far as to design and
-              3D print a perfectly sized diode bender to put in each kit, so
-              you'll end up with not only the easiest but the cleanest build you
-              thought possible! All you need to supply are your own switches,
-              screw-in stabilizers, and keycaps.
+              especially excited to announce that it is available through our
+              friend David over at
+              <a
+                href="https://candykeys.com/product/0xcb-static-keyboard-kit"
+                rel="noreferrer"
+                target="_blank"
+              >
+                {' '}
+                CandyKeys
+              </a>
+              ! Each kit includes a Static PCB, switch and bottom plate, EC11
+              rotary encoder and knob, 0.91" OLED screen, acrylic
+              OLED/electronics cover, all of the required through-hole
+              components and mounting hardware, plus a pair of 3D printed feet.
+              We've even gone so far as to design and 3D print a perfectly sized
+              diode bender to put in each kit, so you'll end up with not only
+              the easiest but the cleanest build you thought possible! All you
+              need to supply are your own switches, screw-in stabilizers, and
+              keycaps.
               <br />
               <br />
             </p>

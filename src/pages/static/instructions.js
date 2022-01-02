@@ -10,7 +10,7 @@ const IndexPage = () => (
     <section id="wrapper">
       <header>
         <div className="inner">
-          <h2>Static assembly instructions (WIP!!!)</h2>
+          <h2>Static assembly instructions</h2>
         </div>
       </header>
       <section id="toc" className="wrapper style4 alt">
@@ -51,6 +51,9 @@ const IndexPage = () => (
                 <li>
                   <Link to="#ass">Assembling the Keyboard</Link>
                 </li>
+                <li>
+                  <Link to="/static/troubleshooting">Troubleshooting</Link>
+                </li>
               </ol>
             </div>
             <div className="col-6 col-12-medium">
@@ -70,7 +73,7 @@ const IndexPage = () => (
                 <br />
                 <br />
                 If you have any problems during assembly don't hesitate to shoot
-                us an e-mail or just ask over at our discord.
+                us an e-mail or ask over at our discord.
               </p>
               <div className="row">
                 <div className="col">
@@ -250,9 +253,11 @@ const IndexPage = () => (
                       OLED Screen
                       <br />
                       <br />
-                      The OLED Screen is sealed in an antistatic bag upon
-                      arrival. This ensures, that they are fully functioning
-                      when you get them!{' '}
+                      <i>
+                        The OLED Screen is sealed in an antistatic bag upon
+                        arrival. This ensures, that they are fully functioning
+                        when you get them!
+                      </i>
                     </td>
                     <td>OL1</td>
                     <td>1</td>
@@ -374,8 +379,10 @@ const IndexPage = () => (
                       1N4148
                       <br />
                       <br />
-                      We will include a few extras of those to ensure you have
-                      enough!
+                      <i>
+                        We will include a few extras of those to ensure you have
+                        enough!
+                      </i>
                     </td>
                     <td>D1...48</td>
                     <td>48</td>
@@ -412,6 +419,12 @@ const IndexPage = () => (
                       <br />
                       <br />
                       75Ohm
+                      <br />
+                      <br />
+                      <i>
+                        Please be aware that the resistors can look different.
+                        Pay attention to the pink markings on the paper.
+                      </i>
                     </td>
                     <td>R3, R4</td>
                     <td>2</td>
@@ -430,6 +443,12 @@ const IndexPage = () => (
                       <br />
                       <br />
                       1.5kOhm
+                      <br />
+                      <br />
+                      <i>
+                        Please be aware that the resistors can look different.
+                        Pay attention to the pink markings on the paper.
+                      </i>
                     </td>
                     <td>R6</td>
                     <td>1</td>
@@ -448,6 +467,12 @@ const IndexPage = () => (
                       <br />
                       <br />
                       5.1kOhm
+                      <br />
+                      <br />
+                      <i>
+                        Please be aware that the resistors can look different.
+                        Pay attention to the pink markings on the paper.
+                      </i>
                     </td>
                     <td>R1, R2</td>
                     <td>2</td>
@@ -466,6 +491,12 @@ const IndexPage = () => (
                       <br />
                       <br />
                       10kOhm
+                      <br />
+                      <br />
+                      <i>
+                        Please be aware that the resistors can look different.
+                        Pay attention to the pink markings on the paper.
+                      </i>
                     </td>
                     <td>R5</td>
                     <td>1</td>
@@ -519,9 +550,11 @@ const IndexPage = () => (
                       Diode Bender
                       <br />
                       <br />
-                      Use this Diode bender to perfectly bend the diodes to fit
-                      in our PCB. You will get the nicest looking bends this
-                      way!
+                      <i>
+                        Use this Diode bender to perfectly bend the diodes to
+                        fit in our PCB. You will get the nicest looking bends
+                        this way!
+                      </i>
                     </td>
                     <td></td>
                     <td>1</td>
@@ -539,8 +572,10 @@ const IndexPage = () => (
                       Allen Key
                       <br />
                       <br />
-                      These allen key fit the M2 Hex Screws that are needed for
-                      the case and the one screw for the Encoder!
+                      <i>
+                        These allen key fit the M2 Hex Screws that are needed
+                        for the case and the one screw for the Encoder!
+                      </i>
                     </td>
                     <td></td>
                     <td>2</td>
@@ -963,7 +998,7 @@ const IndexPage = () => (
               <br />
               <br />
               The other part where orientation matters are the diodes. We have
-              to types in the Kit, two large and 50 small ones. Both function
+              two types in the Kit, two large and 50 small ones. Both function
               the same tho. You have one black circle on the diode and one black
               line on the PCB. These should align.
               <br />
