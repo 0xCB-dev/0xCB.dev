@@ -10,10 +10,9 @@ const IndexPage = () => (
       <header>
         <div className="inner">
           <h2>Instructions</h2>
-          <p>Here you will find instructions for our keebs.</p>
         </div>
       </header>
-      <div className="wrapper">
+      <div className="wrapper style1 alt">
         <div className="inner">
           <section className="features">
             <article>
@@ -26,6 +25,7 @@ const IndexPage = () => (
                 />
               </Link>
               <h3 className="major">1337 assembly instructions</h3>
+              <p> Instructions for our little macro pad.</p>
             </article>
             <article>
               <Link to="/static/instructions">
@@ -37,6 +37,7 @@ const IndexPage = () => (
                 />{' '}
               </Link>
               <h3 className="major">Static assembly instructions</h3>
+              <p> Instructions for our way bigger 40% keyboard.</p>
             </article>
           </section>
         </div>

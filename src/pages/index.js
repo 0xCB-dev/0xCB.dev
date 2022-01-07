@@ -33,7 +33,7 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section id="one" className="wrapper spotlight style1">
+    <section id="one" className="wrapper spotlight style1 alt">
       <div className="inner">
         <a href="/static">
           <StaticImage
@@ -57,9 +57,9 @@ const IndexPage = () => (
       </div>
     </section>
     <section id="wrapper">
-      <section id="two" className="wrapper spotlight alt style2">
+      <section id="two" className="wrapper spotlight style2">
         <div className="inner">
-          <a href="/1337">
+          <a href="/1337/old">
             <StaticImage
               className="image fit"
               src="../assets/images/index/1337.jpg"
@@ -71,18 +71,18 @@ const IndexPage = () => (
             <h2 className="major">1337</h2>
             <p>
               In 2020, the 0xCB 1337 was our first foray into the custom
-              mechanical keyboard scene. It is a feature rich macropad, fully
+              mechanical keyboard scene. Now in 2022 we are doing an all
+              improved version! The 1337 is a feature rich macropad, fully
               programmable with QMK and VIA both of which are considered the
-              gold standard for keyboard firmware! In addition to 4 seperate
-              function layers, it features a rotary encoder for volume control,
-              RGB underglow and white per-key lighting, not to mention a very
+              gold standard for keyboard firmware! It features a rotary encoder,
+              RGB underglow and per-key RGB lighting, not to mention a very
               snazzy OLED that displays information like your current layer/RGB
               settings/etc.!
             </p>
           </div>
         </div>
       </section>
-      <section id="three" className="wrapper spotlight style3">
+      <section id="three" className="wrapper spotlight style3 alt">
         <div className="inner">
           <a href="/instructions">
             <StaticImage
@@ -102,7 +102,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="four" className="wrapper alt style4">
+      <section id="four" className="wrapper style4">
         <div className="inner">
           <h2 className="major">About Us</h2>
           <p>
@@ -116,7 +116,7 @@ const IndexPage = () => (
           </p>
         </div>
       </section>
-      <section id="four" className="wrapper style2">
+      <section id="four" className="wrapper style2 alt">
         <div className="inner">
           <h2 className="major">Customer Quotes</h2>
           <Slider {...settings}>

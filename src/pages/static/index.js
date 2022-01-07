@@ -11,7 +11,7 @@ const IndexPage = () => (
           <h2>0xCB Static</h2>
         </div>
       </header>
-      <section className="wrapper style1">
+      <section className="wrapper style1 alt">
         <div className="inner">
           <StaticImage
             className="image fit"
@@ -47,7 +47,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section className="wrapper alt style2">
+      <section className="wrapper style2">
         <div className="inner">
           <div className="content">
             <p>
@@ -57,7 +57,7 @@ const IndexPage = () => (
                 alt="topdown"
                 placeholder="blurred"
               />
-              Our new Static keyboard will be sold as a DIY build kit, and we're
+              Our new Static keyboard is selling as a DIY build kit, and we're
               especially excited to announce that it is available through our
               friend David over at
               <a
@@ -83,7 +83,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section className="wrapper style3">
+      <section className="wrapper style3 alt">
         <div className="inner">
           <div className="content">
             <p>
@@ -115,7 +115,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section className="wrapper alt style4">
+      <section className="wrapper style4">
         <div className="inner">
           <div className="content">
             <p>
@@ -138,7 +138,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section className="wrapper style5">
+      <section className="wrapper style3 alt">
         <div className="inner">
           <div className="content">
             <p>

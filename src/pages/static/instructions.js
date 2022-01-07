@@ -13,7 +13,7 @@ const IndexPage = () => (
           <h2>Static assembly instructions</h2>
         </div>
       </header>
-      <section id="toc" className="wrapper style4 alt">
+      <section id="toc" className="wrapper style1 alt">
         <div className="inner">
           <div className="row">
             <div className="col-6 col-12-medium">
@@ -105,7 +105,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="parts" className="wrapper style3">
+      <section id="parts" className="wrapper style2">
         <div className="inner">
           <div className="content">
             <h2 className="major">Packing List</h2>
@@ -586,7 +586,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="tools" className="wrapper style2 alt">
+      <section id="tools" className="wrapper style3 alt">
         <div className="inner">
           <div className="content">
             <h2 className="major">Required Supplies</h2>
@@ -655,7 +655,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="opttools" className="wrapper style1">
+      <section id="opttools" className="wrapper style4">
         <div className="inner">
           <div className="content">
             <h2 className="major">Optional Supplies</h2>
@@ -727,7 +727,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="solder" className="wrapper style2 alt">
+      <section id="solder" className="wrapper style3 alt">
         <div className="inner">
           <div className="content">
             <h2 className="major">Soldering</h2>
@@ -839,7 +839,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="tht" className="wrapper style3">
+      <section id="tht" className="wrapper style2">
         <div className="inner">
           <div className="content">
             <h2 className="major">Soldering basic through hole components</h2>
@@ -935,7 +935,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="orient" className="wrapper style4 alt">
+      <section id="orient" className="wrapper style1 alt">
         <div className="inner">
           <div className="content">
             <h2 className="major">Orientation of the components</h2>
@@ -1010,7 +1010,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="usb" className="wrapper style3">
+      <section id="usb" className="wrapper style2">
         <div className="inner">
           <div className="content">
             <h2 className="major">Soldering the USB-C Port</h2>
@@ -1169,7 +1169,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="oled" className="wrapper style2 alt">
+      <section id="oled" className="wrapper style3 alt">
         <div className="inner">
           <div className="content">
             <h2 className="major">Soldering the OLED</h2>
@@ -1283,7 +1283,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="enc" className="wrapper style1">
+      <section id="enc" className="wrapper style4">
         <div className="inner">
           <div className="content">
             <h2 className="major">Soldering the Encoder (EC11)</h2>
@@ -1370,7 +1370,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="pnp" className="wrapper style2 alt">
+      <section id="pnp" className="wrapper style3 alt">
         <div className="inner">
           <div className="content">
             <h2 className="major">Interactive BOM / human PnP</h2>
@@ -1392,7 +1392,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="ass" className="wrapper style3">
+      <section id="ass" className="wrapper style2">
         <div className="inner">
           <div className="content">
             <h2 className="major">Assembling the keyboard</h2>
