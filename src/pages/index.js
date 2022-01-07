@@ -110,10 +110,9 @@ const IndexPage = () => (
             and manufacture products in the electronics sector. We both are 20
             years young and made our first experience in the designing,
             sourcing, and manufacturing of our 1337 Macro Keyboard. Currently we
-            are working on designing and manufacturing our first Keyboard! The
+            are working on manufacturing the second round of our first Keyboard! The
             0xCB Static! If you have any ideas for us don´t hesitate to contact
-            us! We currently do not have our own online store as we use Tindie
-            for our products.
+            us!
           </p>
         </div>
       </section>
