@@ -19,6 +19,7 @@ const IndexPage = () => (
           </p>
         </div>
       </header>
+      {/*
       <section className="wrapper style1 alt">
         <div className="inner">
           <div className="content">
@@ -45,6 +46,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
+    */}
       <section className="wrapper style2">
         <div className="inner">
           <div className="content">
