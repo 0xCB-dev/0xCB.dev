@@ -115,9 +115,8 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">PCB Work</h2>
             <p>
-              We are big into designing PCBs. Recently we have started
-              commissions for PCBs as well. Feel free to click through our
-              portfolio and message us when you want to work with us!
+              Recently we started accepting commissions for PCBs. Feel free to
+              click through our portfolio!
             </p>
           </div>
         </div>

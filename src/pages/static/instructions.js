@@ -1522,7 +1522,6 @@ const IndexPage = () => (
                 alt="rubber bottom"
                 placeholder="blurred"
               />
-              >
               <br />
               <br />
               <br />
@@ -1760,16 +1759,16 @@ const IndexPage = () => (
               you sorted. <br />
               If you still can't figure it out do make sure to drop by our
               Discord server. We are happy to help you over there!
-              <li>
-                <a
-                  href="https://discord.gg/WpmFC2NRWV"
-                  rel="noreferrer"
-                  target="_blank"
-                  className="button primary fit"
-                >
-                  Join us on Discord ;)
-                </a>
-              </li>
+              <br />
+              <br />
+              <a
+                href="https://discord.gg/WpmFC2NRWV"
+                rel="noreferrer"
+                target="_blank"
+                className="button primary fit"
+              >
+                Join us on Discord ;)
+              </a>
             </p>
           </div>
         </div>

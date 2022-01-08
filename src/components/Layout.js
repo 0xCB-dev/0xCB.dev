@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import { StaticImage } from 'gatsby-plugin-image';
 import Helmet from 'react-helmet';
 
 import 'assets/sass/main.scss';
