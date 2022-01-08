@@ -102,7 +102,27 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="four" className="wrapper style4">
+      <section id="three" className="wrapper spotlight style4">
+        <div className="inner">
+          <a href="/pcbwork">
+            <StaticImage
+              className="image fit"
+              src="../assets/images/index/pcb.png"
+              alt="pcb"
+              placeholder="blurred"
+            />
+          </a>
+          <div className="content">
+            <h2 className="major">PCB Work</h2>
+            <p>
+              We are big into designing PCBs. Recently we have started
+              commissions for PCBs as well. Feel free to click through our
+              portfolio and message us when you want to work with us!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="four" className="wrapper style3 alt">
         <div className="inner">
           <h2 className="major">About Us</h2>
           <p>
@@ -116,7 +136,7 @@ const IndexPage = () => (
           </p>
         </div>
       </section>
-      <section id="four" className="wrapper style2 alt">
+      <section id="four" className="wrapper style2">
         <div className="inner">
           <h2 className="major">Customer Quotes</h2>
           <Slider {...settings}>

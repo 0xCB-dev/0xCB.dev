@@ -52,7 +52,7 @@ const IndexPage = () => (
                   <Link to="#ass">Assembling the Keyboard</Link>
                 </li>
                 <li>
-                  <Link to="/static/troubleshooting">Troubleshooting</Link>
+                  <Link to="#trb">Troubleshooting</Link>
                 </li>
               </ol>
             </div>
@@ -1405,10 +1405,12 @@ const IndexPage = () => (
               />
               <br />
               <br />
-              <br />
-              <br />
               Here we will go over all the steps you need to follow after you
-              have soldered the PCB!
+              have soldered the PCB! Before you do that please plug in your PCB
+              now and check that everythings works. Please also use the Matrix
+              tester in VIA for that. If something is wrong, check out our
+              troubleshooting guide over{' '}
+              <Link to="/static/troubleshooting">here</Link>.
               <br />
               <br />
               <br />
@@ -1743,11 +1745,31 @@ const IndexPage = () => (
                 alt="done"
                 placeholder="blurred"
               />
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="trb" className="wrapper style1 alt">
+        <div className="inner">
+          <div className="content">
+            <h2 className="major">Troubleshooting</h2>
+            <p>
+              Now that you have assembled your keyboard some things might not
+              work. Please make sure to check out our troubleshooting guide{' '}
+              <Link to="/static/troubleshooting">here</Link>. That should get
+              you sorted. <br />
+              If you still can't figure it out do make sure to drop by our
+              Discord server. We are happy to help you over there!
+              <li>
+                <a
+                  href="https://discord.gg/WpmFC2NRWV"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="button primary fit"
+                >
+                  Join us on Discord ;)
+                </a>
+              </li>
             </p>
           </div>
         </div>
