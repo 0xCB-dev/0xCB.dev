@@ -19,7 +19,6 @@ const IndexPage = () => (
           </p>
         </div>
       </header>
-      {/*
       <section className="wrapper style1 alt">
         <div className="inner">
           <div className="content">
@@ -46,7 +45,6 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-    */}
       <section className="wrapper style2">
         <div className="inner">
           <div className="content">
@@ -117,14 +115,11 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      {/* 
       <section className="wrapper style4">
         <div className="inner">
           <div className="content">
             <h2 className="major">Touch Types Therian40</h2>
-            <p>
-              The Therian 40 is a great premium 40% Keyboard featuring a staggered layout pcb and an ortho option
-            </p>
+            <p>The Therian 40 is a great premium 40% Keyboard.</p>
             <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.75)'}>
               <StaticImage
                 className="image"
@@ -134,6 +129,7 @@ const IndexPage = () => (
                 quality="100"
               />
             </Zoom>
+            <p>ortho layout - soldered PCB - multiple bottom row options</p>
             <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.75)'}>
               <StaticImage
                 className="image"
@@ -143,6 +139,7 @@ const IndexPage = () => (
                 quality="100"
               />
             </Zoom>
+            <p>staggered layout - soldered PCB - multiple bottom row options</p>
             <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.75)'}>
               <StaticImage
                 className="image"
@@ -155,7 +152,6 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      */}
     </section>
   </Layout>
 );
