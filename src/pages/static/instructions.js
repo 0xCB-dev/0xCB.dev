@@ -1376,7 +1376,7 @@ const IndexPage = () => (
             <h2 className="major">Interactive BOM / human PnP</h2>
             <p>
               <a
-                href="https://files.0xcb.dev/0xCB/static/humanpnp.html"
+                href="https://files.0xcb.dev/0xCB-static/humanpnp.html"
                 rel="external noreferrer"
                 target="_blank"
                 className="button primary fit"
@@ -1385,7 +1385,7 @@ const IndexPage = () => (
               </a>
             </p>
             <iframe
-              src="https://files.0xcb.dev/0xCB/static/humanpnp.html"
+              src="https://files.0xcb.dev/0xCB-static/humanpnp.html"
               title="humanpnp"
               style={{ width: '100%', height: '400px' }}
             ></iframe>
