@@ -39,11 +39,11 @@ const IndexPage = () => (
               <h3 className="major">Static assembly instructions</h3>
               <p> Instructions for our way bigger 40% keyboard.</p>
             </article>
-{/*            <article>
-              <Link to="/static/instructions-case">
+            <article>
+              <Link to="/static/instructions/case">
                 <StaticImage
                   className="image"
-                  src="../../assets/images/instructions/static.jpg"
+                  src="../../assets/images/instructions/case.jpg"
                   alt="Static"
                   placeholder="blurred"
                 />{' '}
@@ -51,9 +51,8 @@ const IndexPage = () => (
               <h3 className="major">
                 Static Acrylic Case assembly instructions
               </h3>
-              <p> Instructions for our acrylic case for the Static.</p>
-            </article> 
-*/}
+              <p> Instructions for our Acrylic Case for the Static.</p>
+            </article>
           </section>
         </div>
       </div>
