@@ -1,6 +1,5 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
-import { Link } from 'gatsby';
 import ScrollUp from 'react-scroll-up';
 import Layout from 'components/Layout';
 import picscroller from 'assets/images/up.png';
@@ -80,7 +79,7 @@ const IndexPage = () => (
                     <td>
                       <StaticImage
                         className="image"
-                        src="../../assets/images/placeholder.jpg"
+                        src="../../../assets/images/placeholder.jpg"
                         alt="1"
                         placeholder="blurred"
                       />
@@ -92,7 +91,7 @@ const IndexPage = () => (
                     <td>
                       <StaticImage
                         className="image"
-                        src="../../assets/images/placeholder.jpg"
+                        src="../../../assets/images/placeholder.jpg"
                         alt="pcb"
                         placeholder="blurred"
                       />
@@ -104,7 +103,7 @@ const IndexPage = () => (
                     <td>
                       <StaticImage
                         className="image"
-                        src="../../assets/images/placeholder.jpg"
+                        src="../../../assets/images/placeholder.jpg"
                         alt="pcb"
                         placeholder="blurred"
                       />
@@ -116,7 +115,7 @@ const IndexPage = () => (
                     <td>
                       <StaticImage
                         className="image"
-                        src="../../assets/images/placeholder.jpg"
+                        src="../../../assets/images/placeholder.jpg"
                         alt="pcb"
                         placeholder="blurred"
                       />
@@ -128,7 +127,7 @@ const IndexPage = () => (
                     <td>
                       <StaticImage
                         className="image"
-                        src="../../assets/images/placeholder.jpg"
+                        src="../../../assets/images/placeholder.jpg"
                         alt="pcb"
                         placeholder="blurred"
                       />
@@ -140,7 +139,7 @@ const IndexPage = () => (
                     <td>
                       <StaticImage
                         className="image"
-                        src="../../assets/images/placeholder.jpg"
+                        src="../../../assets/images/placeholder.jpg"
                         alt="pcb"
                         placeholder="blurred"
                       />
@@ -152,7 +151,7 @@ const IndexPage = () => (
                     <td>
                       <StaticImage
                         className="image"
-                        src="../../assets/images/placeholder.jpg"
+                        src="../../../assets/images/placeholder.jpg"
                         alt="pcb"
                         placeholder="blurred"
                       />
@@ -164,7 +163,7 @@ const IndexPage = () => (
                     <td>
                       <StaticImage
                         className="image"
-                        src="../../assets/images/static/instructions/si-big-standoffs.jpg"
+                        src="../../../assets/images/static/instructions/si-big-standoffs.jpg"
                         alt="big standoffs"
                         placeholder="blurred"
                       />
@@ -176,7 +175,7 @@ const IndexPage = () => (
                     <td>
                       <StaticImage
                         className="image"
-                        src="../../assets/images/static/instructions/si-screws.jpg"
+                        src="../../../assets/images/static/instructions/si-screws.jpg"
                         alt="screws"
                         placeholder="blurred"
                       />
@@ -188,7 +187,7 @@ const IndexPage = () => (
                     <td>
                       <StaticImage
                         className="image"
-                        src="../../assets/images/static/instructions/si-screws.jpg"
+                        src="../../../assets/images/static/instructions/si-screws.jpg"
                         alt="screws"
                         placeholder="blurred"
                       />
@@ -213,7 +212,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../assets/images/placeholder.jpg"
+                src="../../../assets/images/placeholder.jpg"
                 alt="ic"
                 placeholder="blurred"
               />
@@ -221,9 +220,9 @@ const IndexPage = () => (
               <br />
               <br />
               We use Cast Acrylic rather than Extruded in our kits. This means
-              the material is less brittle and will be more stable, but there are
-              some small parts in our kit so you should be really careful while
-              handling the all single layers!
+              the material is less brittle and will be more stable, but there
+              are some small parts in our kit so you should be really careful
+              while handling the all single layers!
               <br />
               <br />
               <br />
@@ -231,7 +230,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../assets/images/placeholder.jpg"
+                src="../../../assets/images/placeholder.jpg"
                 alt="atmega"
                 placeholder="blurred"
               />
@@ -239,21 +238,24 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              All Layers come with a protective film on both sides! You
-              need to remove that to ensure a nice fit and look afterwards...
-              This is probably the most satisfying part of the whole process. ;)
+              All Layers come with a protective film on both sides! You need to
+              remove that to ensure a nice fit and look afterwards... This is
+              probably the most satisfying part of the whole process. ;)
               <br />
               <br />
               <StaticImage
                 className="image left"
-                src="../../assets/images/placeholder.jpg"
+                src="../../../assets/images/placeholder.jpg"
                 alt="ic"
                 placeholder="blurred"
               />
               <br />
               <br />
               <br />
-              While tightening the screws please don't overtighten them. Just screw them together until you feel a bit of resistance. If you overtighten them the acrylic will break! It is not as durable as the FR4 together with the standoffs in the base kit.
+              While tightening the screws please don't overtighten them. Just
+              screw them together until you feel a bit of resistance. If you
+              overtighten them the acrylic will break! It is not as durable as
+              the FR4 together with the standoffs in the base kit.
               <br />
               <br />
               <br />
@@ -269,7 +271,7 @@ const IndexPage = () => (
             <p>
               <StaticImage
                 className="image left"
-                src="../../assets/images/static/instructions/si-resistorbend.jpg"
+                src="../../../assets/images/static/instructions/si-resistorbend.jpg"
                 alt="resistorbend"
                 placeholder="blurred"
               />
@@ -287,7 +289,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../assets/images/static/instructions/si-cap-in-place.jpg"
+                src="../../../assets/images/static/instructions/si-cap-in-place.jpg"
                 alt="cap placement"
                 placeholder="blurred"
               />
@@ -304,7 +306,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../assets/images/static/instructions/si-legs-bend.jpg"
+                src="../../../assets/images/static/instructions/si-legs-bend.jpg"
                 alt="leg bending"
                 placeholder="blurred"
               />
@@ -320,7 +322,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../assets/images/static/instructions/si-legs-soldered.jpg"
+                src="../../../assets/images/static/instructions/si-legs-soldered.jpg"
                 alt="solder legs"
                 placeholder="blurred"
               />
@@ -337,7 +339,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../assets/images/static/instructions/si-legs-clipped.jpg"
+                src="../../../assets/images/static/instructions/si-legs-clipped.jpg"
                 alt="clip legs"
                 placeholder="blurred"
               />
