@@ -12,7 +12,7 @@ const IndexPage = () => (
     <section id="wrapper">
       <header>
         <div className="inner">
-          <h2>Static Acrylic Case assembly instructions WIP!!!</h2>
+          <h2>Static Acrylic Case assembly instructions</h2>
         </div>
       </header>
       <section id="toc" className="wrapper style1 alt">
@@ -21,7 +21,7 @@ const IndexPage = () => (
             <div className="col-6 col-12-medium">
               <p>
                 Here you can find the instructions for the 0xCB Static Acrylic
-                Case! This is still Work in Progress!
+                Case!
                 <br />
                 <br />
                 The process of assembling the case is quite straight forward, so
@@ -193,8 +193,8 @@ const IndexPage = () => (
                     <td>
                       <StaticImage
                         className="image"
-                        src="../../../assets/images/static/instructions/si-big-standoffs.jpg"
-                        alt="big standoffs"
+                        src="../../../assets/images/static/instructions-case/standoff.jpg"
+                        alt="standoff"
                         placeholder="blurred"
                       />
                     </td>
@@ -205,8 +205,8 @@ const IndexPage = () => (
                     <td>
                       <StaticImage
                         className="image"
-                        src="../../../assets/images/static/instructions/si-screws.jpg"
-                        alt="screws"
+                        src="../../../assets/images/static/instructions-case/12mm.jpg"
+                        alt="12mm"
                         placeholder="blurred"
                       />
                     </td>
@@ -217,8 +217,8 @@ const IndexPage = () => (
                     <td>
                       <StaticImage
                         className="image"
-                        src="../../../assets/images/static/instructions/si-screws.jpg"
-                        alt="screws"
+                        src="../../../assets/images/static/instructions-case/8mm.jpg"
+                        alt="8mm"
                         placeholder="blurred"
                       />
                     </td>
@@ -242,8 +242,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../../assets/images/placeholder.jpg"
-                alt="ic"
+                src="../../../assets/images/static/instructions-case/done.jpg"
+                alt="done"
                 placeholder="blurred"
               />
               <br />
@@ -259,8 +259,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../../assets/images/placeholder.jpg"
-                alt="atmega"
+                src="../../../assets/images/static/instructions-case/plexi-film.jpg"
+                alt="plexi-film"
                 placeholder="blurred"
               />
               <br />
@@ -528,6 +528,21 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="ass" className="wrapper style3 alt">
+        <div className="inner">
+          <div className="content">
+            <h2 className="major">And you are done with your Static Case!</h2>
+            <p>
+              <StaticImage
+                className="image"
+                src="../../../assets/images/static/instructions-case/done.jpg"
+                alt="done"
+                placeholder="blurred"
+              />
             </p>
           </div>
         </div>
