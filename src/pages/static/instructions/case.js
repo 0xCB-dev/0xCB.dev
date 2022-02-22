@@ -67,6 +67,7 @@ const IndexPage = () => (
             <h2 className="major">Packing List</h2>
             <p>
               These parts should all be included in you Static Acrylic Case Kit!
+              You are able to click on the images to get a closer view of them.
             </p>
             <div className="table-wrapper">
               <table className="alt">
@@ -83,8 +84,8 @@ const IndexPage = () => (
                       <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.75)'}>
                         <StaticImage
                           className="image"
-                          src="../../../assets/images/placeholder.jpg"
-                          alt="pcb"
+                          src="../../../assets/images/static/instructions-case/1.jpg"
+                          alt="1"
                           placeholder="blurred"
                           quality="100"
                         />
@@ -98,8 +99,8 @@ const IndexPage = () => (
                       <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.75)'}>
                         <StaticImage
                           className="image"
-                          src="../../../assets/images/placeholder.jpg"
-                          alt="pcb"
+                          src="../../../assets/images/static/instructions-case/2.jpg"
+                          alt="2"
                           placeholder="blurred"
                           quality="100"
                         />
@@ -113,8 +114,8 @@ const IndexPage = () => (
                       <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.75)'}>
                         <StaticImage
                           className="image"
-                          src="../../../assets/images/placeholder.jpg"
-                          alt="pcb"
+                          src="../../../assets/images/static/instructions-case/3.jpg"
+                          alt="3"
                           placeholder="blurred"
                           quality="100"
                         />
@@ -128,8 +129,8 @@ const IndexPage = () => (
                       <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.75)'}>
                         <StaticImage
                           className="image"
-                          src="../../../assets/images/placeholder.jpg"
-                          alt="pcb"
+                          src="../../../assets/images/static/instructions-case/4.jpg"
+                          alt="4"
                           placeholder="blurred"
                           quality="100"
                         />
@@ -143,14 +144,19 @@ const IndexPage = () => (
                       <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.75)'}>
                         <StaticImage
                           className="image"
-                          src="../../../assets/images/placeholder.jpg"
-                          alt="pcb"
+                          src="../../../assets/images/static/instructions-case/5.jpg"
+                          alt="5"
                           placeholder="blurred"
                           quality="100"
                         />
                       </Zoom>
                     </td>
-                    <td>Layer 5</td>
+                    <td>
+                      Layer 5
+                      <br />
+                      <br />
+                      This layer consists of two small pieces.
+                    </td>
                     <td>1</td>
                   </tr>
                   <tr>
@@ -158,8 +164,8 @@ const IndexPage = () => (
                       <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.75)'}>
                         <StaticImage
                           className="image"
-                          src="../../../assets/images/placeholder.jpg"
-                          alt="pcb"
+                          src="../../../assets/images/static/instructions-case/6.jpg"
+                          alt="6"
                           placeholder="blurred"
                           quality="100"
                         />
@@ -173,8 +179,8 @@ const IndexPage = () => (
                       <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.75)'}>
                         <StaticImage
                           className="image"
-                          src="../../../assets/images/placeholder.jpg"
-                          alt="pcb"
+                          src="../../../assets/images/static/instructions-case/7.jpg"
+                          alt="7"
                           placeholder="blurred"
                           quality="100"
                         />
@@ -193,7 +199,7 @@ const IndexPage = () => (
                       />
                     </td>
                     <td>Big Standoffs (M2x12mm)</td>
-                    <td>6</td>
+                    <td>2</td>
                   </tr>
                   <tr>
                     <td>
@@ -259,17 +265,17 @@ const IndexPage = () => (
               />
               <br />
               <br />
-              <br />
               All Layers come with a protective film on both sides! You need to
               remove that to ensure a nice fit and look afterwards... This is
               probably the most satisfying part of the whole process. ;)
               <br />
               <br />
               <br />
+              <br />
               <StaticImage
                 className="image left"
-                src="../../../assets/images/placeholder.jpg"
-                alt="ic"
+                src="../../../assets/images/static/instructions-case/cover-screws.jpg"
+                alt="cover-screws"
                 placeholder="blurred"
               />
               <br />
@@ -293,8 +299,8 @@ const IndexPage = () => (
             <p>
               <StaticImage
                 className="image left"
-                src="../../../assets/images/placeholder.jpg"
-                alt="resistorbend"
+                src="../../../assets/images/static/instructions-case/pcb-assembly.jpg"
+                alt="pcb-assembly"
                 placeholder="blurred"
               />
               <br />
@@ -309,8 +315,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../../assets/images/placeholder.jpg"
-                alt="cap placement"
+                src="../../../assets/images/static/instructions-case/feet.jpg"
+                alt="feet"
                 placeholder="blurred"
               />
               <br />
@@ -322,38 +328,35 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <br />
-              <br />
-              <br />
               <StaticImage
                 className="image left"
-                src="../../../assets/images/placeholder.jpg"
-                alt="leg bending"
+                src="../../../assets/images/static/instructions-case/bottom-feet.jpg"
+                alt="bottom-feet"
                 placeholder="blurred"
               />
               <br />
-              <br />
-              Now place the feet in the bottom plate. You will use the same
-              standoff placement as with the normal kit. That is the two 8mm
-              standoffs at the front and the two 12mm at the back. The
+              Now place the feet in the bottom plate. Pay attention to the
+              orientation of the bottom plate. The round corners go up front and
+              you should be able to read the logo from the bottom. You will use
+              the same standoff placement as with the normal kit. That is the
+              two 8mm standoffs at the front and the two 12mm at the back. The
               orientation matters here tho because of the cutout in the bottom
               plate.
               <br />
               <br />
               <br />
-              <br />
-              <br />
               <StaticImage
                 className="image right"
-                src="../../../assets/images/placeholder.jpg"
-                alt="solder legs"
+                src="../../../assets/images/static/instructions-case/layer2.jpg"
+                alt="layer2"
                 placeholder="blurred"
               />
               <br />
               <br />
               Now add layer two of the case. Please insert the piece as straight
               as possible and push it down equally on all sides. Otherwise you
-              will not get it on there and it will jam.
+              will not get it on there and it will jam. If you don't get it on
+              there maybe your standoffs are not aligned good.
               <br />
               <br />
               <br />
@@ -361,8 +364,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../../assets/images/placeholder.jpg"
-                alt="clip legs"
+                src="../../../assets/images/static/instructions-case/usb-standoffs.jpg"
+                alt="usb-standoffs"
                 placeholder="blurred"
               />
               <br />
@@ -377,8 +380,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../../assets/images/placeholder.jpg"
-                alt="solder legs"
+                src="../../../assets/images/static/instructions-case/layer3.jpg"
+                alt="layer3"
                 placeholder="blurred"
               />
               <br />
@@ -393,8 +396,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../../assets/images/placeholder.jpg"
-                alt="clip legs"
+                src="../../../assets/images/static/instructions-case/layer4.jpg"
+                alt="layer4"
                 placeholder="blurred"
               />
               <br />
@@ -408,8 +411,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../../assets/images/placeholder.jpg"
-                alt="solder legs"
+                src="../../../assets/images/static/instructions-case/pcb-insert.jpg"
+                alt="pcb-insert"
                 placeholder="blurred"
               />
               <br />
@@ -424,8 +427,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../../assets/images/placeholder.jpg"
-                alt="clip legs"
+                src="../../../assets/images/static/instructions-case/layer5.jpg"
+                alt="layer5"
                 placeholder="blurred"
               />
               <br />
@@ -439,8 +442,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../../assets/images/placeholder.jpg"
-                alt="solder legs"
+                src="../../../assets/images/static/instructions-case/layer6.jpg"
+                alt="layer6"
                 placeholder="blurred"
               />
               <br />
@@ -454,8 +457,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../../assets/images/placeholder.jpg"
-                alt="clip legs"
+                src="../../../assets/images/static/instructions-case/layer7.jpg"
+                alt="layer7"
                 placeholder="blurred"
               />
               <br />
@@ -469,8 +472,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../../assets/images/placeholder.jpg"
-                alt="solder legs"
+                src="../../../assets/images/static/instructions-case/cover-screws.jpg"
+                alt="cover-screws"
                 placeholder="blurred"
               />
               <br />
@@ -484,8 +487,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../../assets/images/placeholder.jpg"
-                alt="clip legs"
+                src="../../../assets/images/static/instructions-case/plate-screws.jpg"
+                alt="plate-screws"
                 placeholder="blurred"
               />
               <br />
@@ -499,8 +502,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../../assets/images/placeholder.jpg"
-                alt="solder legs"
+                src="../../../assets/images/static/instructions-case/washer.jpg"
+                alt="washer"
                 placeholder="blurred"
               />
               <br />
@@ -513,8 +516,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../../assets/images/placeholder.jpg"
-                alt="clip legs"
+                src="../../../assets/images/static/instructions-case/knob.jpg"
+                alt="knob"
                 placeholder="blurred"
               />
               <br />
