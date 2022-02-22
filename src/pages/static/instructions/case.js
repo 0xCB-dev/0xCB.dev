@@ -64,7 +64,7 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">Packing List</h2>
             <p>
-              These parts should all be included in your acrylic case Kit!
+              These parts should all be included in your acrylic case kit!
               You are able to click on the images to get a closer view of them.
             </p>
             <div className="table-wrapper">
@@ -280,7 +280,7 @@ const IndexPage = () => (
               While tightening the screws during the assembly process, be sure to 
               not overtighten them. Just screw them together until you feel a bit 
               of resistance. If you overtighten them, the acrylic will break! It is 
-              not as durable as for instance the FR4 together with the standoffs
+              not as durable as for instance the FR4 plates together with the standoffs
               included in the base kit.
               <br />
               <br />
@@ -384,7 +384,7 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              Add the third layer to the stack. Again: Please be careful while putting it on!
+              Add the third layer to the stack. Again: please be careful while putting it on!
               <br />
               <br />
               <br />
@@ -416,8 +416,8 @@ const IndexPage = () => (
               <br />
               <br />
               Insert the assembled PCB package into the case. You cannot drop it in from
-              the top though; you need to lift it a little at the back, slide it into the front
-              and then drop it down.
+              the top though; you need to lift it a little at the back, slide it in and 
+              then drop it down.
               <br />
               <br />
               <br />
@@ -430,7 +430,7 @@ const IndexPage = () => (
               />
               <br />
               <br />
-              Add layer 5. This layer consists of the two small pieces. These
+              Add the fifth layer. This layer consists of the two small pieces. These
               are only held in by the two cutouts around the USB port. Until the
               screws are inserted these layers will be unaligned.
               <br />
@@ -446,8 +446,8 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              Add layer 6 to the case. Make sure it's oriented correctly, with the encoder
-              going through the cutout.
+              Add the sixth layer to the case. Make sure it's oriented correctly, with 
+              the encoder going through the cutout.
               <br />
               <br />
               <br />
@@ -462,8 +462,8 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              Add layer 7. If you have the milky frosted case, you can choose between a
-              frosted milky or a translucent cover.
+              Add the seventh and last layer. If you have the milky frosted case, you 
+              can choose between a frosted milky or a translucent cover.
               <br />
               <br />
               <br />
@@ -478,7 +478,7 @@ const IndexPage = () => (
               <br />
               <br />
               Now you should screw in all the 12mm screws at the top of the case. Align 
-              all the top layerslayers while tightening the screws.
+              all the top layers while tightening the screws.
               <br />
               <br />
               <br />
@@ -492,7 +492,7 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              Get the 8mm screws and put them into the switch plate of the keeb.
+              Get the 8mm screws and put them into the switch plate of the keyboard.
               Be sure to align the PCB assembly and tighten them fully.
               <br />
               <br />
