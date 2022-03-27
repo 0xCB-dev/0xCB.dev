@@ -6,6 +6,7 @@ import Zoom from 'react-medium-image-zoom';
 import styles from '../../../utils/imagezoom.module.scss';
 import 'react-medium-image-zoom/dist/styles.css';
 import picscroller from 'assets/images/up.png';
+import { Link } from 'gatsby';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -19,15 +20,30 @@ const IndexPage = () => (
         <div className="inner">
           <div className="row">
             <div className="col-6 col-12-medium">
+              <h3>Table of Content:</h3>
+              <ol>
+                <li>
+                  <Link to="#parts">Packing List</Link>
+                </li>
+                <li>
+                  <Link to="#info">Important Information</Link>
+                </li>
+                <li>
+                  <Link to="#ass">Assembly</Link>
+                </li>
+              </ol>
+            </div>
+            <div className="col-6 col-12-medium">
               <p>
-                Here you can find the instructions for assembling the 0xCB Static 
-                acrylic case!
+                Here you can find the instructions for assembling the 0xCB
+                Static acrylic case!
                 <br />
                 <br />
                 Assembling the case is very easy and straight forward!
                 <br />
-                However, if you experience any issues during assembly, don't 
-                hesitate to shoot us an e-mail or come over to our Discord server!
+                However, if you experience any issues during assembly, don't
+                hesitate to shoot us an e-mail or come over to our Discord
+                server!
               </p>
               <div className="row">
                 <div className="col">
@@ -64,8 +80,8 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">Packing List</h2>
             <p>
-              These parts should all be included in your acrylic case kit!
-              You are able to click on the images to get a closer view of them.
+              These parts should all be included in your acrylic case kit! You
+              are able to click on the images to get a closer view of them.
             </p>
             <div className="table-wrapper">
               <table className="alt">
@@ -234,8 +250,8 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">Important Info</h2>
             <p>
-              While handling the acrylic pieces, there are a few things to consider.
-              Please read through this section carefully!
+              While handling the acrylic pieces, there are a few things to
+              consider. Please read through this section carefully!
               <br />
               <br />
               <StaticImage
@@ -246,9 +262,10 @@ const IndexPage = () => (
               />
               <br />
               <br />
-              For the Static case, we use cast acrylic sheets rather than extruded sheets. This means
-              the material is less brittle by nature, but as there are still small parts in the kit
-              you should be careful not to bend the layers too much!
+              For the Static case, we use cast acrylic sheets rather than
+              extruded sheets. This means the material is less brittle by
+              nature, but as there are still small parts in the kit you should
+              be careful not to bend the layers too much!
               <br />
               <br />
               <br />
@@ -262,9 +279,10 @@ const IndexPage = () => (
               />
               <br />
               <br />
-              All the layers come with protective film on both sides! You need to
-              remove this film to ensure a nice fit (and cleaner look afterwards...) 
-              This is probably the most satisfying part of the whole process!
+              All the layers come with protective film on both sides! You need
+              to remove this film to ensure a nice fit (and cleaner look
+              afterwards...) This is probably the most satisfying part of the
+              whole process!
               <br />
               <br />
               <br />
@@ -277,11 +295,11 @@ const IndexPage = () => (
               />
               <br />
               <br />
-              While tightening the screws during the assembly process, be sure to 
-              not overtighten them. Just screw them together until you feel a bit 
-              of resistance. If you overtighten them, the acrylic will break! It is 
-              not as durable as for instance the FR4 plates together with the standoffs
-              included in the base kit.
+              While tightening the screws during the assembly process, be sure
+              to not overtighten them. Just screw them together until you feel a
+              bit of resistance. If you overtighten them, the acrylic will
+              break! It is not as durable as for instance the FR4 plates
+              together with the standoffs included in the base kit.
               <br />
               <br />
               <br />
@@ -303,11 +321,12 @@ const IndexPage = () => (
               />
               <br />
               <br />
-              Firstly, if you have already assembled your Static, you will have to take it 
-              apart again! The case was designed with the board partially assembled in mind, 
-              which means that you just need to take off the acrylic window and the feet. 
-              The main part that you can leave assembled is the PCB with the switches and 
-              switch plate. This part will just drop into the case when you're assembling it.
+              Firstly, if you have already assembled your Static, you will have
+              to take it apart again! The case was designed with the board
+              partially assembled in mind, which means that you just need to
+              take off the acrylic window and the feet. The main part that you
+              can leave assembled is the PCB with the switches and switch plate.
+              This part will just drop into the case when you're assembling it.
               <br />
               <br />
               <br />
@@ -321,9 +340,10 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              Grab yourself the feet, standoffs, screws and the first case layer (the 
-              bottom plate). The screws and standoffs are the ones you got in your 
-              base kit so don't open the extra bag from the case kit yet.
+              Grab yourself the feet, standoffs, screws and the first case layer
+              (the bottom plate). The screws and standoffs are the ones you got
+              in your base kit so don't open the extra bag from the case kit
+              yet.
               <br />
               <br />
               <br />
@@ -334,13 +354,13 @@ const IndexPage = () => (
                 placeholder="blurred"
               />
               <br />
-              Now place the feet underneath the bottom plate. Pay attention to the
-              orientation of the bottom plate. The outward corners should be closest 
-              to you, and you should be able to read the logo from the bottom. You 
-              will use the same standoff placement as with the normal kit; the four 
-              8mm standoffs should be closest to you and the two 12mm should go near 
-              the top of the board. If you swap them by accident, you won't be able 
-              to completely assemble the case!
+              Now place the feet underneath the bottom plate. Pay attention to
+              the orientation of the bottom plate. The outward corners should be
+              closest to you, and you should be able to read the logo from the
+              bottom. You will use the same standoff placement as with the
+              normal kit; the four 8mm standoffs should be closest to you and
+              the two 12mm should go near the top of the board. If you swap them
+              by accident, you won't be able to completely assemble the case!
               <br />
               <br />
               <br />
@@ -352,9 +372,10 @@ const IndexPage = () => (
               />
               <br />
               <br />
-              Now add the second layer of the case. Please insert the piece as straight
-              as possible and push it down equally on all sides, otherwise the friction
-              from the plates will be too much and the plate will catch.
+              Now add the second layer of the case. Please insert the piece as
+              straight as possible and push it down equally on all sides,
+              otherwise the friction from the plates will be too much and the
+              plate will catch.
               <br />
               <br />
               <br />
@@ -368,9 +389,10 @@ const IndexPage = () => (
               />
               <br />
               <br />
-              Please get yourself the bag with the extra case kit components and grab the
-              two 12mm standoffs. Place them in the two cutouts at the back (near the USB port) 
-              and screw them down with two 5mm screws from the bottom.
+              Please get yourself the bag with the extra case kit components and
+              grab the two 12mm standoffs. Place them in the two cutouts at the
+              back (near the USB port) and screw them down with two 5mm screws
+              from the bottom.
               <br />
               <br />
               <br />
@@ -384,7 +406,8 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              Add the third layer to the stack. Again: please be careful while putting it on!
+              Add the third layer to the stack. Again: please be careful while
+              putting it on!
               <br />
               <br />
               <br />
@@ -399,8 +422,8 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              Add the fourth acrylic layer. Don't panic: the 8mm standoffs are supposed to be 
-              covered by this layer!
+              Add the fourth acrylic layer. Don't panic: the 8mm standoffs are
+              supposed to be covered by this layer!
               <br />
               <br />
               <br />
@@ -415,9 +438,9 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              Insert the assembled PCB package into the case. You cannot drop it in from
-              the top though; you need to lift it a little at the back, slide it in and 
-              then drop it down.
+              Insert the assembled PCB package into the case. You cannot drop it
+              in from the top though; you need to lift it a little at the back,
+              slide it in and then drop it down.
               <br />
               <br />
               <br />
@@ -430,9 +453,9 @@ const IndexPage = () => (
               />
               <br />
               <br />
-              Add the fifth layer. This layer consists of the two small pieces. These
-              are only held in by the two cutouts around the USB port. Until the
-              screws are inserted these layers will be unaligned.
+              Add the fifth layer. This layer consists of the two small pieces.
+              These are only held in by the two cutouts around the USB port.
+              Until the screws are inserted these layers will be unaligned.
               <br />
               <br />
               <br />
@@ -446,8 +469,8 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              Add the sixth layer to the case. Make sure it's oriented correctly, with 
-              the encoder going through the cutout.
+              Add the sixth layer to the case. Make sure it's oriented
+              correctly, with the encoder going through the cutout.
               <br />
               <br />
               <br />
@@ -462,8 +485,9 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              Add the seventh and last layer. If you have the milky frosted case, you 
-              can choose between a frosted milky or a translucent cover.
+              Add the seventh and last layer. If you have the milky frosted
+              case, you can choose between a frosted milky or a translucent
+              cover.
               <br />
               <br />
               <br />
@@ -477,8 +501,8 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              Now you should screw in all the 12mm screws at the top of the case. Align 
-              all the top layers while tightening the screws.
+              Now you should screw in all the 12mm screws at the top of the
+              case. Align all the top layers while tightening the screws.
               <br />
               <br />
               <br />
@@ -492,8 +516,9 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              Get the 8mm screws and put them into the switch plate of the keyboard.
-              Be sure to align the PCB assembly and tighten them fully.
+              Get the 8mm screws and put them into the switch plate of the
+              keyboard. Be sure to align the PCB assembly and tighten them
+              fully.
               <br />
               <br />
               <br />
@@ -521,7 +546,8 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              Finally, put on the knob for the encoder and screw it in from the side.
+              Finally, put on the knob for the encoder and screw it in from the
+              side.
               <br />
               <br />
               <br />
@@ -533,7 +559,9 @@ const IndexPage = () => (
       <section id="ass" className="wrapper style3 alt">
         <div className="inner">
           <div className="content">
-            <h2 className="major">And now you are done with your Static acrylic case!</h2>
+            <h2 className="major">
+              And now you are done with your Static acrylic case!
+            </h2>
             <p>
               <StaticImage
                 className="image"

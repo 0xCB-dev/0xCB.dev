@@ -16,7 +16,7 @@ const IndexPage = () => (
         <div className="inner">
           <section className="features">
             <article>
-              <Link to="/1337/instructions">
+              <Link to="/1337/instructions_old">
                 <StaticImage
                   className="image"
                   src="../../assets/images/instructions/1337.jpg"
