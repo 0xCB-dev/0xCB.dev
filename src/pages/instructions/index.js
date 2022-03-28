@@ -24,7 +24,7 @@ const IndexPage = () => (
                   placeholder="blurred"
                 />
               </Link>
-              <h3 className="major">1337 assembly instructions</h3>
+              <h3 className="major">1337</h3>
               <p> Instructions for our little macro pad.</p>
             </article>
             <article>
@@ -36,7 +36,7 @@ const IndexPage = () => (
                   placeholder="blurred"
                 />{' '}
               </Link>
-              <h3 className="major">Static assembly instructions</h3>
+              <h3 className="major">Static</h3>
               <p> Instructions for our way bigger 40% keyboard.</p>
             </article>
             <article>
@@ -48,9 +48,7 @@ const IndexPage = () => (
                   placeholder="blurred"
                 />{' '}
               </Link>
-              <h3 className="major">
-                Static Acrylic Case assembly instructions
-              </h3>
+              <h3 className="major">Static Acrylic Case</h3>
               <p> Instructions for our Acrylic Case for the Static.</p>
             </article>
           </section>

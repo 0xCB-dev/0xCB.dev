@@ -179,8 +179,6 @@ const IndexPage = () => (
                       <br />
                       <br />
                       enough to build one macro pad
-                      <br />
-                      we include some extras
                     </td>
                     <td>1</td>
                   </tr>
@@ -220,7 +218,76 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="info" className="wrapper style3 alt">
+      <section id="tools" className="wrapper style3 alt">
+        <div className="inner">
+          <div className="content">
+            <h2 className="major">Required Supplies</h2>
+            <p>You will need these supplies to build your 1337!</p>
+            <div className="table-wrapper">
+              <table className="alt">
+                <thead>
+                  <tr>
+                    <th>Pic</th>
+                    <th>Part</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-flush-cutters.jpg"
+                        alt="flush cutters"
+                        placeholder="blurred"
+                      />
+                    </td>
+                    <td>Flush Cutters</td>
+                    <td>
+                      {' '}
+                      You will need these to cut the wires needed for the OLED.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-soldering-iron.jpg"
+                        alt="soldering iron"
+                        placeholder="blurred"
+                      />
+                    </td>
+                    <td>Soldering Iron</td>
+                    <td>
+                      {' '}
+                      We recomment a good soldering iron! Don't expect a
+                      challenge like the USB Port on the Static tho, the
+                      soldering on the 1337 is rather simple.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <StaticImage
+                        className="image"
+                        src="../../assets/images/static/instructions/si-solder.jpg"
+                        alt="solder"
+                        placeholder="blurred"
+                      />
+                    </td>
+                    <td>Solder</td>
+                    <td>
+                      Please use high quality solder (flux core or apply flux
+                      externally) to make your life easier when soldering this
+                      kit!
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="info" className="wrapper style4">
         <div className="inner">
           <div className="content">
             <h2 className="major">Assembly</h2>
@@ -332,6 +399,287 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
+              <StaticImage
+                className="image right"
+                src="../../../assets/images/placeholder.jpg"
+                alt="plexi-film"
+                placeholder="blurred"
+              />
+              <br />
+              <br />
+              Put the PCB into the case and place a few switches in there. We
+              will temporarily place the PCB in there to cut the ribbon cable to
+              the right lengh. You will have to take off the bottom plate and
+              OLED covers for this.
+              <br />
+              <br />
+              <br />
+              <br />
+              <StaticImage
+                className="image left"
+                src="../../../assets/images/placeholder.jpg"
+                alt="cover-screws"
+                placeholder="blurred"
+              />
+              <br />
+              <br />
+              Straighten out the cable and cut it roughly at the edge of the
+              case. If you have never isolated cables before you should try it
+              out first and leave the cable a little bit longer. That shouldn't
+              be a problem. You can just squeeze the rest in the case later.
+              <br />
+              <br />
+              <br />
+              <br />
+              <StaticImage
+                className="image right"
+                src="../../../assets/images/placeholder.jpg"
+                alt="plexi-film"
+                placeholder="blurred"
+              />
+              <br />
+              <br />
+              <br />
+              Now take out the PCB again and solder in the OLED. be aware of the
+              orientation here! If you turn it the wrong way around the OLED
+              will not work and also will not fit into the case.
+              <br />
+              <br />
+              <br />
+              <br />
+              <StaticImage
+                className="image left"
+                src="../../../assets/images/placeholder.jpg"
+                alt="cover-screws"
+                placeholder="blurred"
+              />
+              <br />
+              <br />
+              Onto the encoder! You will have to push the big pins of the
+              encoder together so that you can push it into the PCB later. Also
+              take off the Knob and washer now and put them aside. The Knob can
+              be taken off by taking out the little screw from the side with the
+              big allen key.
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <StaticImage
+                className="image right"
+                src="../../../assets/images/placeholder.jpg"
+                alt="plexi-film"
+                placeholder="blurred"
+              />
+              <br />
+              <br />
+              <br />
+              Place the encoder on the PCB. Orientation matters here again. The
+              encoder goes on the side where the switches will also go.
+              <br />
+              <br />
+              <br />
+              <br />
+              <StaticImage
+                className="image left"
+                src="../../../assets/images/placeholder.jpg"
+                alt="cover-screws"
+                placeholder="blurred"
+              />
+              <br />
+              <br />
+              <br />
+              Solder in the encoder from the back. Be careful here so that you
+              don't touch other small components!
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <StaticImage
+                className="image right"
+                src="../../../assets/images/placeholder.jpg"
+                alt="plexi-film"
+                placeholder="blurred"
+              />
+              <br />
+              <br />
+              <br />
+              Put all switches into the case.
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <StaticImage
+                className="image left"
+                src="../../../assets/images/placeholder.jpg"
+                alt="cover-screws"
+                placeholder="blurred"
+              />
+              <br />
+              <br />
+              Push the PCB onto the switches. If you have Mill-Maxed your 1337
+              this will require a bit of force and accuracy. If you have not
+              Mill-Maxed your 1337 solder in your switches now.
+              <br />
+              <br />
+              <br />
+              <br />
+              <StaticImage
+                className="image right"
+                src="../../../assets/images/placeholder.jpg"
+                alt="plexi-film"
+                placeholder="blurred"
+              />
+              <br />
+              <br />
+              <br />
+              Put the OLED through the bottom of the case and place it ontop of
+              the ledge.
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <StaticImage
+                className="image left"
+                src="../../../assets/images/placeholder.jpg"
+                alt="cover-screws"
+                placeholder="blurred"
+              />
+              <br />
+              <br />
+              <br />
+              Put on the bottom plate. The plate is not symetrical! The bottom
+              plate has two cutouts those go in the back to the USB port and
+              OLED wires.
+              <br />
+              <br />
+              <br />
+              <br />
+              <StaticImage
+                className="image right"
+                src="../../../assets/images/placeholder.jpg"
+                alt="plexi-film"
+                placeholder="blurred"
+              />
+              <br />
+              <br />
+              <br />
+              Now check that your bottom plate sits tight. You can take a look
+              at the back of the OLED cutout. You should see the PCB sitting
+              flush on the bottom plate.
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <StaticImage
+                className="image left"
+                src="../../../assets/images/placeholder.jpg"
+                alt="cover-screws"
+                placeholder="blurred"
+              />
+              <br />
+              <br />
+              <br />
+              Also check around the edges that the bottom plate is flush with
+              the top case in general.
+              <br />
+              <br />
+              <br />
+              <br />
+              <StaticImage
+                className="image right"
+                src="../../../assets/images/placeholder.jpg"
+                alt="plexi-film"
+                placeholder="blurred"
+              />
+              <br />
+              <br />
+              <br />
+              Screw in the bottom plate now. Don't tighten the screws too much.
+              You are only screwing right into plastic and the screws don't need
+              to hold much anyway.
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <StaticImage
+                className="image left"
+                src="../../../assets/images/placeholder.jpg"
+                alt="cover-screws"
+                placeholder="blurred"
+              />
+              <br />
+              <br />
+              <br />
+              Place the two OLED covers on there and screw them together.
+              <br />
+              <br />
+              <br />
+              <br />
+              <StaticImage
+                className="image right"
+                src="../../../assets/images/placeholder.jpg"
+                alt="plexi-film"
+                placeholder="blurred"
+              />
+              <br />
+              <br />
+              <br />
+              You need to put a bit of force on the back for the screw to grab
+              the back piece. But again don't tighten the screws to much. Now
+              you have a screen sitting under there that can crack.
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <StaticImage
+                className="image left"
+                src="../../../assets/images/placeholder.jpg"
+                alt="cover-screws"
+                placeholder="blurred"
+              />
+              <br />
+              <br />
+              <br />
+              Screw in the washer for the Encoder.
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <StaticImage
+                className="image right"
+                src="../../../assets/images/placeholder.jpg"
+                alt="plexi-film"
+                placeholder="blurred"
+              />
+              <br />
+              <br />
+              <br />
+              Put on the knob and tighten the screw from the side again.
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <h2 style={{ 'text-align': 'center' }}>
+                And you are done with your 1337!
+              </h2>
+              <br />
+              <StaticImage
+                className="image fit"
+                src="../../assets/images/static/instructions/si-finished.jpg"
+                alt="done"
+                placeholder="blurred"
+              />
             </p>
           </div>
         </div>
