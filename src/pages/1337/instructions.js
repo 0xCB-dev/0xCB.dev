@@ -294,7 +294,7 @@ const IndexPage = () => (
             <p>
               <StaticImage
                 className="image left"
-                src="../../../assets/images/placeholder.jpg"
+                src="../../assets/images/placeholder.jpg"
                 alt="done"
                 placeholder="blurred"
               />
@@ -309,7 +309,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../../assets/images/placeholder.jpg"
+                src="../../assets/images/placeholder.jpg"
                 alt="plexi-film"
                 placeholder="blurred"
               />
@@ -324,7 +324,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../../assets/images/placeholder.jpg"
+                src="../../assets/images/placeholder.jpg"
                 alt="cover-screws"
                 placeholder="blurred"
               />
@@ -340,7 +340,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../../assets/images/placeholder.jpg"
+                src="../../assets/images/placeholder.jpg"
                 alt="plexi-film"
                 placeholder="blurred"
               />
@@ -355,7 +355,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../../assets/images/placeholder.jpg"
+                src="../../assets/images/placeholder.jpg"
                 alt="cover-screws"
                 placeholder="blurred"
               />
@@ -371,7 +371,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../../assets/images/placeholder.jpg"
+                src="../../assets/images/placeholder.jpg"
                 alt="plexi-film"
                 placeholder="blurred"
               />
@@ -386,7 +386,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../../assets/images/placeholder.jpg"
+                src="../../assets/images/placeholder.jpg"
                 alt="cover-screws"
                 placeholder="blurred"
               />
@@ -401,7 +401,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../../assets/images/placeholder.jpg"
+                src="../../assets/images/placeholder.jpg"
                 alt="plexi-film"
                 placeholder="blurred"
               />
@@ -417,7 +417,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../../assets/images/placeholder.jpg"
+                src="../../assets/images/placeholder.jpg"
                 alt="cover-screws"
                 placeholder="blurred"
               />
@@ -433,7 +433,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../../assets/images/placeholder.jpg"
+                src="../../assets/images/placeholder.jpg"
                 alt="plexi-film"
                 placeholder="blurred"
               />
@@ -449,7 +449,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../../assets/images/placeholder.jpg"
+                src="../../assets/images/placeholder.jpg"
                 alt="cover-screws"
                 placeholder="blurred"
               />
@@ -467,7 +467,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../../assets/images/placeholder.jpg"
+                src="../../assets/images/placeholder.jpg"
                 alt="plexi-film"
                 placeholder="blurred"
               />
@@ -482,7 +482,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../../assets/images/placeholder.jpg"
+                src="../../assets/images/placeholder.jpg"
                 alt="cover-screws"
                 placeholder="blurred"
               />
@@ -498,7 +498,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../../assets/images/placeholder.jpg"
+                src="../../assets/images/placeholder.jpg"
                 alt="plexi-film"
                 placeholder="blurred"
               />
@@ -513,7 +513,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../../assets/images/placeholder.jpg"
+                src="../../assets/images/placeholder.jpg"
                 alt="cover-screws"
                 placeholder="blurred"
               />
@@ -528,7 +528,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../../assets/images/placeholder.jpg"
+                src="../../assets/images/placeholder.jpg"
                 alt="plexi-film"
                 placeholder="blurred"
               />
@@ -544,7 +544,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../../assets/images/placeholder.jpg"
+                src="../../assets/images/placeholder.jpg"
                 alt="cover-screws"
                 placeholder="blurred"
               />
@@ -560,7 +560,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../../assets/images/placeholder.jpg"
+                src="../../assets/images/placeholder.jpg"
                 alt="plexi-film"
                 placeholder="blurred"
               />
@@ -577,7 +577,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../../assets/images/placeholder.jpg"
+                src="../../assets/images/placeholder.jpg"
                 alt="cover-screws"
                 placeholder="blurred"
               />
@@ -592,7 +592,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../../assets/images/placeholder.jpg"
+                src="../../assets/images/placeholder.jpg"
                 alt="plexi-film"
                 placeholder="blurred"
               />
@@ -609,7 +609,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../../assets/images/placeholder.jpg"
+                src="../../assets/images/placeholder.jpg"
                 alt="cover-screws"
                 placeholder="blurred"
               />
@@ -623,7 +623,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../../assets/images/placeholder.jpg"
+                src="../../assets/images/placeholder.jpg"
                 alt="plexi-film"
                 placeholder="blurred"
               />
@@ -640,7 +640,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../../assets/images/placeholder.jpg"
+                src="../../assets/images/placeholder.jpg"
                 alt="cover-screws"
                 placeholder="blurred"
               />
@@ -655,7 +655,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../../assets/images/placeholder.jpg"
+                src="../../assets/images/placeholder.jpg"
                 alt="plexi-film"
                 placeholder="blurred"
               />

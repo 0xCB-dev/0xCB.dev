@@ -42,15 +42,14 @@ const IndexPage = () => (
                 alt="topdown"
                 placeholder="blurred"
               />
-              The 1337 comes standard with 4 layers. You can
-              navigate between these layers with the right-most keys on the
-              macropad. The HOME layer has some useful navigation keys and media
-              keys by default. You can also change your volume with the encoder
-              on this layer. The MISC layer is empty by default. You can fill
-              this layer up with macros for your most used shortcuts, or maybe
-              for keys that you’re missing on your keyboard. The 1337 is
-              compatible with Vial, so you can even change the encoder all to
-              your liking!
+              The 1337 comes standard with 4 layers. You can navigate between
+              these layers with the right-most keys on the macropad. The HOME
+              layer has some useful navigation keys and media keys by default.
+              You can also change your volume with the encoder on this layer.
+              The MISC layer is empty by default. You can fill this layer up
+              with macros for your most used shortcuts, or maybe for keys that
+              you’re missing on your keyboard. The 1337 is compatible with Vial,
+              so you can even change the encoder all to your liking!
               <br />
               <br />
             </p>
@@ -67,10 +66,10 @@ const IndexPage = () => (
                 alt="side"
                 placeholder="blurred"
               />
-              The RGB layer is used to change the underglow
-              lighting and the backlighting under the keys. You can change the
-              effects, saturation and hue of the lighting with the key, and
-              change the brightness with the encoder!
+              The RGB layer is used to change the underglow lighting and the
+              backlighting under the keys. You can change the effects,
+              saturation and hue of the lighting with the key, and change the
+              brightness with the encoder!
               <br />
               <br />
               <br />
