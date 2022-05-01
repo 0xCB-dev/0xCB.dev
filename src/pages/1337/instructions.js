@@ -294,8 +294,8 @@ const IndexPage = () => (
             <p>
               <StaticImage
                 className="image left"
-                src="../../assets/images/placeholder.jpg"
-                alt="done"
+                src="../../assets/images/1337/instructions/new/pcb2.jpg"
+                alt="pcb2"
                 placeholder="blurred"
               />
               <br />
@@ -309,8 +309,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../assets/images/placeholder.jpg"
-                alt="plexi-film"
+                src="../../assets/images/1337/instructions/new/switchmillmax.jpg"
+                alt="switchmillmax"
                 placeholder="blurred"
               />
               <br />
@@ -324,8 +324,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../assets/images/placeholder.jpg"
-                alt="cover-screws"
+                src="../../assets/images/1337/instructions/new/socketspcb.jpg"
+                alt="socketspcb"
                 placeholder="blurred"
               />
               <br />
@@ -340,8 +340,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../assets/images/placeholder.jpg"
-                alt="plexi-film"
+                src="../../assets/images/1337/instructions/new/kapton.jpg"
+                alt="kapton"
                 placeholder="blurred"
               />
               <br />
@@ -355,8 +355,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../assets/images/placeholder.jpg"
-                alt="cover-screws"
+                src="../../assets/images/1337/instructions/new/socketssolder.jpg"
+                alt="socketssolder"
                 placeholder="blurred"
               />
               <br />
@@ -371,8 +371,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../assets/images/placeholder.jpg"
-                alt="plexi-film"
+                src="../../assets/images/1337/instructions/new/ribbon2.jpg"
+                alt="ribbon2"
                 placeholder="blurred"
               />
               <br />
@@ -386,30 +386,31 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../assets/images/placeholder.jpg"
-                alt="cover-screws"
+                src="../../assets/images/1337/instructions/new/ribbonsolder.jpg"
+                alt="ribbonsolder"
                 placeholder="blurred"
               />
               <br />
               <br />
-              <br />
               Put them into the PCB and solder them in. Solder them from the
-              side where you can read the lables for the holes (GND, VCC...).
+              side where you can read the lables for the holes (GND, VCC...). If
+              you are having troubles getting them in there you can also
+              seperate the cables completely.
               <br />
               <br />
               <br />
               <br />
               <StaticImage
                 className="image right"
-                src="../../assets/images/placeholder.jpg"
-                alt="plexi-film"
+                src="../../assets/images/1337/instructions/new/pcbincase1.jpg"
+                alt="pcbincase1"
                 placeholder="blurred"
               />
               <br />
               <br />
               Put the PCB into the case and place a few switches in there. We
               will temporarily place the PCB in there to cut the ribbon cable to
-              the right lengh. You will have to take off the bottom plate and
+              the right lenght. You will have to take off the bottom plate and
               OLED covers for this.
               <br />
               <br />
@@ -417,8 +418,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../assets/images/placeholder.jpg"
-                alt="cover-screws"
+                src="../../assets/images/1337/instructions/new/ribboncut.jpg"
+                alt="ribboncut"
                 placeholder="blurred"
               />
               <br />
@@ -426,31 +427,30 @@ const IndexPage = () => (
               Straighten out the cable and cut it roughly at the edge of the
               case. If you have never isolated cables before you should try it
               out first and leave the cable a little bit longer. That shouldn't
-              be a problem. You can just squeeze the rest in the case later.
+              be a problem.
               <br />
               <br />
               <br />
               <br />
               <StaticImage
                 className="image right"
-                src="../../assets/images/placeholder.jpg"
-                alt="plexi-film"
+                src="../../assets/images/1337/instructions/new/oledribbon.jpg"
+                alt="oledribbon"
                 placeholder="blurred"
               />
               <br />
               <br />
               <br />
-              Now take out the PCB again and solder in the OLED. be aware of the
+              Now take out the PCB again and solder in the OLED. Be aware of the
               orientation here! If you turn it the wrong way around the OLED
               will not work and also will not fit into the case.
               <br />
               <br />
               <br />
-              <br />
               <StaticImage
                 className="image left"
-                src="../../assets/images/placeholder.jpg"
-                alt="cover-screws"
+                src="../../assets/images/1337/instructions/new/rotary.jpg"
+                alt="rotary"
                 placeholder="blurred"
               />
               <br />
@@ -463,27 +463,26 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <br />
-              <br />
               <StaticImage
                 className="image right"
-                src="../../assets/images/placeholder.jpg"
-                alt="plexi-film"
+                src="../../assets/images/1337/instructions/new/rotaryinpcb.jpg"
+                alt="rotaryinpcb"
                 placeholder="blurred"
               />
               <br />
               <br />
               <br />
               Place the encoder on the PCB. Orientation matters here again. The
-              encoder goes on the side where the switches will also go.
+              encoder goes on the side where the MillMax-Sockets and switches
+              also go.
               <br />
               <br />
               <br />
               <br />
               <StaticImage
                 className="image left"
-                src="../../assets/images/placeholder.jpg"
-                alt="cover-screws"
+                src="../../assets/images/1337/instructions/new/rotaryinpcbsolder.jpg"
+                alt="rotaryinpcbsolder"
                 placeholder="blurred"
               />
               <br />
@@ -495,11 +494,10 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              <br />
               <StaticImage
                 className="image right"
-                src="../../assets/images/placeholder.jpg"
-                alt="plexi-film"
+                src="../../assets/images/1337/instructions/new/switchcase.jpg"
+                alt="switchcase"
                 placeholder="blurred"
               />
               <br />
@@ -513,29 +511,30 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../assets/images/placeholder.jpg"
-                alt="cover-screws"
+                src="../../assets/images/1337/instructions/new/pcbincase2.jpg"
+                alt="pcbincase2"
                 placeholder="blurred"
               />
               <br />
               <br />
               Push the PCB onto the switches. If you have Mill-Maxed your 1337
               this will require a bit of force and accuracy. If you have not
-              Mill-Maxed your 1337 solder in your switches now.
+              Mill-Maxed your 1337 solder in your switches now. Make sure to
+              press the PCB completely onto the switches so that it sits nicely.
               <br />
               <br />
               <br />
               <br />
               <StaticImage
                 className="image right"
-                src="../../assets/images/placeholder.jpg"
-                alt="plexi-film"
+                src="../../assets/images/1337/instructions/new/oledincase.jpg"
+                alt="oledincase"
                 placeholder="blurred"
               />
               <br />
               <br />
               <br />
-              Put the OLED through the bottom of the case and place it ontop of
+              Put the OLED through the bottom of the case and place it on top of
               the ledge.
               <br />
               <br />
@@ -544,86 +543,53 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../assets/images/placeholder.jpg"
-                alt="cover-screws"
+                src="../../assets/images/1337/instructions/new/bottom.jpg"
+                alt="bottom"
                 placeholder="blurred"
               />
-              <br />
               <br />
               <br />
               Put on the bottom plate. The plate is not symetrical! The bottom
-              plate has two cutouts those go in the back to the USB port and
-              OLED wires.
+              plate has two cutouts that go in the back to the USB port and OLED
+              wires. Make sure that your bottom plate sits flush in there.
               <br />
               <br />
               <br />
               <br />
               <StaticImage
                 className="image right"
-                src="../../assets/images/placeholder.jpg"
-                alt="plexi-film"
-                placeholder="blurred"
-              />
-              <br />
-              <br />
-              <br />
-              Now check that your bottom plate sits tight. You can take a look
-              at the back of the OLED cutout. You should see the PCB sitting
-              flush on the bottom plate.
-              <br />
-              <br />
-              <br />
-              <br />
-              <br />
-              <StaticImage
-                className="image left"
-                src="../../assets/images/placeholder.jpg"
-                alt="cover-screws"
-                placeholder="blurred"
-              />
-              <br />
-              <br />
-              <br />
-              Also check around the edges that the bottom plate is flush with
-              the top case in general.
-              <br />
-              <br />
-              <br />
-              <br />
-              <StaticImage
-                className="image right"
-                src="../../assets/images/placeholder.jpg"
-                alt="plexi-film"
+                src="../../assets/images/1337/instructions/new/bottomscrew.jpg"
+                alt="bottomscrew"
                 placeholder="blurred"
               />
               <br />
               <br />
               <br />
               Screw in the bottom plate now. Don't tighten the screws too much.
-              You are only screwing right into plastic and the screws don't need
-              to hold much anyway.
-              <br />
+              You are screwing right into plastic and the screws don't need to
+              hold much anyway.
               <br />
               <br />
               <br />
               <br />
               <StaticImage
                 className="image left"
-                src="../../assets/images/placeholder.jpg"
+                src="../../assets/images/1337/instructions/new/switchmillmax.jpg"
                 alt="cover-screws"
                 placeholder="blurred"
               />
               <br />
               <br />
               <br />
-              Place the two OLED covers on there and screw them together.
+              Place the two OLED covers on there and screw them together. You
+              also want to remove the protective cover before that.
               <br />
               <br />
               <br />
               <br />
               <StaticImage
                 className="image right"
-                src="../../assets/images/placeholder.jpg"
+                src="../../assets/images/1337/instructions/new/switchmillmax.jpg"
                 alt="plexi-film"
                 placeholder="blurred"
               />
@@ -631,16 +597,14 @@ const IndexPage = () => (
               <br />
               <br />
               You need to put a bit of force on the back for the screw to grab
-              the back piece. But again don't tighten the screws to much. Now
-              you have a screen sitting under there that can crack.
-              <br />
-              <br />
+              the back piece. But again don't tighten the screws to much. You
+              have a screen sitting under there that can crack.
               <br />
               <br />
               <br />
               <StaticImage
                 className="image left"
-                src="../../assets/images/placeholder.jpg"
+                src="../../assets/images/1337/instructions/new/switchmillmax.jpg"
                 alt="cover-screws"
                 placeholder="blurred"
               />
@@ -655,7 +619,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../assets/images/placeholder.jpg"
+                src="../../assets/images/1337/instructions/new/switchmillmax.jpg"
                 alt="plexi-film"
                 placeholder="blurred"
               />
@@ -663,6 +627,22 @@ const IndexPage = () => (
               <br />
               <br />
               Put on the knob and tighten the screw from the side again.
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <StaticImage
+                className="image left"
+                src="../../assets/images/1337/instructions/new/switchmillmax.jpg"
+                alt="cover-screws"
+                placeholder="blurred"
+              />
+              <br />
+              <br />
+              <br />
+              Put on your keycaps as a last step.
+              <br />
               <br />
               <br />
               <br />
@@ -676,8 +656,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image fit"
-                src="../../assets/images/static/instructions/si-finished.jpg"
-                alt="done"
+                src="../../assets/images/1337/instructions/new/finished.jpg"
+                alt="finished"
                 placeholder="blurred"
               />
             </p>
