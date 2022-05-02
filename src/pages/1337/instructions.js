@@ -574,8 +574,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../assets/images/1337/instructions/new/switchmillmax.jpg"
-                alt="cover-screws"
+                src="../../assets/images/1337/instructions/new/oledcover.jpg"
+                alt="oledcover"
                 placeholder="blurred"
               />
               <br />
@@ -589,8 +589,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../assets/images/1337/instructions/new/switchmillmax.jpg"
-                alt="plexi-film"
+                src="../../assets/images/1337/instructions/new/oledscrew.jpg"
+                alt="oledscrew"
                 placeholder="blurred"
               />
               <br />
@@ -604,8 +604,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../assets/images/1337/instructions/new/switchmillmax.jpg"
-                alt="cover-screws"
+                src="../../assets/images/1337/instructions/new/rotarywasher.jpg"
+                alt="rotarywasher"
                 placeholder="blurred"
               />
               <br />
@@ -619,14 +619,14 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../assets/images/1337/instructions/new/switchmillmax.jpg"
-                alt="plexi-film"
+                src="../../assets/images/1337/instructions/new/knob.jpg"
+                alt="knob"
                 placeholder="blurred"
               />
               <br />
               <br />
               <br />
-              Put on the knob and tighten the screw from the side again.
+              Put on the knob and tighten the screw from the side.
               <br />
               <br />
               <br />
@@ -634,8 +634,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../assets/images/1337/instructions/new/switchmillmax.jpg"
-                alt="cover-screws"
+                src="../../assets/images/1337/instructions/new/keycaps.jpg"
+                alt="keycaps"
                 placeholder="blurred"
               />
               <br />
