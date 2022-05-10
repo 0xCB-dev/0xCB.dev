@@ -7,7 +7,7 @@ const IndexPage = () => (
     <section id="wrapper">
       <header>
         <div className="inner">
-          <h2>!!!WIP!!! 0xCB 1337 !!!WIP!!!</h2>
+          <h2>0xCB 1337</h2>
         </div>
       </header>
       <section className="wrapper style1 alt">
@@ -73,52 +73,6 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-            </p>
-          </div>
-        </div>
-      </section>
-      <section className="wrapper style4">
-        <div className="inner">
-          <div className="content">
-            <p>
-              <StaticImage
-                className="image fit"
-                src="../../assets/images/static/index/metal.jpg"
-                alt="metal"
-                placeholder="blurred"
-              />
-              All of our base kits will come with your choice of either black or
-              white FR4 switch and bottom plates, for that nice flexy feel and
-              thocky sound profile so many of you have come to know and love. If
-              you prefer a firmer typing experience or a more premium look,
-              we'll also have a seperate upgrade available consisting of an
-              additional lasercut stainless steel bottom and aluminum switch
-              plate. We think this combination in particular captures the
-              industrial vibe we were after and we're very proud of it, we hope
-              you love it as much as we do!
-            </p>
-          </div>
-        </div>
-      </section>
-      <section className="wrapper style3 alt">
-        <div className="inner">
-          <div className="content">
-            <p>
-              As we've previously mentioned, the Static keyboard natively
-              supports both QMK and VIA. This makes it incredibly easy to
-              configure your keyboard to your exact needs; from how many layers
-              you have and what each does, to specific workflow macros, to the
-              rotary encoder/OLED screen behaviour! The possibilities are truly
-              endless and we've really only scratched the surface here, you're
-              just gonna have to get your hands on one to see what we mean!
-              <br />
-              Please see our layout and supported bottom row options below:
-              <StaticImage
-                className="image fit"
-                src="../../assets/images/static/index/static-layout.jpg"
-                alt="layout"
-                placeholder="blurred"
-              />
             </p>
           </div>
         </div>

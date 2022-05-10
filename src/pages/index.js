@@ -59,7 +59,7 @@ const IndexPage = () => (
     <section id="wrapper">
       <section id="two" className="wrapper spotlight style2">
         <div className="inner">
-          <a href="/1337/old">
+          <a href="/1337">
             <StaticImage
               className="image fit"
               src="../assets/images/index/1337.jpg"
