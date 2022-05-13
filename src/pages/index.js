@@ -73,11 +73,11 @@ const IndexPage = () => (
               In 2020, the 0xCB 1337 was our first foray into the custom
               mechanical keyboard scene. Now in 2022 we are doing an all
               improved version! The 1337 is a feature rich macropad, fully
-              programmable with QMK and VIA both of which are considered the
+              programmable with QMK and VIAL both of which are considered the
               gold standard for keyboard firmware! It features a rotary encoder,
               RGB underglow and per-key RGB lighting, not to mention a very
-              snazzy OLED that displays information like your current layer/RGB
-              settings/etc.!
+              snazzy OLED that displays information like your current layer/num
+              & caps indicator/etc.!
             </p>
           </div>
         </div>

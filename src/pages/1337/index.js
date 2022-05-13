@@ -15,7 +15,7 @@ const IndexPage = () => (
           <StaticImage
             className="image fit"
             src="../../assets/images/1337/index/new/basic.jpg"
-            alt="cover"
+            alt="basic"
             placeholder="blurred"
           />
           <div className="content">
@@ -39,7 +39,7 @@ const IndexPage = () => (
               <StaticImage
                 className="image fit"
                 src="../../assets/images/1337/index/new/oled.jpg"
-                alt="topdown"
+                alt="oled"
                 placeholder="blurred"
               />
               The 1337 comes standard with 4 layers. You can navigate between
@@ -63,13 +63,51 @@ const IndexPage = () => (
               <StaticImage
                 className="image fit"
                 src="../../assets/images/1337/index/new/rgb.jpg"
-                alt="side"
+                alt="rgb"
                 placeholder="blurred"
               />
               The RGB layer is used to change the underglow lighting and the
               backlighting under the keys. You can change the effects,
               saturation and hue of the lighting with the key, and change the
               brightness with the encoder!
+              <br />
+              <br />
+              <br />
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="wrapper style4">
+        <div className="inner">
+          <div className="content">
+            <p>
+              <StaticImage
+                className="image fit"
+                src="../../assets/images/1337/index/new/packaging.jpg"
+                alt="packaging"
+                placeholder="blurred"
+              />
+              With the 1337 we wanted to up our game regarding the packaging. So
+              we decided to go with a custom sleeve for our box together with a
+              custom foam insert specially made for the 1337. That way we can
+              assure that all components arrive to you as safe as possible!
+              <br />
+              <br />
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="wrapper style3 alt">
+        <div className="inner">
+          <div className="content">
+            <p>
+              <StaticImage
+                className="image fit"
+                src="../../assets/images/1337/index/new/foam.png"
+                alt="foam"
+                placeholder="blurred"
+              />
+              Here is a close up of the layout inside the box.
               <br />
               <br />
               <br />
