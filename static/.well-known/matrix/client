@@ -1,0 +1,8 @@
+{
+   "m.homeserver":{
+      "base_url":"matrix.0xcb.dev"
+   },
+   "m.identity_server":{
+      "base_url":"https://vector.im"
+   }
+}
