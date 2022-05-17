@@ -82,7 +82,29 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="three" className="wrapper spotlight style3 alt">
+      <section id="two" className="wrapper spotlight style3 alt">
+        <div className="inner">
+          <a href="/pluto">
+            <StaticImage
+              className="image fit"
+              src="../assets/images/index/pluto.jpg"
+              alt="pluto"
+              placeholder="blurred"
+            />
+          </a>
+          <div className="content">
+            <h2 className="major">Pluto</h2>
+            <p>
+              With the Pluto we wanted to create a small PCB that can be used by
+              a lot of keyboards! We all know the keyboards that use a ProMicro
+              or Elite-C as a controller drop in. The 0xCB Pluto is our take on
+              that idea. It is fully compatible with the Elite-C but has even
+              more pins exposed!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="three" className="wrapper spotlight style4">
         <div className="inner">
           <a href="/instructions">
             <StaticImage
@@ -102,7 +124,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="three" className="wrapper spotlight style4">
+      <section id="three" className="wrapper spotlight style3 alt">
         <div className="inner">
           <a href="/pcbwork">
             <StaticImage
@@ -121,7 +143,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="four" className="wrapper style3 alt">
+      <section id="four" className="wrapper style2">
         <div className="inner">
           <h2 className="major">About Us</h2>
           <p>
@@ -133,105 +155,6 @@ const IndexPage = () => (
             The 0xCB Static! If you have any ideas for us don´t hesitate to
             contact us!
           </p>
-        </div>
-      </section>
-      <section id="four" className="wrapper style2">
-        <div className="inner">
-          <h2 className="major">Customer Quotes</h2>
-          <Slider {...settings}>
-            <div className="content">
-              <h3>
-                <span
-                  role="img"
-                  aria-label="5 Stars"
-                  style={{ color: '#FDCC0D' }}
-                >
-                  <FontAwesomeIcon icon="star" size="1x" />
-                  <FontAwesomeIcon icon="star" size="1x" />
-                  <FontAwesomeIcon icon="star" size="1x" />
-                  <FontAwesomeIcon icon="star" size="1x" />
-                  <FontAwesomeIcon icon="star" size="1x" />
-                </span>{' '}
-                | Phillip
-              </h3>
-              <a
-                href="https://www.tindie.com/products/0xcb/0xcb-1337-a-customizable-macro-keyboard-with-qmk/#product-reviews"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <blockquote>
-                  <b>Great product! Great creators!</b>
-                  <br />
-                  I have been interested in getting a macropad for quite some
-                  time now, but passed on all the ones that I saw until I came
-                  across this one. I'm glad I didn't pass it by. The device
-                  itself feels very solid. The print job for the case is high
-                  quality. The aluminum encoder feels great and the click is
-                  very responsive. The diffuser on the bottom looks very nice
-                  and the default color shifting theme is a nice greeting when
-                  you plug the pad in. The screen is very crisp and I already
-                  love being able to see what layer I'm on at a glance. I can't
-                  wait to create a custom keymap, so that I can integrate it
-                  with my daily workflow!
-                  <br />
-                  <br />
-                  In addition to the device being great, shipping to the US was
-                  much quicker than I anticipated and the creators have been
-                  very responsive and a pleasure to chat with. They honestly
-                  care how their customers feel about their product and about
-                  the product itself. I would definitely purchase another of
-                  their products in the future!
-                </blockquote>
-                <p>April 26, 2021</p>
-              </a>
-            </div>
-            <div className="content">
-              <h3>
-                <span
-                  role="img"
-                  aria-label="4.5 Stars"
-                  style={{ color: '#FDCC0D' }}
-                >
-                  <FontAwesomeIcon icon="star" size="1x" />
-                  <FontAwesomeIcon icon="star" size="1x" />
-                  <FontAwesomeIcon icon="star" size="1x" />
-                  <FontAwesomeIcon icon="star" size="1x" />
-                  <FontAwesomeIcon icon="star-half" size="1x" />
-                </span>{' '}
-                | Todd
-              </h3>
-              <a
-                href="https://www.tindie.com/products/0xcb/0xcb-1337-a-customizable-macro-keyboard-with-qmk/#product-reviews"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <blockquote>
-                  <b>Well Architected, Solid Piece of Technology</b>
-                  <br />
-                  Out of the box, this unit impressed us very much. Understated
-                  on our busy manufacturing operations console, the macropad
-                  screen provides the right amount of context to the tasks at
-                  hand, and the case is well built and capable of the stresses
-                  of a lot of use and 24 x7 shift operations. While it is our
-                  belief that QMK was put on this Earth as a torture device,
-                  fortunately this unit supports QMK's nicer little sister, VIA,
-                  and makes programming and reconfiguration a snap. We are in
-                  the market to replace a large number of macropad type devices
-                  in our global manufacturing environment and were on the verge
-                  of building our own, this unit is making us rethink that
-                  strategy. Kudos to the two innovators who are behind this
-                  project.
-                  <br />
-                  <br />
-                  Of note, we don't hold the innovators at fault for the speed
-                  of the slowest level of global shipping; we would encourage
-                  them to offer faster options at the buyer's expense; from
-                  Germany to the US, it was a little more than three weeks.
-                </blockquote>
-                <p>May 2, 2021</p>
-              </a>
-            </div>
-          </Slider>
         </div>
       </section>
     </section>
