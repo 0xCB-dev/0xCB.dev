@@ -20,10 +20,10 @@ const IndexPage = () => (
           />
           <div className="content">
             <p>
-              With the Pluto we wanted to create a small PCB that can be used by
-              a lot of keyboards! We all know the keyboards that use a ProMicro
-              or Elite-C as a controller drop in. The 0xCB Pluto is our take on
-              that idea.
+              With the 0xCB Pluto, we wanted to create a small PCB that can be used by
+              a lot of keyboards! We all know the keyboards that use a Pro Micro
+              or Elite-C as a drop-in controller. The 0xCB Pluto is our take on
+              this idea!
               <br />
               <br />
             </p>
@@ -40,13 +40,14 @@ const IndexPage = () => (
                 alt="front"
                 placeholder="blurred"
               />
-              On the Pluto we use a true mid mount USB-C port. That way we have
-              achieved a controller that has the slimmest footprint we know of.
-              We also packed in a full ESD protection so you don't have to worry
-              about any electric shocks hitting that AtMega. We also exposed all
-              of the pins we could. We are exposing one more pin than on an
-              Elite-C. D+ and D- are also exposed which means you can easily
-              hook up a daughterboard to the Pluto.
+              On the Pluto, we use a true mid-mount USB-C port. That way we have
+              designed a controller that has the slimmest footprint we know of.
+              Also packed in is full ESD protection, so you don't have to worry
+              about any electric shocks and breaking the chip. The Pluto also has 
+              all the usable pins of the ATMEGA32U4 exposed! There is one more 
+              pin exposed compared to the Elite-C. D+ and D- are also exposed,
+              which means that you could even hook up a USB daughterboard to the
+              Pluto!
               <br />
               <br />
             </p>
@@ -63,10 +64,10 @@ const IndexPage = () => (
                 alt="back"
                 placeholder="blurred"
               />
-              On the back side of the Pluto you can see all the traces running
-              along. This is achieved by not using a GroundPlane and using the
-              contrast to the FR4 core. We also used the space in the middle to
-              display the sign for Pluto with our logo mixed in to it.
+              On the back side of the Pluto, you can see all the traces clearly. 
+              This is achieved by not using a ground plane and using the
+              contrast to the FR4 core. Also on the back is the astrological symbol
+              for Pluto, with a mixed-in 0xCB logo!
               <br />
               <br />
               <br />
@@ -84,12 +85,11 @@ const IndexPage = () => (
                 alt="panel"
                 placeholder="blurred"
               />
-              The PCBs of the Plutos are all hand assembled by us! This way we
-              can asure the highest quality! We also test every single one
-              before sending them out. The PCBs are manufactured with a ENIG
-              finish, which gives them the nice golden touches. In production we
-              only use lead free solder so you are not getting in contact with
-              harmful substances.
+              The Pluto PCBs are hand-assembled by us! This way we can ensure
+              the best quality and test them before sending them out. The bare
+              PCBs are manufactured with an ENIG finish, which gives them a nice
+              gold touch! As expected, only lead-free solder is used during
+              production.
               <br />
               <br />
             </p>
