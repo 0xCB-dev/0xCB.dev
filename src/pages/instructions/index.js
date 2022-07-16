@@ -51,6 +51,18 @@ const IndexPage = () => (
               <h3 className="major">Static Acrylic Case</h3>
               <p> Instructions for our Acrylic Case for the Static.</p>
             </article>
+            <article>
+              <Link to="/tutel/instructions">
+                <StaticImage
+                  className="image"
+                  src="../../assets/images/instructions/tutel.jpg"
+                  alt="Static"
+                  placeholder="blurred"
+                />{' '}
+              </Link>
+              <h3 className="major">TutelPad</h3>
+              <p> Instructions for our beginner friendly macro pad/meme board. ;)</p>
+            </article>
           </section>
         </div>
       </div>
