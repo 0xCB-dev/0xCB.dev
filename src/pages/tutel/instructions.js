@@ -94,7 +94,7 @@ const IndexPage = () => (
                       <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.75)'}>
                         <StaticImage
                           className="image"
-                          src="../../assets/images/placeholder.jpg"
+                          src="../../assets/images/tutel/instructions/bottom.jpg"
                           alt="case"
                           placeholder="blurred"
                           quality="100"
@@ -111,7 +111,7 @@ const IndexPage = () => (
                       <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.75)'}>
                         <StaticImage
                           className="image"
-                          src="../../assets/images/placeholder.jpg"
+                          src="../../assets/images/tutel/instructions/pcb.jpg"
                           alt="pcb"
                           placeholder="blurred"
                           quality="100"
@@ -131,7 +131,7 @@ const IndexPage = () => (
                       <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.75)'}>
                         <StaticImage
                           className="image"
-                          src="../../assets/images/placeholder.jpg"
+                          src="../../assets/images/tutel/instructions/top.jpg"
                           alt="encoder"
                           placeholder="blurred"
                           quality="100"
@@ -146,7 +146,7 @@ const IndexPage = () => (
                       <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.75)'}>
                         <StaticImage
                           className="image"
-                          src="../../assets/images/placeholder.jpg"
+                          src="../../assets/images/tutel/instructions/oled.jpg"
                           alt="oled"
                           placeholder="blurred"
                           quality="100"
@@ -161,7 +161,7 @@ const IndexPage = () => (
                       <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.75)'}>
                         <StaticImage
                           className="image"
-                          src="../../assets/images/placeholder.jpg"
+                          src="../../assets/images/tutel/instructions/feet.jpg"
                           alt="millmax"
                           placeholder="blurred"
                           quality="100"
@@ -178,7 +178,7 @@ const IndexPage = () => (
                       <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.75)'}>
                         <StaticImage
                           className="image"
-                          src="../../assets/images/placeholder.jpg"
+                          src="../../assets/images/tutel/instructions/standoffs.jpg"
                           alt="ribbon"
                           placeholder="blurred"
                           quality="100"
@@ -193,7 +193,7 @@ const IndexPage = () => (
                       <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.75)'}>
                         <StaticImage
                           className="image"
-                          src="../../assets/images/placeholder.jpg"
+                          src="../../assets/images/tutel/instructions/screws.jpg"
                           alt="allenkey"
                           placeholder="blurred"
                           quality="100"
@@ -208,7 +208,7 @@ const IndexPage = () => (
                       <Zoom overlayBgColorEnd={'rgba(0, 0, 0, 0.75)'}>
                         <StaticImage
                           className="image"
-                          src="../../assets/images/placeholder.jpg"
+                          src="../../assets/images/tutel/instructions/button.jpg"
                           alt="allenkey"
                           placeholder="blurred"
                           quality="100"
