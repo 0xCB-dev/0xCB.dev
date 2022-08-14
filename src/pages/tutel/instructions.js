@@ -95,7 +95,7 @@ const IndexPage = () => (
                         <StaticImage
                           className="image"
                           src="../../assets/images/tutel/instructions/bottom.jpg"
-                          alt="case"
+                          alt="bottom"
                           placeholder="blurred"
                           quality="100"
                         />
@@ -132,7 +132,7 @@ const IndexPage = () => (
                         <StaticImage
                           className="image"
                           src="../../assets/images/tutel/instructions/top.jpg"
-                          alt="encoder"
+                          alt="top"
                           placeholder="blurred"
                           quality="100"
                         />
@@ -162,7 +162,7 @@ const IndexPage = () => (
                         <StaticImage
                           className="image"
                           src="../../assets/images/tutel/instructions/feet.jpg"
-                          alt="millmax"
+                          alt="feet"
                           placeholder="blurred"
                           quality="100"
                         />
@@ -179,7 +179,7 @@ const IndexPage = () => (
                         <StaticImage
                           className="image"
                           src="../../assets/images/tutel/instructions/standoffs.jpg"
-                          alt="ribbon"
+                          alt="standoffs"
                           placeholder="blurred"
                           quality="100"
                         />
@@ -194,7 +194,7 @@ const IndexPage = () => (
                         <StaticImage
                           className="image"
                           src="../../assets/images/tutel/instructions/screws.jpg"
-                          alt="allenkey"
+                          alt="screws"
                           placeholder="blurred"
                           quality="100"
                         />
@@ -209,7 +209,7 @@ const IndexPage = () => (
                         <StaticImage
                           className="image"
                           src="../../assets/images/tutel/instructions/button.jpg"
-                          alt="allenkey"
+                          alt="button"
                           placeholder="blurred"
                           quality="100"
                         />
@@ -243,8 +243,8 @@ const IndexPage = () => (
                     <td>
                       <StaticImage
                         className="image"
-                        src="../../assets/images/placeholder.jpg"
-                        alt="flush cutters"
+                        src="../../assets/images/tutel/instructions/pluto.jpg"
+                        alt="pluto"
                         placeholder="blurred"
                       />
                     </td>
@@ -315,7 +315,7 @@ const IndexPage = () => (
             <p>
               <StaticImage
                 className="image left"
-                src="../../assets/images/placeholder.jpg"
+                src="../../assets/images/tutel/instructions/pcb2.jpg"
                 alt="pcb2"
                 placeholder="blurred"
               />
@@ -330,8 +330,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../assets/images/placeholder.jpg"
-                alt="switchmillmax"
+                src="../../assets/images/tutel/instructions/sockets.jpg"
+                alt="sockets"
                 placeholder="blurred"
               />
               <br />
@@ -344,8 +344,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../assets/images/placeholder.jpg"
-                alt="socketspcb"
+                src="../../assets/images/tutel/instructions/text.jpg"
+                alt="text"
                 placeholder="blurred"
               />
               <br />
@@ -358,8 +358,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../assets/images/placeholder.jpg"
-                alt="kapton"
+                src="../../assets/images/tutel/instructions/pcbsockets.jpg"
+                alt="pcbsockets"
                 placeholder="blurred"
               />
               <br />
@@ -373,21 +373,53 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../assets/images/placeholder.jpg"
-                alt="socketssolder"
+                src="../../assets/images/tutel/instructions/socketpins.jpg"
+                alt="socketpins"
                 placeholder="blurred"
               />
               <br />
               <br />
-              Turn around the PCB and solder the pins. Pay close attention to the straightness of the headers. First solder only one pin per header and then check if they are straight and a controller can fit on them.
+              <br />
+              Turn around the PCB. Pay close attention to the straightness of the headers.
+              <br />
               <br />
               <br />
               <br />
               <br />
               <StaticImage
                 className="image right"
-                src="../../assets/images/placeholder.jpg"
-                alt="ribbon2"
+                src="../../assets/images/tutel/instructions/1pinsoldered.jpg"
+                alt="1pinsoldered"
+                placeholder="blurred"
+              />
+              <br />
+              <br />
+              <br />
+              First solder only one pin per header.
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <StaticImage
+                className="image left"
+                src="../../assets/images/tutel/instructions/sideview.jpg"
+                alt="sideview"
+                placeholder="blurred"
+              />
+              <br />
+              <br />
+              <br />
+              Then check if they are straight and a controller can fit on them.
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <StaticImage
+                className="image right"
+                src="../../assets/images/tutel/instructions/reset.jpg"
+                alt="reset"
                 placeholder="blurred"
               />
               <br />
@@ -400,8 +432,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../assets/images/placeholder.jpg"
-                alt="ribbonsolder"
+                src="../../assets/images/tutel/instructions/switchmillmax.jpg"
+                alt="switchmillmax"
                 placeholder="blurred"
               />
               <br />
@@ -415,21 +447,51 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../assets/images/placeholder.jpg"
-                alt="pcbincase1"
+                src="../../assets/images/tutel/instructions/oled1soldered.jpg"
+                alt="oled1soldered"
                 placeholder="blurred"
               />
               <br />
               <br />
-              Next solder in the OLED. This goes on the opposite side of the controller. The OLED should sit straight in the cutout in the switch plate afterwards, so solder only one pin, and align the OLED before soldering the rest.
+              <br />
+              Next solder in the OLED. This goes on the opposite side of the controller. The OLED should sit straight in the cutout in the switch plate afterwards, so solder only one pin at first.
               <br />
               <br />
               <br />
               <br />
               <StaticImage
                 className="image left"
-                src="../../assets/images/placeholder.jpg"
-                alt="ribboncut"
+                src="../../assets/images/tutel/instructions/oledstraight.jpg"
+                alt="oledstraight"
+                placeholder="blurred"
+              />
+              <br />
+              <br />
+              <br />
+              Align the OLED before soldering the rest. Heat up the one pin and make the OLED straight.
+              <br />
+              <br />
+              <br />
+              <br />
+              <StaticImage
+                className="image right"
+                src="../../assets/images/tutel/instructions/oled4soldered.jpg"
+                alt="oled4soldered"
+                placeholder="blurred"
+              />
+              <br />
+              <br />
+              <br />
+              Now you can solder in the other 3 pins.
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <StaticImage
+                className="image left"
+                src="../../assets/images/tutel/instructions/oledclipped.jpg"
+                alt="oledclipped"
                 placeholder="blurred"
               />
               <br />
@@ -443,8 +505,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../assets/images/placeholder.jpg"
-                alt="oledribbon"
+                src="../../assets/images/tutel/instructions/controller.jpg"
+                alt="controller"
                 placeholder="blurred"
               />
               <br />
@@ -469,7 +531,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../assets/images/placeholder.jpg"
+                src="../../assets/images/tutel/instructions/controller.jpg"
                 alt="rotaryinpcb"
                 placeholder="blurred"
               />
@@ -483,8 +545,8 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
-                src="../../assets/images/placeholder.jpg"
-                alt="rotaryinpcbsolder"
+                src="../../assets/images/tutel/instructions/switchplate.jpg"
+                alt="switchplate"
                 placeholder="blurred"
               />
               <br />
@@ -497,7 +559,7 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image right"
-                src="../../assets/images/placeholder.jpg"
+                src="../../assets/images/tutel/instructions/plateandpcb.jpg"
                 alt="switchcase"
                 placeholder="blurred"
               />
