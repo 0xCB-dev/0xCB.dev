@@ -273,6 +273,21 @@ const IndexPage = () => (
                     <td>
                       <StaticImage
                         className="image"
+                        src="../../assets/images/tutel/instructions/screwdriver.jpg"
+                        alt="flush cutters"
+                        placeholder="blurred"
+                      />
+                    </td>
+                    <td>Flat Head Screwdriver</td>
+                    <td>
+                      {' '}
+                      You will need a small screw driver for the M2 Screws.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <StaticImage
+                        className="image"
                         src="../../assets/images/static/instructions/si-soldering-iron.jpg"
                         alt="soldering iron"
                         placeholder="blurred"
@@ -410,14 +425,28 @@ const IndexPage = () => (
               <br />
               <br />
               <br />
-              Then check if they are straight and a controller can fit on them.
-              <br />
+              Then check if they are straight and a controller can fit on them. If they are not straight, heat up the one pin and realign them.
               <br />
               <br />
               <br />
               <br />
               <StaticImage
                 className="image right"
+                src="../../assets/images/tutel/instructions/allpinssoldered.jpg"
+                alt="sideview"
+                placeholder="blurred"
+              />
+              <br />
+              <br />
+              <br />
+              You can go ahead and solder the rest if they are straight.
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <StaticImage
+                className="image left"
                 src="../../assets/images/tutel/instructions/reset.jpg"
                 alt="reset"
                 placeholder="blurred"
@@ -431,7 +460,7 @@ const IndexPage = () => (
               <br />
               <br />
               <StaticImage
-                className="image left"
+                className="image right"
                 src="../../assets/images/tutel/instructions/switchmillmax.jpg"
                 alt="switchmillmax"
                 placeholder="blurred"
@@ -446,12 +475,11 @@ const IndexPage = () => (
               <br />
               <br />
               <StaticImage
-                className="image right"
+                className="image left"
                 src="../../assets/images/tutel/instructions/oled1soldered.jpg"
                 alt="oled1soldered"
                 placeholder="blurred"
               />
-              <br />
               <br />
               <br />
               Next solder in the OLED. This goes on the opposite side of the controller. The OLED should sit straight in the cutout in the switch plate afterwards, so solder only one pin at first.
@@ -460,7 +488,7 @@ const IndexPage = () => (
               <br />
               <br />
               <StaticImage
-                className="image left"
+                className="image right"
                 src="../../assets/images/tutel/instructions/oledstraight.jpg"
                 alt="oledstraight"
                 placeholder="blurred"
@@ -474,7 +502,7 @@ const IndexPage = () => (
               <br />
               <br />
               <StaticImage
-                className="image right"
+                className="image left"
                 src="../../assets/images/tutel/instructions/oled4soldered.jpg"
                 alt="oled4soldered"
                 placeholder="blurred"
@@ -489,7 +517,7 @@ const IndexPage = () => (
               <br />
               <br />
               <StaticImage
-                className="image left"
+                className="image right"
                 src="../../assets/images/tutel/instructions/oledclipped.jpg"
                 alt="oledclipped"
                 placeholder="blurred"
@@ -504,35 +532,23 @@ const IndexPage = () => (
               <br />
               <br />
               <StaticImage
-                className="image right"
-                src="../../assets/images/tutel/instructions/controller.jpg"
-                alt="controller"
-                placeholder="blurred"
-              />
-              <br />
-              <br />
-              Now you can solder in the controller. When you have the PCB in front of you so that you can read the text on it, the USB port should go to the top of the PCB. You should not see the components of the micro controller, when it is sitting in the PCB.
-              <br />
-              <br />
-              <br />
-              <br />
-              <StaticImage
                 className="image left"
-                src="../../assets/images/placeholder.jpg"
-                alt="rotary"
+                src="../../assets/images/tutel/instructions/git.png"
+                alt="git"
                 placeholder="blurred"
               />
               <br />
               <br />
               <br />
-              You have to flash the controller. You can find the firmware here: ........ Instructions for flashing can be found here.
+              You have to flash the controller. You can find the firmware <a href="https://github.com/0xCB-dev/0xCB-TutelPad/releases/tag/v1.0" target="_blank">here</a>.
+              <br />
               <br />
               <br />
               <br />
               <StaticImage
                 className="image right"
-                src="../../assets/images/tutel/instructions/controller.jpg"
-                alt="rotaryinpcb"
+                src="../../assets/images/tutel/instructions/VIAL.png"
+                alt="VIAL"
                 placeholder="blurred"
               />
               <br />
@@ -545,6 +561,18 @@ const IndexPage = () => (
               <br />
               <StaticImage
                 className="image left"
+                src="../../assets/images/tutel/instructions/controller.jpg"
+                alt="controller"
+                placeholder="blurred"
+              />
+              <br />
+              <br />
+              If your controller is working, you can solder it in. When you have the PCB in front of you so that you can read the text on it, the USB port should go to the top of the PCB. You should not see the components of the micro controller, when it is sitting in the PCB.
+              <br />
+              <br />
+              <br />
+              <StaticImage
+                className="image right"
                 src="../../assets/images/tutel/instructions/switchplate.jpg"
                 alt="switchplate"
                 placeholder="blurred"
@@ -558,9 +586,9 @@ const IndexPage = () => (
               <br />
               <br />
               <StaticImage
-                className="image right"
+                className="image left"
                 src="../../assets/images/tutel/instructions/plateandpcb.jpg"
-                alt="switchcase"
+                alt="plateandpcb"
                 placeholder="blurred"
               />
               <br />
@@ -573,9 +601,9 @@ const IndexPage = () => (
               <br />
               <br />
               <StaticImage
-                className="image left"
-                src="../../assets/images/placeholder.jpg"
-                alt="pcbincase2"
+                className="image right"
+                src="../../assets/images/tutel/instructions/switchessoldered.jpg"
+                alt="switchessoldered"
                 placeholder="blurred"
               />
               <br />
@@ -587,9 +615,9 @@ const IndexPage = () => (
               <br />
               <br />
               <StaticImage
-                className="image right"
-                src="../../assets/images/placeholder.jpg"
-                alt="oledincase"
+                className="image left"
+                src="../../assets/images/tutel/instructions/standoffsscrew.jpg"
+                alt="standoffsscrew"
                 placeholder="blurred"
               />
               <br />
@@ -602,9 +630,9 @@ const IndexPage = () => (
               <br />
               <br />
               <StaticImage
-                className="image left"
-                src="../../assets/images/placeholder.jpg"
-                alt="bottom"
+                className="image right"
+                src="../../assets/images/tutel/instructions/bottomscrew.jpg"
+                alt="bottomscrew"
                 placeholder="blurred"
               />
               <br />
@@ -616,16 +644,30 @@ const IndexPage = () => (
               <br />
               <br />
               <StaticImage
-                className="image right"
-                src="../../assets/images/placeholder.jpg"
-                alt="bottomscrew"
+                className="image left"
+                src="../../assets/images/tutel/instructions/bottomfeet.jpg"
+                alt="bottomfeet"
                 placeholder="blurred"
               />
               <br />
               <br />
               <br />
-              The only thing left to do now is to add the rubber feet.
+              Now add the rubber feet.
               <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <StaticImage
+                className="image right"
+                src="../../assets/images/tutel/instructions/keycaps.jpg"
+                alt="keycaps"
+                placeholder="blurred"
+              />
+              <br />
+              <br />
+              <br />
+              The only thing left to do is to add Keycaps to your MacroPad.
               <br />
               <br />
               <br />
