@@ -102,7 +102,7 @@ const IndexPage = () => (
                       </Zoom>
                     </td>
                     <td>
-                      bottom pate
+                      bottom plate
                     </td>
                     <td>1</td>
                   </tr>
