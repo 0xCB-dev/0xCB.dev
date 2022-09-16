@@ -580,9 +580,8 @@ const IndexPage = () => (
               />
               <br />
               <br />
-              <br />
               Place the two OLED covers on there and screw them together. You
-              also want to remove the protective cover before that.
+              also want to remove the protective cover before that. Also check, if you have cables sticking out from the top. If you do, clip them off so that the cover will fit.
               <br />
               <br />
               <br />
