@@ -54,7 +54,7 @@
     "webpack": "^5.73.0"
   },
   "scripts": {
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "build": "yarn run clean && gatsby build",
     "deploy": "yarn run clean && prettier --write '**/*.js' && git add -A && git commit -sm 'gatsby deploy script' && git push",
     "serve": "gatsby serve",

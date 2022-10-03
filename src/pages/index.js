@@ -148,12 +148,9 @@ const IndexPage = () => (
           <h2 className="major">About Us</h2>
           <p>
             We are Conor and Jakob from Aachen, Germany and we like to design
-            and manufacture products in the electronics sector. We both are 20
+            and manufacture products in the electronics sector. We both are 21
             years young and made our first experience in the designing,
-            sourcing, and manufacturing of our 1337 Macro Keyboard. Currently we
-            are working on manufacturing the second round of our first Keyboard!
-            The 0xCB Static! If you have any ideas for us don´t hesitate to
-            contact us!
+            sourcing, and manufacturing of our 1337 Macro Keyboard. Since then we have produced a big run of 40% keyboards and opened our own online shop called <a target="_blank" rel="noopener" href='https://keeb.supply'>Keeb.Supply</a>.
           </p>
         </div>
       </section>
