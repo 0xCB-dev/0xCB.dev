@@ -22,7 +22,7 @@ const IndexPage = () => (
                   <Link to="#parts">Packing List</Link>
                 </li>
                 <li>
-                  <Link to="#info">Important Information</Link>
+                  <Link to="#req">Required Supplies</Link>
                 </li>
                 <li>
                   <Link to="#ass">Assembly</Link>
@@ -224,7 +224,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="tools" className="wrapper style3 alt">
+      <section id="req" className="wrapper style3 alt">
         <div className="inner">
           <div className="content">
             <h2 className="major">Required Supplies</h2>
@@ -323,7 +323,7 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-      <section id="info" className="wrapper style4">
+      <section id="ass" className="wrapper style4">
         <div className="inner">
           <div className="content">
             <h2 className="major">Assembly</h2>
