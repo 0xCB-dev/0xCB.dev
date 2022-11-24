@@ -1,8 +1,6 @@
 import React from 'react';
-import { Link } from 'gatsby';
 import { StaticImage } from 'gatsby-plugin-image';
 import Zoom from 'react-medium-image-zoom';
-import styles from '../../utils/imagezoom.module.scss';
 import 'react-medium-image-zoom/dist/styles.css';
 import Layout from 'components/Layout';
 

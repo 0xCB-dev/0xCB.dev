@@ -1,21 +1,8 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import Layout from 'components/Layout';
 import { StaticImage } from 'gatsby-plugin-image';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import icon from 'assets/images/index/header.svg';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-
-const settings = {
-  dots: false,
-  infinite: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 10000,
-  pauseOnHover: true,
-};
 
 const IndexPage = () => (
   <Layout>
@@ -35,14 +22,14 @@ const IndexPage = () => (
 
     <section id="one" className="wrapper spotlight style1 alt">
       <div className="inner">
-        <a href="/static">
+        <Link to="/static">
           <StaticImage
             className="image fit"
             src="../assets/images/index/static-cover.jpg"
             alt="static"
             placeholder="blurred"
           />
-        </a>
+        </Link>
         <div className="content">
           <h2 className="major">Static</h2>
           <p>
@@ -59,14 +46,14 @@ const IndexPage = () => (
     <section id="wrapper">
       <section id="two" className="wrapper spotlight style2">
         <div className="inner">
-          <a href="/1337">
+          <Link to="/1337">
             <StaticImage
               className="image fit"
               src="../assets/images/index/1337.jpg"
               alt="1337"
               placeholder="blurred"
             />
-          </a>
+          </Link>
           <div className="content">
             <h2 className="major">1337</h2>
             <p>
@@ -84,14 +71,14 @@ const IndexPage = () => (
       </section>
       <section id="two" className="wrapper spotlight style3 alt">
         <div className="inner">
-          <a href="/pluto">
+          <Link to="/pluto">
             <StaticImage
               className="image fit"
               src="../assets/images/index/pluto.jpg"
               alt="pluto"
               placeholder="blurred"
             />
-          </a>
+          </Link>
           <div className="content">
             <h2 className="major">Pluto</h2>
             <p>
@@ -106,7 +93,7 @@ const IndexPage = () => (
       </section>
       <section id="three" className="wrapper spotlight style4">
         <div className="inner">
-          <a href="/instructions">
+          <a target="_blank" rel="noreferrer" href="https://docs.keeb.supply/">
             <StaticImage
               className="image fit"
               src="../assets/images/index/instructions.jpg"
@@ -115,25 +102,25 @@ const IndexPage = () => (
             />
           </a>
           <div className="content">
-            <h2 className="major">Instructions</h2>
+            <h2 className="major">Docs</h2>
             <p>
-              This is where you'll find our detailed build guides for both the
-              1337 macropad and Static 40% keyboard. Please click through for
-              more!
+              We have a new docs site where we currently host our build
+              instructions and also other keyboard related features + soldering
+              advice
             </p>
           </div>
         </div>
       </section>
       <section id="three" className="wrapper spotlight style3 alt">
         <div className="inner">
-          <a href="/pcbwork">
+          <Link to="/pcbwork">
             <StaticImage
               className="image fit"
               src="../assets/images/index/pcb.png"
               alt="pcb"
               placeholder="blurred"
             />
-          </a>
+          </Link>
           <div className="content">
             <h2 className="major">PCB Work</h2>
             <p>
@@ -150,7 +137,13 @@ const IndexPage = () => (
             We are Conor and Jakob from Aachen, Germany and we like to design
             and manufacture products in the electronics sector. We both are 21
             years young and made our first experience in the designing,
-            sourcing, and manufacturing of our 1337 Macro Keyboard. Since then we have produced a big run of 40% keyboards and opened our own online shop called <a target="_blank" rel="noopener" href='https://keeb.supply'>Keeb.Supply</a>.
+            sourcing, and manufacturing of our 1337 Macro Keyboard. Since then
+            we have produced a big run of 40% keyboards and opened our own
+            online shop called{' '}
+            <a target="_blank" rel="noreferrer" href="https://keeb.supply">
+              Keeb.Supply
+            </a>
+            .
           </p>
         </div>
       </section>

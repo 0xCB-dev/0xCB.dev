@@ -18,14 +18,18 @@ export default function Nav({ onMenuToggle = () => {} }) {
             </Link>
           </li>
           <li>
-            <Link
-              onClick={(e) => {
-                onMenuToggle();
-              }}
-              to="/instructions"
+            <a target="_blank" rel="noreferrer" href="https://keeb.supply/">
+              Our Store
+            </a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://docs.keeb.supply/"
             >
-              Instructions
-            </Link>
+              Documentation
+            </a>
           </li>
           <li>
             <Link

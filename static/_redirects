@@ -1,2 +1,17 @@
 /lenovo-t440p-coreboot https://blog.0xcb.dev/lenovo-t440p-coreboot/
 /lenovo-t440p-coreboot/ https://blog.0xcb.dev/lenovo-t440p-coreboot/
+
+/instructions https://docs.keeb.supply/instructions/
+/instructions/ https://docs.keeb.supply/instructions/
+
+/1337/instructions https://docs.keeb.supply/0xcb-1337/
+/1337/instructions/* https://docs.keeb.supply/0xcb-1337/
+
+/static/instructions https://docs.keeb.supply/0xcb-static/
+/static/instructions/* https://docs.keeb.supply/0xcb-static/
+
+static/instructions/case https://docs.keeb.supply/0xcb-static-case/
+static/instructions/case/* https://docs.keeb.supply/0xcb-static-case/
+
+/tutel/instructions https://docs.keeb.supply/0xcb-tutel-pad/
+/tutel/instructions/* https://docs.keeb.supply/0xcb-tutel-pad/

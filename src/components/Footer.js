@@ -43,21 +43,52 @@ export default function Footer() {
             <a href="mailto:mail@0xcb.dev"> mail@0xcb.dev</a>
           </li>
           <li className="icon">
+            <FontAwesomeIcon icon="store" size="1x" />
+            <a target="_blank" rel="noreferrer" href="https://keeb.supply/">
+              {' '}
+              Our Store
+            </a>
+          </li>
+          <li className="icon">
             <FontAwesomeIcon icon={['fab', 'github']} size="1x" />
-            <a href="https://github.com/0xCB-dev/"> 0xCB GitHub</a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/0xCB-dev/"
+            >
+              {' '}
+              0xCB GitHub
+            </a>
           </li>
           <li className="icon">
             <FontAwesomeIcon icon={['fab', 'discord']} size="1x" />
-            <a href="https://discord.gg/WpmFC2NRWV"> Our Discord Community</a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://discord.gg/WpmFC2NRWV"
+            >
+              {' '}
+              Our Discord Community
+            </a>
           </li>
           <li className="icon">
             <FontAwesomeIcon icon={['fab', 'instagram']} size="1x" />
-            <a href="https://www.instagram.com/0xcb.dev/"> Instagram</a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.instagram.com/0xcb.dev/"
+            >
+              {' '}
+              Instagram
+            </a>
           </li>
         </ul>
         <ul className="copyright">
           <li>
-            <a href="https://conor-burns.com">Conor Burns</a> &copy; 2021
+            <a target="_blank" rel="noreferrer" href="https://conor-burns.com">
+              Conor Burns
+            </a>{' '}
+            &copy; 2021
           </li>
           <li>
             <Link to="/legal/legal">Legal Notice</Link>
