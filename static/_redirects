@@ -15,3 +15,5 @@
 
 /tutel/instructions https://docs.keeb.supply/0xcb-tutel-pad/
 /tutel/instructions/* https://docs.keeb.supply/0xcb-tutel-pad/
+
+/.well-known/webfinger https://mastodon.0xcb.dev/.well-known/webfinger
