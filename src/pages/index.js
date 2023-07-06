@@ -104,9 +104,8 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">Docs</h2>
             <p>
-              We have a new docs site where we currently host our build
-              instructions and also other keyboard related features + soldering
-              advice
+              On our documentation website you can find the build
+              instructions for all of our keyboards. The docs also function as a big knowledgebase for everything keyboard related like soldering advice, firmware tips and much more!
             </p>
           </div>
         </div>
@@ -124,7 +123,7 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">PCB Work</h2>
             <p>
-              Recently we started accepting commissions for PCBs. Feel free to
+              We are accepting commissions for PCBs. Feel free to
               click through our portfolio!
             </p>
           </div>
@@ -135,7 +134,7 @@ const IndexPage = () => (
           <h2 className="major">About Us</h2>
           <p>
             We are Conor and Jakob from Aachen, Germany and we like to design
-            and manufacture products in the electronics sector. We both are 21
+            and manufacture products in the electronics sector. We both are 22
             years young and made our first experience in the designing,
             sourcing, and manufacturing of our 1337 Macro Keyboard. Since then
             we have produced a big run of 40% keyboards and opened our own

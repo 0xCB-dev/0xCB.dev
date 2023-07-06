@@ -38,10 +38,7 @@ export default function Footer() {
           </ul>
         </form>
         <ul className="contact">
-          <li className="icon">
-            <FontAwesomeIcon icon="envelope" size="1x" />
-            <a href="mailto:mail@0xcb.dev"> mail@0xcb.dev</a>
-          </li>
+          
           <li className="icon">
             <FontAwesomeIcon icon="store" size="1x" />
             <a target="_blank" rel="noreferrer" href="https://keeb.supply/">
@@ -57,7 +54,7 @@ export default function Footer() {
               href="https://github.com/0xCB-dev/"
             >
               {' '}
-              0xCB GitHub
+              GitHub
             </a>
           </li>
           <li className="icon">
@@ -72,15 +69,30 @@ export default function Footer() {
             </a>
           </li>
           <li className="icon">
+            <FontAwesomeIcon icon={['fab', 'mastodon']} size="1x" />
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://mastodon.0xcb.dev/@0xcb"
+            >
+              {' '}
+              Mastodon
+            </a>
+          </li>
+          <li className="icon">
             <FontAwesomeIcon icon={['fab', 'instagram']} size="1x" />
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://www.instagram.com/0xcb.dev/"
+              href="https://www.instagram.com/keeb.supply_0xcb/"
             >
               {' '}
               Instagram
             </a>
+          </li>
+          <li className="icon">
+            <FontAwesomeIcon icon="envelope" size="1x" />
+            <a href="mailto:mail@0xcb.dev"> mail@0xcb.dev</a>
           </li>
         </ul>
         <ul className="copyright">
@@ -88,7 +100,7 @@ export default function Footer() {
             <a target="_blank" rel="noreferrer" href="https://conor-burns.com">
               Conor Burns
             </a>{' '}
-            &copy; 2021
+            &copy; 2023
           </li>
           <li>
             <Link to="/legal/legal">Legal Notice</Link>
