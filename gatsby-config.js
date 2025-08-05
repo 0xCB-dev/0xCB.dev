@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: `/old`,
   siteMetadata: {
     title: '0xCB - Tech, Keyboards and more',
     siteUrl: 'https://0xcb.dev',
