@@ -19,3 +19,5 @@
 /.well-known/webfinger* https://mastodon.0xcb.dev/.well-known/webfinger:splat
 /.well-known/host-meta https://mastodon.0xcb.dev/.well-known/host-meta
 /.well-known/nodeinfo https://mastodon.0xcb.dev/.well-known/nodeinfo
+
+/ https://keeb.supply
